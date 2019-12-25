@@ -6,8 +6,6 @@
 - [x] [Combination Sum 2](doc/combination_sum_2.md)
 - [x] [Combination Sum 3](doc/combination_sum_3.md)
 - [x] [Combination Sum 4](doc/combination_sum_4.md)
-
-
 - [x] [Two Sum](doc/TwoSum.md)
 - [x] [Add Two Numbers](doc/AddTwoNumbers.md)
 - [x] [longest_substring_without_repeating_characters](doc/longest_substring_without_repeating_characters.md)
@@ -21,8 +19,6 @@
 - [x] [longest_common_prefix](doc/longest_common_prefix.md)
 - [x] [three_sum](doc/three_sum.md)
 - [x] [zigzag_conversion](doc/zigzag_conversion.md)
-
-
 - [x] [three_sum_closest](doc/three_sum_closest.md)
 - [x] [letter_combinations_of_a_phone_number](doc/letter_combinations_of_a_phone_number.md)
 - [x] [four_sum](doc/four_sum.md)
