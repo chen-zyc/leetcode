@@ -22,3 +22,13 @@ _testmain.go
 *.exe
 *.test
 *.prof
+
+
+# rust
+/target/
+Cargo.lock
+**/*.rs.bk
+/target
+
+# idea
+.idea
