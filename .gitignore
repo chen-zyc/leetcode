@@ -25,10 +25,9 @@ _testmain.go
 
 
 # rust
-/target/
+/impl-rust/target/
 Cargo.lock
 **/*.rs.bk
-/target
 
 # idea
 .idea
