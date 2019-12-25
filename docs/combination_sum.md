@@ -85,7 +85,7 @@ func combinationSum2Help(com []int, candidates []int, target int, result *[][]in
 
 下面的图展示了调用 `CombinationSum2([2,3,6,7], 7)` 的过程：
 
-![combination_sum_01.svg](pic/combination_sum_01.png)
+![combination_sum_01.svg](assets/combination_sum_01.png)
 
 每个节点包含三部分，分别是 `candidates` ，`target`, `com`。
 

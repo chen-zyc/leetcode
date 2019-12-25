@@ -82,7 +82,7 @@ func combinationSum2Help(candidates []int, target int, com []int, result *[][]in
 
 - 多出了一个 `if i > 0 && c == candidates[i-1]` 的判断。这种情况出现在 `candidates` 中有重复的元素，比如 `combinations=[1, 1, 2], target=3`的情况：
 
-  ![combination_sum_2_01.png](pic/combination_sum_2_01.png)
+  ![combination_sum_2_01.png](assets/combination_sum_2_01.png)
 
   图中(1)表示遍历第一个元素1，此时 `candidates=[1,2], target=2, com=[1]`, 可以看到递归后可以得到一个解 `[1,2]`， 图中(2)当我们遍历第二个元素1时，也会得到解 [1,2]，这样的话就出现了重复解，因此代码中将情况(2)排除。
 
