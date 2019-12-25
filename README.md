@@ -50,5 +50,23 @@
 - [x] [spiral_matrix_2](doc/spiral_matrix_2.md)
 - [x] [rotate_list](doc/rotate_list.md)
 
+## Median of Two Sorted Arrays
 
+https://leetcode.com/problems/median-of-two-sorted-arrays
+
+有两个已排序的数组 num1 和 num2，长度分别为 m 和 n，找出两个数组的中间值，时间复杂度在 O(log(m+n))。可以假设 num1 和 num2 都不为空。
+
+比如：
+
+```
+nums1 = [1, 3]
+nums2 = [2]
+
+The median is 2.0
+
+nums1 = [1, 2]
+nums2 = [3, 4]
+
+The median is (2 + 3)/2 = 2.5
+```
 
