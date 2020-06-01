@@ -24,3 +24,4 @@
 | ?   | [roman_to_integer](docs/roman_to_integer.md)                                                             | ?    |
 | ?   | [longest_common_prefix](docs/longest_common_prefix.md)                                                   | ?    |
 | ?   | [three_sum](docs/three_sum.md)                                                                           | ?    |
+| 146 | [LRU缓存机制](docs/no_0146_lru_cache.md)                                                                 | 中等 |

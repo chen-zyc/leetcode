@@ -8,6 +8,7 @@ mod reverse_integer;
 mod string_to_integer_atoi;
 mod two_sum;
 mod zigzag_conversion;
+// mod no_0146_lru_cache;
 
 #[cfg(test)]
 mod tests {
