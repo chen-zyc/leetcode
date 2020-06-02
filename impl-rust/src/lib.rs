@@ -10,6 +10,7 @@ mod two_sum;
 mod zigzag_conversion;
 // mod no_0146_lru_cache;
 mod no_0070_climbing_stairs;
+mod no_0026_remove_duplicates_from_sorted_array;
 
 #[cfg(test)]
 mod tests {

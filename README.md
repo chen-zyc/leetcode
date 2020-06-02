@@ -10,6 +10,7 @@
 | 6   | [Z 字形变换](docs/zigzag-conversion.md)                                                                  | 中等 |
 | 7   | [整数反转](docs/reverse-integer.md)                                                                      | 简单 |
 | 8   | [字符串转换整数 (atoi)](docs/string_to_integer_atoi.md)                                                  | 中等 |
+| 26  | [删除排序数组中的重复项](docs/no_0026_remove_duplicates_from_sorted_array.md)                            | 简单 |
 | 56  | [合并区间](docs/merge-intervals.md)                                                                      | 中等 |
 | 57  | [插入区间](docs/insert-interval.md)                                                                      | 困难 |
 | 70  | [爬楼梯](docs/no_0070_climbing-stairs.md)                                                                | 简单 |
