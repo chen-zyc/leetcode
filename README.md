@@ -14,6 +14,7 @@
 | 56  | [合并区间](docs/merge-intervals.md)                                                                      | 中等 |
 | 57  | [插入区间](docs/insert-interval.md)                                                                      | 困难 |
 | 70  | [爬楼梯](docs/no_0070_climbing-stairs.md)                                                                | 简单 |
+| 79  | [单词搜索](docs/no_0079_word_search.md)                                                                  | 中等 |
 | 146 | [LRU缓存机制](docs/no_0146_lru_cache.md)                                                                 | 中等 |
 | ?   | [combination-sum](docs/combination_sum.md)                                                               | ?    |
 | ?   | [combination-sum-2](docs/combination_sum_2.md)                                                           | ?    |
