@@ -12,6 +12,7 @@ mod zigzag_conversion;
 mod no_0010_regular_expression_matching;
 mod no_0026_remove_duplicates_from_sorted_array;
 mod no_0070_climbing_stairs;
+mod no_0072_edit_distance;
 mod no_0079_word_search;
 mod no_0136_single_number;
 mod no_1109_corporate_flight_bookings;
