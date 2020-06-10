@@ -9,6 +9,7 @@ mod string_to_integer_atoi;
 mod two_sum;
 mod zigzag_conversion;
 // mod no_0146_lru_cache;
+mod no_0009_palindrome_number;
 mod no_0010_regular_expression_matching;
 mod no_0026_remove_duplicates_from_sorted_array;
 mod no_0046_lcof;

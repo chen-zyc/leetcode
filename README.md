@@ -10,6 +10,7 @@
 | 6    | [Z 字形变换](docs/zigzag-conversion.md)                                                                  | 中等 |
 | 7    | [整数反转](docs/reverse-integer.md)                                                                      | 简单 |
 | 8    | [字符串转换整数 (atoi)](docs/string_to_integer_atoi.md)                                                  | 中等 |
+| 9    | [回文数](docs/no_0009_palindrome_number.md)                                                              | 简单 |
 | 10   | [正则表达式匹配](docs/no_0010_regular_expression_matching.md)                                            | 困难 |
 | 26   | [删除排序数组中的重复项](docs/no_0026_remove_duplicates_from_sorted_array.md)                            | 简单 |
 | 46   | [把数字翻译成字符串](docs/no_0046_ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof.md)                            | 中等 |
