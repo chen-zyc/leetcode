@@ -21,6 +21,7 @@ mod no_0079_word_search;
 mod no_0136_single_number;
 mod no_0739_daily_temperatures;
 mod no_1109_corporate_flight_bookings;
+mod no_1300_sum_of_mutated_array_closest_to_target;
 
 #[cfg(test)]
 mod tests {
