@@ -12,6 +12,7 @@ mod zigzag_conversion;
 mod no_0009_palindrome_number;
 mod no_0010_regular_expression_matching;
 mod no_0011_container_with_most_water;
+mod no_0014_longest_common_prefix;
 mod no_0015_three_sum;
 mod no_0017_letter_combinations_of_a_phone_number;
 mod no_0026_remove_duplicates_from_sorted_array;

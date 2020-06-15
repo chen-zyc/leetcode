@@ -13,6 +13,7 @@
 | 9    | [回文数](docs/no_0009_palindrome_number.md)                                                              | 简单 |
 | 10   | [正则表达式匹配](docs/no_0010_regular_expression_matching.md)                                            | 困难 |
 | 11   | [盛最多水的容器](docs/no_0011_container_with_most_water.md)                                              | 中等 |
+| 14   | [最长公共前缀](docs/no_0014_longest_common_prefix.md)                                                    | 简单 |
 | 15   | [三数之和](docs/no_0015_three_sum.md)                                                                    | 中等 |
 | 17   | [电话号码的字母组合](docs/no_0017_letter_combinations_of_a_phone_number.md)                              | 中等 |
 | 26   | [删除排序数组中的重复项](docs/no_0026_remove_duplicates_from_sorted_array.md)                            | 简单 |
@@ -36,5 +37,4 @@
 | ?    | [palindrome_number](docs/palindrome_number.md)                                                           | ?    |
 | ?    | [integer_to_roman](docs/integer_to_roman.md)                                                             | ?    |
 | ?    | [roman_to_integer](docs/roman_to_integer.md)                                                             | ?    |
-| ?    | [longest_common_prefix](docs/longest_common_prefix.md)                                                   | ?    |
 | ?    | [three_sum](docs/three_sum.md)                                                                           | ?    |
