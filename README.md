@@ -25,6 +25,7 @@
 | 79   | [单词搜索](docs/no_0079_word_search.md)                                                                  | 中等 |
 | 136  | [只出现一次的数字](docs/no_0136_single_number.md)                                                        | 简单 |
 | 146  | [LRU缓存机制](docs/no_0146_lru_cache.md)                                                                 | 中等 |
+| 297  | [二叉树的序列化与反序列化](docs/no_0297_serialize_and_deserialize_binary_tree.md)                        | 困难 |
 | 739  | [每日温度](docs/no_0739_daily_temperatures.md)                                                           | 中等 |
 | 1109 | [航班预订统计](docs/no_1109_corporate_flight_bookings.md)                                                | 中等 |
 | 1300 | [转变数组后最接近目标值的数组和](docs/no_1300_sum_of_mutated_array_closest_to_target.md)                 | 中等 |
