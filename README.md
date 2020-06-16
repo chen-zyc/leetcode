@@ -16,6 +16,7 @@
 | 14   | [最长公共前缀](docs/no_0014_longest_common_prefix.md)                                                    | 简单 |
 | 15   | [三数之和](docs/no_0015_three_sum.md)                                                                    | 中等 |
 | 17   | [电话号码的字母组合](docs/no_0017_letter_combinations_of_a_phone_number.md)                              | 中等 |
+| 19   | [删除链表的倒数第N个节点](docs/no_0019_remove_nth_node_from_end_of_list.md)                              | 中等 |
 | 26   | [删除排序数组中的重复项](docs/no_0026_remove_duplicates_from_sorted_array.md)                            | 简单 |
 | 46   | [把数字翻译成字符串](docs/no_0046_ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof.md)                            | 中等 |
 | 56   | [合并区间](docs/merge-intervals.md)                                                                      | 中等 |
