@@ -21,6 +21,7 @@
 | 46    | [把数字翻译成字符串](docs/no_0046_ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof.md)                            | 中等 |
 | 56    | [合并区间](docs/merge-intervals.md)                                                                      | 中等 |
 | 57    | [插入区间](docs/insert-interval.md)                                                                      | 困难 |
+| 67    | [二进制求和](docs/no_0067_add_binary.md)                                                                 | 简单 |
 | 70    | [爬楼梯](docs/no_0070_climbing-stairs.md)                                                                | 简单 |
 | 72    | [编辑距离](docs/no_0072_edit_distance.md)                                                                | 困难 |
 | 79    | [单词搜索](docs/no_0079_word_search.md)                                                                  | 中等 |
