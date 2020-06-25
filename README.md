@@ -29,6 +29,7 @@
 | 124   | [二叉树中的最大路径和](docs/no_0124_binary_tree_maximum_path_sum.md)                                     | 困难 |
 | 125   | [验证回文串](docs/no_0125_valid_palindrome.md)                                                           | 简单 |
 | 136   | [只出现一次的数字](docs/no_0136_single_number.md)                                                        | 简单 |
+| 139   | [单词拆分](docs/no_0139_word_break.md)                                                                   | 中等 |
 | 146   | [LRU缓存机制](docs/no_0146_lru_cache.md)                                                                 | 中等 |
 | 297   | [二叉树的序列化与反序列化](docs/no_0297_serialize_and_deserialize_binary_tree.md)                        | 困难 |
 | 739   | [每日温度](docs/no_0739_daily_temperatures.md)                                                           | 中等 |
