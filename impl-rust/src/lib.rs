@@ -24,6 +24,7 @@ mod no_0046_lcof;
 mod no_0067_add_binary;
 mod no_0070_climbing_stairs;
 mod no_0072_edit_distance;
+mod no_0076_minimum_window_substring;
 mod no_0079_word_search;
 mod no_0124_binary_tree_maximum_path_sum;
 mod no_0125_valid_palindrome;

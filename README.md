@@ -26,6 +26,7 @@
 | 67    | [二进制求和](docs/no_0067_add_binary.md)                                                                 | 简单 |
 | 70    | [爬楼梯](docs/no_0070_climbing-stairs.md)                                                                | 简单 |
 | 72    | [编辑距离](docs/no_0072_edit_distance.md)                                                                | 困难 |
+| 76    | [最小覆盖子串](docs/no_0076_minimum_window_substring.md)                                                 | 困难 |
 | 79    | [单词搜索](docs/no_0079_word_search.md)                                                                  | 中等 |
 | 124   | [二叉树中的最大路径和](docs/no_0124_binary_tree_maximum_path_sum.md)                                     | 困难 |
 | 125   | [验证回文串](docs/no_0125_valid_palindrome.md)                                                           | 简单 |
