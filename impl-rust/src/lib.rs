@@ -31,6 +31,7 @@ mod no_0124_binary_tree_maximum_path_sum;
 mod no_0125_valid_palindrome;
 mod no_0136_single_number;
 mod no_0139_word_break;
+mod no_0209_minimum_size_subarray_sum;
 mod no_0739_daily_temperatures;
 mod no_1014_best_sightseeing_pair;
 mod no_1028_recover_a_tree_from_preorder_traversal;

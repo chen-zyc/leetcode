@@ -1,4 +1,13 @@
+- [leetcode](#leetcode)
+  - [目录](#目录)
+  - [解题提示](#解题提示)
+
+
+------------------------------
+
 # leetcode
+
+## 目录
 
 | #     | 题名                                                                                                     | 难度 |
 | ----- | :------------------------------------------------------------------------------------------------------- | ---- |
@@ -34,6 +43,7 @@
 | 136   | [只出现一次的数字](docs/no_0136_single_number.md)                                                        | 简单 |
 | 139   | [单词拆分](docs/no_0139_word_break.md)                                                                   | 中等 |
 | 146   | [LRU缓存机制](docs/no_0146_lru_cache.md)                                                                 | 中等 |
+| 209   | [长度最小的子数组](docs/no_0209_minimum_size_subarray_sum.md)                                            | 中等 |
 | 297   | [二叉树的序列化与反序列化](docs/no_0297_serialize_and_deserialize_binary_tree.md)                        | 困难 |
 | 739   | [每日温度](docs/no_0739_daily_temperatures.md)                                                           | 中等 |
 | 1014  | [最佳观光组合](docs/no_1014_best_sightseeing_pair.md)                                                    | 中等 |
@@ -52,3 +62,9 @@
 | ?     | [integer_to_roman](docs/integer_to_roman.md)                                                             | ?    |
 | ?     | [roman_to_integer](docs/roman_to_integer.md)                                                             | ?    |
 | ?     | [three_sum](docs/three_sum.md)                                                                           | ?    |
+
+
+## 解题提示
+
+- 双指针。
+- 滑动窗口。
