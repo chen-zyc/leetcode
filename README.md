@@ -53,6 +53,7 @@
 | 1300  | [转变数组后最接近目标值的数组和](docs/no_1300_sum_of_mutated_array_closest_to_target.md)                 | 中等 |
 | 02.01 | [面试题 02.01. 移除重复节点](docs/interview_02_01_remove_duplicate_node_lcci.md)                         | 简单 |
 | 16.18 | [面试题 16.18. 模式匹配](docs/interview_16_18_pattern_matching_lcci.md)                                  | 中等 |
+| o-09  | [剑指 Offer 09. 用两个栈实现队列](docs/offer_009_yong_liang_ge_zhan_shi_xian_dui_lie_lcof.md)            | 简单 |
 | ?     | [combination-sum](docs/combination_sum.md)                                                               | ?    |
 | ?     | [combination-sum-2](docs/combination_sum_2.md)                                                           | ?    |
 | ?     | [combination-sum-3](docs/combination_sum_3.md)                                                           | ?    |
@@ -69,3 +70,4 @@
 
 - 双指针。
 - 滑动窗口。
+- 用堆解决 topN 的问题。
