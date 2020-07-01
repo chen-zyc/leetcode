@@ -47,6 +47,7 @@
 | 215   | [数组中的第K个最大元素](docs/no_0215_kth_largest_element_in_an_array.md)                                 | 中等 |
 | 297   | [二叉树的序列化与反序列化](docs/no_0297_serialize_and_deserialize_binary_tree.md)                        | 困难 |
 | 739   | [每日温度](docs/no_0739_daily_temperatures.md)                                                           | 中等 |
+| 718   | [最长重复子数组](docs/no_0718_maximum_length_of_repeated_subarray.md)                                    | 中等 |
 | 1014  | [最佳观光组合](docs/no_1014_best_sightseeing_pair.md)                                                    | 中等 |
 | 1028  | [从先序遍历还原二叉树](docs/no_1028_recover_a_tree_from_preorder_traversal.md)                           | 困难 |
 | 1109  | [航班预订统计](docs/no_1109_corporate_flight_bookings.md)                                                | 中等 |
@@ -68,6 +69,7 @@
 
 ## 解题提示
 
+- 动态规划。
 - 双指针。
 - 滑动窗口。
 - 用堆解决 topN 的问题。
