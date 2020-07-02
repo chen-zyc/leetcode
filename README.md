@@ -46,6 +46,7 @@
 | 209   | [长度最小的子数组](docs/no_0209_minimum_size_subarray_sum.md)                                            | 中等 |
 | 215   | [数组中的第K个最大元素](docs/no_0215_kth_largest_element_in_an_array.md)                                 | 中等 |
 | 297   | [二叉树的序列化与反序列化](docs/no_0297_serialize_and_deserialize_binary_tree.md)                        | 困难 |
+| 378   | [有序矩阵中第K小的元素](docs/no_0378_kth_smallest_element_in_a_sorted_matrix.md)                         | 中等 |
 | 739   | [每日温度](docs/no_0739_daily_temperatures.md)                                                           | 中等 |
 | 718   | [最长重复子数组](docs/no_0718_maximum_length_of_repeated_subarray.md)                                    | 中等 |
 | 1014  | [最佳观光组合](docs/no_1014_best_sightseeing_pair.md)                                                    | 中等 |
