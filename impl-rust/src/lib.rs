@@ -20,6 +20,7 @@ mod no_0017_letter_combinations_of_a_phone_number;
 mod no_0019_remove_nth_node_from_end_of_list;
 mod no_0020_valid_parentheses;
 mod no_0026_remove_duplicates_from_sorted_array;
+mod no_0032_longest_valid_parentheses;
 mod no_0041_first_missing_positive;
 mod no_0046_lcof;
 mod no_0067_add_binary;
