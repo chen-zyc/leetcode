@@ -31,6 +31,7 @@
 | 26    | [删除排序数组中的重复项](docs/no_0026_remove_duplicates_from_sorted_array.md)                            | 简单 |
 | 32    | [最长有效括号](docs/no_0032_longest_valid_parentheses.md)                                                | 困难 |
 | 41    | [缺失的第一个正数](docs/no_0041_first_missing_positive.md)                                               | 困难 |
+| 44    | [通配符匹配](docs/no_0044_wildcard_matching.md)                                                          | 困难 |
 | 46    | [把数字翻译成字符串](docs/no_0046_ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof.md)                            | 中等 |
 | 56    | [合并区间](docs/merge-intervals.md)                                                                      | 中等 |
 | 57    | [插入区间](docs/insert-interval.md)                                                                      | 困难 |
