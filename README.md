@@ -28,6 +28,7 @@
 | 17    | [电话号码的字母组合](docs/no_0017_letter_combinations_of_a_phone_number.md)                              | 中等 |
 | 19    | [删除链表的倒数第N个节点](docs/no_0019_remove_nth_node_from_end_of_list.md)                              | 中等 |
 | 20    | [有效的括号](docs/no_0020_valid_parentheses.md)                                                          | 简单 |
+| 21    | [合并两个有序链表](docs/no_0021_merge_two_sorted_lists.md)                                               | 简单 |
 | 26    | [删除排序数组中的重复项](docs/no_0026_remove_duplicates_from_sorted_array.md)                            | 简单 |
 | 32    | [最长有效括号](docs/no_0032_longest_valid_parentheses.md)                                                | 困难 |
 | 41    | [缺失的第一个正数](docs/no_0041_first_missing_positive.md)                                               | 困难 |
