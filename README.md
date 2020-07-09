@@ -63,6 +63,7 @@
 | 02.01 | [面试题 02.01. 移除重复节点](docs/interview_02_01_remove_duplicate_node_lcci.md)                         | 简单 |
 | 16.11 | [面试题 16.11. 跳水板](docs/interview_16_11_diving_board_lcci.md)                                        | 简单 |
 | 16.18 | [面试题 16.18. 模式匹配](docs/interview_16_18_pattern_matching_lcci.md)                                  | 中等 |
+| 17.13 | [面试题 17.13. 恢复空格](docs/interview_17_13_re_space_lcci.md)                                          | 中等 |
 | o-09  | [剑指 Offer 09. 用两个栈实现队列](docs/offer_009_yong_liang_ge_zhan_shi_xian_dui_lie_lcof.md)            | 简单 |
 | ?     | [combination-sum](docs/combination_sum.md)                                                               | ?    |
 | ?     | [combination-sum-2](docs/combination_sum_2.md)                                                           | ?    |
@@ -78,7 +79,7 @@
 
 ## 解题提示
 
-- 动态规划。
+- 动态规划。(正着和倒着)
 - 双指针。
 - 滑动窗口。
 - 用堆解决 topN 的问题。
