@@ -50,6 +50,7 @@
 | 136   | [只出现一次的数字](docs/no_0136_single_number.md)                                                        | 简单 |
 | 139   | [单词拆分](docs/no_0139_word_break.md)                                                                   | 中等 |
 | 146   | [LRU缓存机制](docs/no_0146_lru_cache.md)                                                                 | 中等 |
+| 174   | [地下城游戏](docs/no_0174_dungeon_game.md)                                                               | 困难 |
 | 209   | [长度最小的子数组](docs/no_0209_minimum_size_subarray_sum.md)                                            | 中等 |
 | 215   | [数组中的第K个最大元素](docs/no_0215_kth_largest_element_in_an_array.md)                                 | 中等 |
 | 297   | [二叉树的序列化与反序列化](docs/no_0297_serialize_and_deserialize_binary_tree.md)                        | 困难 |
