@@ -43,8 +43,10 @@
 | 72    | [编辑距离](docs/no_0072_edit_distance.md)                                                                | 困难 |
 | 76    | [最小覆盖子串](docs/no_0076_minimum_window_substring.md)                                                 | 困难 |
 | 79    | [单词搜索](docs/no_0079_word_search.md)                                                                  | 中等 |
+| 96    | [不同的二叉搜索树](docs/no_0096_unique_binary_search_trees.md)                                           | 中等 |
 | 108   | [将有序数组转换为二叉搜索树](docs/no_0108_convert_sorted_array_to_binary_search_tree.md)                 | 简单 |
 | 112   | [路径总和](docs/no_0112_path_sum.md)                                                                     | 简单 |
+| 120   | [三角形最小路径和](docs/no_0120_triangle.md)                                                             | 中等 |
 | 124   | [二叉树中的最大路径和](docs/no_0124_binary_tree_maximum_path_sum.md)                                     | 困难 |
 | 125   | [验证回文串](docs/no_0125_valid_palindrome.md)                                                           | 简单 |
 | 136   | [只出现一次的数字](docs/no_0136_single_number.md)                                                        | 简单 |
