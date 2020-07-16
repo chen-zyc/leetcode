@@ -49,6 +49,7 @@ mod no_0350_intersection_of_two_arrays_ii;
 mod no_0378_kth_smallest_element_in_a_sorted_matrix;
 mod no_0718_maximum_length_of_repeated_subarray;
 mod no_0739_daily_temperatures;
+mod no_0785_is_graph_bipartite;
 mod no_1014_best_sightseeing_pair;
 mod no_1028_recover_a_tree_from_preorder_traversal;
 mod no_1109_corporate_flight_bookings;

@@ -60,8 +60,9 @@
 | 315   | [计算右侧小于当前元素的个数](docs/no_0315_count_of_smaller_numbers_after_self.md)                        | 困难 |
 | 350   | [两个数组的交集 II](docs/no_0350_intersection_of_two_arrays_ii.md)                                       | 简单 |
 | 378   | [有序矩阵中第K小的元素](docs/no_0378_kth_smallest_element_in_a_sorted_matrix.md)                         | 中等 |
-| 739   | [每日温度](docs/no_0739_daily_temperatures.md)                                                           | 中等 |
 | 718   | [最长重复子数组](docs/no_0718_maximum_length_of_repeated_subarray.md)                                    | 中等 |
+| 739   | [每日温度](docs/no_0739_daily_temperatures.md)                                                           | 中等 |
+| 785   | [判断二分图](docs/no_0785_is_graph_bipartite.md)                                                         | 中等 |
 | 1014  | [最佳观光组合](docs/no_1014_best_sightseeing_pair.md)                                                    | 中等 |
 | 1028  | [从先序遍历还原二叉树](docs/no_1028_recover_a_tree_from_preorder_traversal.md)                           | 困难 |
 | 1109  | [航班预订统计](docs/no_1109_corporate_flight_bookings.md)                                                | 中等 |
