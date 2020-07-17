@@ -32,6 +32,7 @@
 | 22    | [括号生成](docs/no_0022_generate_parentheses.md)                                                         | 中等 |
 | 26    | [删除排序数组中的重复项](docs/no_0026_remove_duplicates_from_sorted_array.md)                            | 简单 |
 | 32    | [最长有效括号](docs/no_0032_longest_valid_parentheses.md)                                                | 困难 |
+| 35    | [搜索插入位置](docs/no_0035_search_insert_position.md)                                                   | 简单 |
 | 41    | [缺失的第一个正数](docs/no_0041_first_missing_positive.md)                                               | 困难 |
 | 44    | [通配符匹配](docs/no_0044_wildcard_matching.md)                                                          | 困难 |
 | 46    | [把数字翻译成字符串](docs/no_0046_ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof.md)                            | 中等 |

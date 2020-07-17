@@ -23,6 +23,7 @@ mod no_0021_merge_two_sorted_lists;
 mod no_0022_generate_parentheses;
 mod no_0026_remove_duplicates_from_sorted_array;
 mod no_0032_longest_valid_parentheses;
+mod no_0035_search_insert_position;
 mod no_0041_first_missing_positive;
 mod no_0044_wildcard_matching;
 mod no_0046_lcof;
