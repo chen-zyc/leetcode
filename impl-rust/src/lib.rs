@@ -42,6 +42,7 @@ mod no_0124_binary_tree_maximum_path_sum;
 mod no_0125_valid_palindrome;
 mod no_0136_single_number;
 mod no_0139_word_break;
+mod no_0167_two_sum_ii_input_array_is_sorted;
 mod no_0174_dungeon_game;
 mod no_0209_minimum_size_subarray_sum;
 mod no_0215_kth_largest_element_in_an_array;
