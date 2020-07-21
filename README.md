@@ -44,6 +44,7 @@
 | 72    | [编辑距离](docs/no_0072_edit_distance.md)                                                                | 困难 |
 | 76    | [最小覆盖子串](docs/no_0076_minimum_window_substring.md)                                                 | 困难 |
 | 79    | [单词搜索](docs/no_0079_word_search.md)                                                                  | 中等 |
+| 95    | [不同的二叉搜索树 II](docs/no_0095_unique_binary_search_trees_ii.md)                                     | 中等 |
 | 96    | [不同的二叉搜索树](docs/no_0096_unique_binary_search_trees.md)                                           | 中等 |
 | 97    | [交错字符串](docs/no_0097_interleaving_string.md)                                                        | 困难 |
 | 108   | [将有序数组转换为二叉搜索树](docs/no_0108_convert_sorted_array_to_binary_search_tree.md)                 | 简单 |
