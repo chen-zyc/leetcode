@@ -77,6 +77,7 @@
 | 16.18 | [面试题 16.18. 模式匹配](docs/interview_16_18_pattern_matching_lcci.md)                                  | 中等 |
 | 17.13 | [面试题 17.13. 恢复空格](docs/interview_17_13_re_space_lcci.md)                                          | 中等 |
 | o-09  | [剑指 Offer 09. 用两个栈实现队列](docs/offer_009_yong_liang_ge_zhan_shi_xian_dui_lie_lcof.md)            | 简单 |
+| o-11  | [剑指 Offer 11. 旋转数组的最小数字](docs/offer_011_xuan_zhuan_shu_zu_de_zui_xiao_shu_zi_lcof.md)         | 简单 |
 | ?     | [combination-sum](docs/combination_sum.md)                                                               | ?    |
 | ?     | [combination-sum-2](docs/combination_sum_2.md)                                                           | ?    |
 | ?     | [combination-sum-3](docs/combination_sum_3.md)                                                           | ?    |
@@ -97,3 +98,6 @@
 - 双指针。
 - 滑动窗口。
 - 用堆解决 topN 的问题。
+- 二分。
+  - 二分时如果出现 `left = mid` 或者 `right = mid` 时就要小心了，可能会出现死循环。
+  - 计算 mid 时如果用 `mid = (left + right)/2`，那么 `left + right` 可能会溢出，所以题解中都是用 `mid = left + (right - left) / 2`. 其中的区间是 `[left, right]`。

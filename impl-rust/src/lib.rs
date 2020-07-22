@@ -66,6 +66,7 @@ mod interview_16_18_pattern_matching_lcci;
 mod interview_17_13_re_space_lcci;
 
 mod offer_009_yong_liang_ge_zhan_shi_xian_dui_lie_lcof;
+mod offer_011_xuan_zhuan_shu_zu_de_zui_xiao_shu_zi_lcof;
 
 #[cfg(test)]
 mod tests {
