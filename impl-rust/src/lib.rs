@@ -28,6 +28,7 @@ mod no_0041_first_missing_positive;
 mod no_0044_wildcard_matching;
 mod no_0046_lcof;
 mod no_0063_unique_paths_ii;
+mod no_0064_minimum_path_sum;
 mod no_0067_add_binary;
 mod no_0070_climbing_stairs;
 mod no_0072_edit_distance;

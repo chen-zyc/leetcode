@@ -39,6 +39,7 @@
 | 56    | [合并区间](docs/merge-intervals.md)                                                                      | 中等 |
 | 57    | [插入区间](docs/insert-interval.md)                                                                      | 困难 |
 | 63    | [不同路径 II](docs/no_0063_unique_paths_ii.md)                                                           | 中等 |
+| 64    | [最小路径和](docs/no_0064_minimum_path_sum.md)                                                           | 中等 |
 | 67    | [二进制求和](docs/no_0067_add_binary.md)                                                                 | 简单 |
 | 70    | [爬楼梯](docs/no_0070_climbing-stairs.md)                                                                | 简单 |
 | 72    | [编辑距离](docs/no_0072_edit_distance.md)                                                                | 困难 |
