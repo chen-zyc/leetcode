@@ -70,6 +70,7 @@
 | 739   | [每日温度](docs/no_0739_daily_temperatures.md)                                                           | 中等 |
 | 785   | [判断二分图](docs/no_0785_is_graph_bipartite.md)                                                         | 中等 |
 | 1014  | [最佳观光组合](docs/no_1014_best_sightseeing_pair.md)                                                    | 中等 |
+| 1025  | [除数博弈](docs/no_1025_divisor_game.md)                                                                 | 简单 |
 | 1028  | [从先序遍历还原二叉树](docs/no_1028_recover_a_tree_from_preorder_traversal.md)                           | 困难 |
 | 1109  | [航班预订统计](docs/no_1109_corporate_flight_bookings.md)                                                | 中等 |
 | 1300  | [转变数组后最接近目标值的数组和](docs/no_1300_sum_of_mutated_array_closest_to_target.md)                 | 中等 |
