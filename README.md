@@ -64,6 +64,7 @@
 | 309   | [最佳买卖股票时机含冷冻期](docs/no_0309_best_time_to_buy_and_sell_stock_with_cooldown.md)                | 中等 |
 | 312   | [戳气球](docs/no_0312_burst_balloons.md)                                                                 | 困难 |
 | 315   | [计算右侧小于当前元素的个数](docs/no_0315_count_of_smaller_numbers_after_self.md)                        | 困难 |
+| 329   | [矩阵中的最长递增路径](docs/no_0329_longest_increasing_path_in_a_matrix.md)                              | 困难 |
 | 350   | [两个数组的交集 II](docs/no_0350_intersection_of_two_arrays_ii.md)                                       | 简单 |
 | 378   | [有序矩阵中第K小的元素](docs/no_0378_kth_smallest_element_in_a_sorted_matrix.md)                         | 中等 |
 | 410   | [分割数组的最大值](docs/no_0410_split_array_largest_sum.md)                                              | 困难 |

@@ -51,6 +51,7 @@ mod no_0215_kth_largest_element_in_an_array;
 mod no_0309_best_time_to_buy_and_sell_stock_with_cooldown;
 mod no_0312_burst_balloons;
 mod no_0315_count_of_smaller_numbers_after_self;
+mod no_0329_longest_increasing_path_in_a_matrix;
 mod no_0350_intersection_of_two_arrays_ii;
 mod no_0378_kth_smallest_element_in_a_sorted_matrix;
 mod no_0410_split_array_largest_sum;
