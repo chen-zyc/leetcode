@@ -67,6 +67,7 @@
 | 329   | [矩阵中的最长递增路径](docs/no_0329_longest_increasing_path_in_a_matrix.md)                              | 困难 |
 | 350   | [两个数组的交集 II](docs/no_0350_intersection_of_two_arrays_ii.md)                                       | 简单 |
 | 378   | [有序矩阵中第K小的元素](docs/no_0378_kth_smallest_element_in_a_sorted_matrix.md)                         | 中等 |
+| 392   | [判断子序列](docs/no_0392_is_subsequence.md)                                                             | 简单 |
 | 410   | [分割数组的最大值](docs/no_0410_split_array_largest_sum.md)                                              | 困难 |
 | 718   | [最长重复子数组](docs/no_0718_maximum_length_of_repeated_subarray.md)                                    | 中等 |
 | 739   | [每日温度](docs/no_0739_daily_temperatures.md)                                                           | 中等 |
