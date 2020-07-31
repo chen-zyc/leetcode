@@ -68,6 +68,7 @@ mod no_1109_corporate_flight_bookings;
 mod no_1300_sum_of_mutated_array_closest_to_target;
 
 mod interview_02_01_remove_duplicate_node_lcci;
+mod interview_08_03_magic_index_lcci;
 mod interview_16_11_diving_board_lcci;
 mod interview_16_18_pattern_matching_lcci;
 mod interview_17_13_re_space_lcci;

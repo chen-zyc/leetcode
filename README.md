@@ -80,6 +80,7 @@
 | 1109   | [航班预订统计](docs/no_1109_corporate_flight_bookings.md)                                                | 中等 |
 | 1300   | [转变数组后最接近目标值的数组和](docs/no_1300_sum_of_mutated_array_closest_to_target.md)                 | 中等 |
 | 02.01  | [面试题 02.01. 移除重复节点](docs/interview_02_01_remove_duplicate_node_lcci.md)                         | 简单 |
+| 08.03  | [面试题 08.03. 魔术索引](docs/interview_08_03_magic_index_lcci.md)                                       | 简单 |
 | 16.11  | [面试题 16.11. 跳水板](docs/interview_16_11_diving_board_lcci.md)                                        | 简单 |
 | 16.18  | [面试题 16.18. 模式匹配](docs/interview_16_18_pattern_matching_lcci.md)                                  | 中等 |
 | 17.13  | [面试题 17.13. 恢复空格](docs/interview_17_13_re_space_lcci.md)                                          | 中等 |
