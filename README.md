@@ -71,6 +71,7 @@
 | 378    | [有序矩阵中第K小的元素](docs/no_0378_kth_smallest_element_in_a_sorted_matrix.md)                         | 中等 |
 | 392    | [判断子序列](docs/no_0392_is_subsequence.md)                                                             | 简单 |
 | 410    | [分割数组的最大值](docs/no_0410_split_array_largest_sum.md)                                              | 困难 |
+| 632    | [最小区间](docs/no_0632_smallest_range_covering_elements_from_k_lists.md)                                | 困难 |
 | 718    | [最长重复子数组](docs/no_0718_maximum_length_of_repeated_subarray.md)                                    | 中等 |
 | 739    | [每日温度](docs/no_0739_daily_temperatures.md)                                                           | 中等 |
 | 785    | [判断二分图](docs/no_0785_is_graph_bipartite.md)                                                         | 中等 |
