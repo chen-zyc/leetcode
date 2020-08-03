@@ -59,6 +59,7 @@ mod no_0350_intersection_of_two_arrays_ii;
 mod no_0378_kth_smallest_element_in_a_sorted_matrix;
 mod no_0392_is_subsequence;
 mod no_0410_split_array_largest_sum;
+mod no_0415_add_strings;
 mod no_0718_maximum_length_of_repeated_subarray;
 mod no_0739_daily_temperatures;
 mod no_0785_is_graph_bipartite;
