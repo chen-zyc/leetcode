@@ -51,6 +51,7 @@
 | 104    | [二叉树的最大深度](docs/no_0104_maximum_depth_of_binary_tree.md)                                         | 简单 |
 | 108    | [将有序数组转换为二叉搜索树](docs/no_0108_convert_sorted_array_to_binary_search_tree.md)                 | 简单 |
 | 112    | [路径总和](docs/no_0112_path_sum.md)                                                                     | 简单 |
+| 114    | [二叉树展开为链表](docs/no_0114_flatten_binary_tree_to_linked_list.md)                                   | 中等 |
 | 120    | [三角形最小路径和](docs/no_0120_triangle.md)                                                             | 中等 |
 | 124    | [二叉树中的最大路径和](docs/no_0124_binary_tree_maximum_path_sum.md)                                     | 困难 |
 | 125    | [验证回文串](docs/no_0125_valid_palindrome.md)                                                           | 简单 |
