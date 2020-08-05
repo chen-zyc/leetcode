@@ -69,6 +69,7 @@
 | 312    | [戳气球](docs/no_0312_burst_balloons.md)                                                                 | 困难 |
 | 315    | [计算右侧小于当前元素的个数](docs/no_0315_count_of_smaller_numbers_after_self.md)                        | 困难 |
 | 329    | [矩阵中的最长递增路径](docs/no_0329_longest_increasing_path_in_a_matrix.md)                              | 困难 |
+| 337    | [打家劫舍 III](docs/no_0337_house_robber_iii.md)                                                         | 中等 |
 | 343    | [整数拆分](docs/no_0343_integer_break.md)                                                                | 中等 |
 | 350    | [两个数组的交集 II](docs/no_0350_intersection_of_two_arrays_ii.md)                                       | 简单 |
 | 378    | [有序矩阵中第K小的元素](docs/no_0378_kth_smallest_element_in_a_sorted_matrix.md)                         | 中等 |
