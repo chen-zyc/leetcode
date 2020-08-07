@@ -49,6 +49,7 @@
 | 95     | [不同的二叉搜索树 II](docs/no_0095_unique_binary_search_trees_ii.md)                                     | 中等 |
 | 96     | [不同的二叉搜索树](docs/no_0096_unique_binary_search_trees.md)                                           | 中等 |
 | 97     | [交错字符串](docs/no_0097_interleaving_string.md)                                                        | 困难 |
+| 100    | [相同的树](docs/no_0100_same_tree.md)                                                                    | 简单 |
 | 104    | [二叉树的最大深度](docs/no_0104_maximum_depth_of_binary_tree.md)                                         | 简单 |
 | 108    | [将有序数组转换为二叉搜索树](docs/no_0108_convert_sorted_array_to_binary_search_tree.md)                 | 简单 |
 | 112    | [路径总和](docs/no_0112_path_sum.md)                                                                     | 简单 |

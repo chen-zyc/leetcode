@@ -37,6 +37,7 @@ mod no_0079_word_search;
 mod no_0095_unique_binary_search_trees_ii;
 mod no_0096_unique_binary_search_trees;
 mod no_0097_interleaving_string;
+mod no_0100_same_tree;
 mod no_0104_maximum_depth_of_binary_tree;
 mod no_0108_convert_sorted_array_to_binary_search_tree;
 mod no_0112_path_sum;
