@@ -81,6 +81,7 @@
 | 410    | [分割数组的最大值](docs/no_0410_split_array_largest_sum.md)                                              | 困难 |
 | 415    | [字符串相加](docs/no_0415_add_strings.md)                                                                | 简单 |
 | 632    | [最小区间](docs/no_0632_smallest_range_covering_elements_from_k_lists.md)                                | 困难 |
+| 696    | [计数二进制子串](docs/no_0696_count_binary_substrings.md)                                                | 简单 |
 | 718    | [最长重复子数组](docs/no_0718_maximum_length_of_repeated_subarray.md)                                    | 中等 |
 | 739    | [每日温度](docs/no_0739_daily_temperatures.md)                                                           | 中等 |
 | 785    | [判断二分图](docs/no_0785_is_graph_bipartite.md)                                                         | 中等 |
