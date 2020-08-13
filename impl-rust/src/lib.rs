@@ -25,6 +25,7 @@ mod no_0026_remove_duplicates_from_sorted_array;
 mod no_0032_longest_valid_parentheses;
 mod no_0035_search_insert_position;
 mod no_0041_first_missing_positive;
+mod no_0043_multiply_strings;
 mod no_0044_wildcard_matching;
 mod no_0046_lcof;
 mod no_0063_unique_paths_ii;
