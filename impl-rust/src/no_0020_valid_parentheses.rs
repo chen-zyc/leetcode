@@ -3,7 +3,28 @@ struct Solution;
 use std::collections::LinkedList;
 
 impl Solution {
+    // 第二遍做了
     pub fn is_valid(s: String) -> bool {
+        let mut stack = Vec::new();
+        for c in s.chars() {
+            let ok = match c {
+                '[' | '{' | '(' => {
+                    stack.push(c);
+                    true
+                }
+                ']' => stack.pop() == Some('['),
+                '}' => stack.pop() == Some('{'),
+                ')' => stack.pop() == Some('('),
+                _ => false,
+            };
+            if !ok {
+                return false;
+            }
+        }
+        stack.is_empty()
+    }
+
+    pub fn is_valid1(s: String) -> bool {
         let mut stack = LinkedList::new();
         for c in s.chars() {
             let ok = match c {
