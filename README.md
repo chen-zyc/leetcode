@@ -31,6 +31,7 @@
 | 20     | [有效的括号](docs/no_0020_valid_parentheses.md)                                                          | 简单 |
 | 21     | [合并两个有序链表](docs/no_0021_merge_two_sorted_lists.md)                                               | 简单 |
 | 22     | [括号生成](docs/no_0022_generate_parentheses.md)                                                         | 中等 |
+| 23     | [合并K个排序链表](docs/no_0023_merge_k_sorted_lists.md)                                                  | 困难 |
 | 26     | [删除排序数组中的重复项](docs/no_0026_remove_duplicates_from_sorted_array.md)                            | 简单 |
 | 32     | [最长有效括号](docs/no_0032_longest_valid_parentheses.md)                                                | 困难 |
 | 35     | [搜索插入位置](docs/no_0035_search_insert_position.md)                                                   | 简单 |
@@ -118,6 +119,10 @@
 - 排序
   - 拓扑排序
     - [207. 课程表](docs/no_0207_course_schedule.md)
+- 栈
+  - [22. 括号生成](docs/no_0022_generate_parentheses.md)
+- 堆
+  - [23. 合并K个排序链表](docs/no_0023_merge_k_sorted_lists.md)
 
 
 ## 解题提示
@@ -127,7 +132,8 @@
   - 状态转移方程很重要！
 - 双指针。
 - 滑动窗口。
-- 用堆解决 topN 的问题。
+- 堆。
+  - 用堆解决 topN 的问题。
 - 二分。
   - 二分时如果出现 `left = mid` 或者 `right = mid` 时就要小心了，可能会出现死循环。
   - 计算 mid 时如果用 `mid = (left + right)/2`，那么 `left + right` 可能会溢出，所以题解中都是用 `mid = left + (right - left) / 2`. 其中的区间是 `[left, right]`。
