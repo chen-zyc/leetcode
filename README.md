@@ -33,6 +33,7 @@
 | 22     | [括号生成](docs/no_0022_generate_parentheses.md)                                                         | 中等 |
 | 23     | [合并K个排序链表](docs/no_0023_merge_k_sorted_lists.md)                                                  | 困难 |
 | 26     | [删除排序数组中的重复项](docs/no_0026_remove_duplicates_from_sorted_array.md)                            | 简单 |
+| 31     | [下一个排列](docs/no_0031_next_permutation.md)                                                           | 中等 |
 | 32     | [最长有效括号](docs/no_0032_longest_valid_parentheses.md)                                                | 困难 |
 | 35     | [搜索插入位置](docs/no_0035_search_insert_position.md)                                                   | 简单 |
 | 41     | [缺失的第一个正数](docs/no_0041_first_missing_positive.md)                                               | 困难 |

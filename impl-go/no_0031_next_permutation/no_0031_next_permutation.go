@@ -27,7 +27,7 @@ func nextPermutation(nums []int) {
 	}
 	nums[j], nums[index-1] = val, nums[j]
 
-	// 让nums[index..n-1]倒序
+	// 让nums[index..n-1]升序
 	reverseSort(nums, index, n-1)
 }
 
