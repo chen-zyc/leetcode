@@ -40,6 +40,7 @@
 | 43     | [字符串相乘](docs/no_0043_multiply_strings.md)                                                           | 中等 |
 | 44     | [通配符匹配](docs/no_0044_wildcard_matching.md)                                                          | 困难 |
 | 46     | [把数字翻译成字符串](docs/no_0046_ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof.md)                            | 中等 |
+| 53     | [最大子序和](docs/no_0053_maximum_subarray.md)                                                           | 简单 |
 | 56     | [合并区间](docs/merge-intervals.md)                                                                      | 中等 |
 | 57     | [插入区间](docs/insert-interval.md)                                                                      | 困难 |
 | 63     | [不同路径 II](docs/no_0063_unique_paths_ii.md)                                                           | 中等 |
@@ -127,6 +128,11 @@
   - [22. 括号生成](docs/no_0022_generate_parentheses.md)
 - 堆
   - [23. 合并K个排序链表](docs/no_0023_merge_k_sorted_lists.md)
+- 动态规则
+  - [53. 最大子序和](docs/no_0053_maximum_subarray.md)
+- 树
+  - 线段树
+    - [53. 最大子序和](docs/no_0053_maximum_subarray.md)
 
 
 ## 解题提示
@@ -141,3 +147,4 @@
 - 二分。
   - 二分时如果出现 `left = mid` 或者 `right = mid` 时就要小心了，可能会出现死循环。
   - 计算 mid 时如果用 `mid = (left + right)/2`，那么 `left + right` 可能会溢出，所以题解中都是用 `mid = left + (right - left) / 2`. 其中的区间是 `[left, right]`。
+- 分治：（什么是分治：分治法是将整个数组切分成几个小组，然后每个小组再切分成几个更小的小组，一直到不能继续切分也就是只剩一个数字为止。每个小组会计算出最优值，汇报给上一级的小组，一级一级汇报，上级拿到下级的汇报找到最大值，得到最终的结果。和归并排序的算法类似，先切分，再合并结果。）
