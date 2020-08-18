@@ -2,6 +2,7 @@
   - [目录](#目录)
   - [索引](#索引)
   - [解题提示](#解题提示)
+  - [复杂度的计算](#复杂度的计算)
 
 
 ------------------------------
@@ -58,6 +59,7 @@
 | 100    | [相同的树](docs/no_0100_same_tree.md)                                                                    | 简单 |
 | 104    | [二叉树的最大深度](docs/no_0104_maximum_depth_of_binary_tree.md)                                         | 简单 |
 | 108    | [将有序数组转换为二叉搜索树](docs/no_0108_convert_sorted_array_to_binary_search_tree.md)                 | 简单 |
+| 109    | [有序链表转换二叉搜索树](docs/no_0109_convert_sorted_list_to_binary_search_tree.md)                      | 中等 |
 | 110    | [平衡二叉树](docs/no_0110_balanced_binary_tree.md)                                                       | 简单 |
 | 112    | [路径总和](docs/no_0112_path_sum.md)                                                                     | 简单 |
 | 114    | [二叉树展开为链表](docs/no_0114_flatten_binary_tree_to_linked_list.md)                                   | 中等 |
@@ -133,6 +135,9 @@
 - 树
   - 线段树
     - [53. 最大子序和](docs/no_0053_maximum_subarray.md)
+  - 二叉搜索树
+    - [108. 将有序数组转换为二叉搜索树](docs/no_0108_convert_sorted_array_to_binary_search_tree.md)
+    - [109. 有序链表转换二叉搜索树](docs/no_0109_convert_sorted_list_to_binary_search_tree.md)
 
 
 ## 解题提示
@@ -148,3 +153,12 @@
   - 二分时如果出现 `left = mid` 或者 `right = mid` 时就要小心了，可能会出现死循环。
   - 计算 mid 时如果用 `mid = (left + right)/2`，那么 `left + right` 可能会溢出，所以题解中都是用 `mid = left + (right - left) / 2`. 其中的区间是 `[left, right]`。
 - 分治：（什么是分治：分治法是将整个数组切分成几个小组，然后每个小组再切分成几个更小的小组，一直到不能继续切分也就是只剩一个数字为止。每个小组会计算出最优值，汇报给上一级的小组，一级一级汇报，上级拿到下级的汇报找到最大值，得到最终的结果。和归并排序的算法类似，先切分，再合并结果。）
+
+
+## 复杂度的计算
+
+递推式 $T(n) = 2 \cdot T(n/2) + O(n)$, 根据**主定理**，$T(n) = O(n \log n)$.
+
+比如说 「109. 有序链表转换二叉搜索树」，长度为 n 的链表，寻找中位数用时 $O(n)$，然后再拆分成两个 n/2 规模的子树。
+
+递推式 $T(n) = 2 \cdot T(n/2) + O(1)$，根据主定理，$T(n) = O(n)$。
