@@ -91,6 +91,7 @@
 | 415    | [字符串相加](docs/no_0415_add_strings.md)                                                                | 简单 |
 | 546    | [移除盒子](docs/no_0546_remove_boxes.md)                                                                 | 困难 |
 | 632    | [最小区间](docs/no_0632_smallest_range_covering_elements_from_k_lists.md)                                | 困难 |
+| 647    | [回文子串](docs/no_0647_palindromic_substrings.md)                                                       | 中等 |
 | 696    | [计数二进制子串](docs/no_0696_count_binary_substrings.md)                                                | 简单 |
 | 718    | [最长重复子数组](docs/no_0718_maximum_length_of_repeated_subarray.md)                                    | 中等 |
 | 733    | [图像渲染](docs/no_0733_flood_fill.md)                                                                   | 简单 |
@@ -138,6 +139,8 @@
   - 二叉搜索树
     - [108. 将有序数组转换为二叉搜索树](docs/no_0108_convert_sorted_array_to_binary_search_tree.md)
     - [109. 有序链表转换二叉搜索树](docs/no_0109_convert_sorted_list_to_binary_search_tree.md)
+- 回文
+  - [647. 回文子串](docs/no_0647_palindromic_substrings.md)
 
 
 ## 解题提示

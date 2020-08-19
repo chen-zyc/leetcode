@@ -74,6 +74,7 @@ mod no_0392_is_subsequence;
 mod no_0410_split_array_largest_sum;
 mod no_0415_add_strings;
 mod no_0546_remove_boxes;
+mod no_0647_palindromic_substrings;
 mod no_0696_count_binary_substrings;
 mod no_0718_maximum_length_of_repeated_subarray;
 mod no_0733_flood_fill;
