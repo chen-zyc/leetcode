@@ -73,6 +73,7 @@ mod no_0378_kth_smallest_element_in_a_sorted_matrix;
 mod no_0392_is_subsequence;
 mod no_0410_split_array_largest_sum;
 mod no_0415_add_strings;
+mod no_0529_minesweeper;
 mod no_0546_remove_boxes;
 mod no_0647_palindromic_substrings;
 mod no_0696_count_binary_substrings;

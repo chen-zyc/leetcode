@@ -89,6 +89,7 @@
 | 392    | [判断子序列](docs/no_0392_is_subsequence.md)                                                             | 简单 |
 | 410    | [分割数组的最大值](docs/no_0410_split_array_largest_sum.md)                                              | 困难 |
 | 415    | [字符串相加](docs/no_0415_add_strings.md)                                                                | 简单 |
+| 529    | [扫雷游戏](docs/no_0529_minesweeper.md)                                                                  | 中等 |
 | 546    | [移除盒子](docs/no_0546_remove_boxes.md)                                                                 | 困难 |
 | 632    | [最小区间](docs/no_0632_smallest_range_covering_elements_from_k_lists.md)                                | 困难 |
 | 647    | [回文子串](docs/no_0647_palindromic_substrings.md)                                                       | 中等 |
