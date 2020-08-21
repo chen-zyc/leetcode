@@ -61,6 +61,7 @@
 | 108    | [将有序数组转换为二叉搜索树](docs/no_0108_convert_sorted_array_to_binary_search_tree.md)                 | 简单 |
 | 109    | [有序链表转换二叉搜索树](docs/no_0109_convert_sorted_list_to_binary_search_tree.md)                      | 中等 |
 | 110    | [平衡二叉树](docs/no_0110_balanced_binary_tree.md)                                                       | 简单 |
+| 111    | [二叉树的最小深度](docs/no_0111_minimum_depth_of_binary_tree.md)                                         | 简单 |
 | 112    | [路径总和](docs/no_0112_path_sum.md)                                                                     | 简单 |
 | 114    | [二叉树展开为链表](docs/no_0114_flatten_binary_tree_to_linked_list.md)                                   | 中等 |
 | 120    | [三角形最小路径和](docs/no_0120_triangle.md)                                                             | 中等 |

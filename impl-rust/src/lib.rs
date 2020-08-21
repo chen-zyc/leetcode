@@ -48,6 +48,7 @@ mod no_0104_maximum_depth_of_binary_tree;
 mod no_0108_convert_sorted_array_to_binary_search_tree;
 mod no_0109_convert_sorted_list_to_binary_search_tree;
 mod no_0110_balanced_binary_tree;
+mod no_0111_minimum_depth_of_binary_tree;
 mod no_0112_path_sum;
 mod no_0114_flatten_binary_tree_to_linked_list;
 mod no_0120_triangle;
