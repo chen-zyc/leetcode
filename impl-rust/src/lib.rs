@@ -77,6 +77,7 @@ mod no_0415_add_strings;
 mod no_0529_minesweeper;
 mod no_0546_remove_boxes;
 mod no_0647_palindromic_substrings;
+mod no_0679_24_game;
 mod no_0696_count_binary_substrings;
 mod no_0718_maximum_length_of_repeated_subarray;
 mod no_0733_flood_fill;
