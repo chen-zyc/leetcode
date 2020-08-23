@@ -26,6 +26,7 @@ mod no_0026_remove_duplicates_from_sorted_array;
 mod no_0031_next_permutation;
 mod no_0032_longest_valid_parentheses;
 mod no_0033_search_in_rotated_sorted_array;
+mod no_0034_find_first_and_last_position_of_element_in_sorted_array;
 mod no_0035_search_insert_position;
 mod no_0041_first_missing_positive;
 mod no_0043_multiply_strings;
