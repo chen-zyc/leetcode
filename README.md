@@ -36,6 +36,7 @@
 | 26     | [删除排序数组中的重复项](docs/no_0026_remove_duplicates_from_sorted_array.md)                            | 简单 |
 | 31     | [下一个排列](docs/no_0031_next_permutation.md)                                                           | 中等 |
 | 32     | [最长有效括号](docs/no_0032_longest_valid_parentheses.md)                                                | 困难 |
+| 33     | [搜索旋转排序数组](docs/no_0033_search_in_rotated_sorted_array.md)                                       | 中等 |
 | 35     | [搜索插入位置](docs/no_0035_search_insert_position.md)                                                   | 简单 |
 | 41     | [缺失的第一个正数](docs/no_0041_first_missing_positive.md)                                               | 困难 |
 | 43     | [字符串相乘](docs/no_0043_multiply_strings.md)                                                           | 中等 |
