@@ -59,6 +59,7 @@ mod no_0136_single_number;
 mod no_0139_word_break;
 mod no_0167_two_sum_ii_input_array_is_sorted;
 mod no_0174_dungeon_game;
+mod no_0201_bitwise_and_of_numbers_range;
 mod no_0207_course_schedule;
 mod no_0209_minimum_size_subarray_sum;
 mod no_0215_kth_largest_element_in_an_array;
