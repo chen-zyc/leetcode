@@ -92,6 +92,7 @@
 - [410. 分割数组的最大值](docs/no_0410_split_array_largest_sum.md): 困难
 - [415. 字符串相加](docs/no_0415_add_strings.md): 简单
 - [459. 重复的子字符串](docs/no_0459_repeated_substring_pattern.md): 简单(困难)
+- [491. 递增子序列](docs/no_0491_increasing_subsequences.md): 中等(困难)
 - [529. 扫雷游戏](docs/no_0529_minesweeper.md): 中等
 - [546. 移除盒子](docs/no_0546_remove_boxes.md): 困难
 - [632. 最小区间](docs/no_0632_smallest_range_covering_elements_from_k_lists.md): 困难
@@ -140,6 +141,7 @@
   - [23. 合并K个排序链表](docs/no_0023_merge_k_sorted_lists.md)
 - 动态规则
   - [53. 最大子序和](docs/no_0053_maximum_subarray.md)
+  - [72. 编辑距离](docs/no_0072_edit_distance.md): 困难
 - 树
   - 线段树
     - [53. 最大子序和](docs/no_0053_maximum_subarray.md)
