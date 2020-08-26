@@ -37,6 +37,7 @@
 - [33. 搜索旋转排序数组](docs/no_0033_search_in_rotated_sorted_array.md): 中等
 - [34. 在排序数组中查找元素的第一个和最后一个位置](docs/no_0034_find_first_and_last_position_of_element_in_sorted_array.md): 中等
 - [35. 搜索插入位置](docs/no_0035_search_insert_position.md): 简单
+- [39. 组合总和](docs/no_0039_combination_sum.md): 中等
 - [41. 缺失的第一个正数](docs/no_0041_first_missing_positive.md): 困难
 - [43. 字符串相乘](docs/no_0043_multiply_strings.md): 中等
 - [44. 通配符匹配](docs/no_0044_wildcard_matching.md): 困难
@@ -116,7 +117,6 @@
 - [剑指 Offer 09. 用两个栈实现队列](docs/offer_009_yong_liang_ge_zhan_shi_xian_dui_lie_lcof.md): 简单
 - [剑指 Offer 11. 旋转数组的最小数字](docs/offer_011_xuan_zhuan_shu_zu_de_zui_xiao_shu_zi_lcof.md): 简单
 - [LCP-13. 寻宝](docs/lcp_0013_xun_bao.md): 困难
-- [combination-sum](docs/combination_sum.md): ?
 - [combination-sum-2](docs/combination_sum_2.md): ?
 - [combination-sum-3](docs/combination_sum_3.md): ?
 - [combination-sum-4](docs/combination_sum_4.md): ?
