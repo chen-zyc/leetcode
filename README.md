@@ -84,6 +84,7 @@
 - [312. 戳气球](docs/no_0312_burst_balloons.md): 困难
 - [315. 计算右侧小于当前元素的个数](docs/no_0315_count_of_smaller_numbers_after_self.md): 困难
 - [329. 矩阵中的最长递增路径](docs/no_0329_longest_increasing_path_in_a_matrix.md): 困难
+- [332. 重新安排行程](docs/no_0332_reconstruct_itinerary.md): 中等
 - [336. 回文对](docs/no_0336_palindrome_pairs.md): 困难
 - [337. 打家劫舍 III](docs/no_0337_house_robber_iii.md): 中等
 - [343. 整数拆分](docs/no_0343_integer_break.md): 中等

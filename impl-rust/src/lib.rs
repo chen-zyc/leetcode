@@ -70,6 +70,7 @@ mod no_0309_best_time_to_buy_and_sell_stock_with_cooldown;
 mod no_0312_burst_balloons;
 mod no_0315_count_of_smaller_numbers_after_self;
 mod no_0329_longest_increasing_path_in_a_matrix;
+mod no_0332_reconstruct_itinerary;
 mod no_0336_palindrome_pairs;
 mod no_0337_house_robber_iii;
 mod no_0343_integer_break;
