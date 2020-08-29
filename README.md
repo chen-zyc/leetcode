@@ -78,6 +78,7 @@
 - [201. 数字范围按位与](docs/no_0201_bitwise_and_of_numbers_range.md): 中等
 - [207. 课程表](docs/no_0207_course_schedule.md): 中等
 - [209. 长度最小的子数组](docs/no_0209_minimum_size_subarray_sum.md): 中等
+- [214. 最短回文串](docs/no_0214_shortest_palindrome.md): 困难
 - [215. 数组中的第K个最大元素](docs/no_0215_kth_largest_element_in_an_array.md): 中等
 - [297. 二叉树的序列化与反序列化](docs/no_0297_serialize_and_deserialize_binary_tree.md): 困难
 - [309. 最佳买卖股票时机含冷冻期](docs/no_0309_best_time_to_buy_and_sell_stock_with_cooldown.md): 中等
@@ -151,6 +152,7 @@
     - [108. 将有序数组转换为二叉搜索树](docs/no_0108_convert_sorted_array_to_binary_search_tree.md)
     - [109. 有序链表转换二叉搜索树](docs/no_0109_convert_sorted_list_to_binary_search_tree.md)
 - 回文
+  - [214. 最短回文串](docs/no_0214_shortest_palindrome.md): 困难
   - [647. 回文子串](docs/no_0647_palindromic_substrings.md)
 - 脑筋急转弯
   - [459. 重复的子字符串](docs/no_0459_repeated_substring_pattern.md)

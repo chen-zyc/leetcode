@@ -65,6 +65,7 @@ mod no_0174_dungeon_game;
 mod no_0201_bitwise_and_of_numbers_range;
 mod no_0207_course_schedule;
 mod no_0209_minimum_size_subarray_sum;
+mod no_0214_shortest_palindrome;
 mod no_0215_kth_largest_element_in_an_array;
 mod no_0309_best_time_to_buy_and_sell_stock_with_cooldown;
 mod no_0312_burst_balloons;
