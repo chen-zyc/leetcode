@@ -108,6 +108,7 @@
 - [733. 图像渲染](docs/no_0733_flood_fill.md): 简单
 - [739. 每日温度](docs/no_0739_daily_temperatures.md): 中等
 - [785. 判断二分图](docs/no_0785_is_graph_bipartite.md): 中等
+- [841. 钥匙和房间](docs/no_0841_keys_and_rooms.md): 中等
 - [1014. 最佳观光组合](docs/no_1014_best_sightseeing_pair.md): 中等
 - [1025. 除数博弈](docs/no_1025_divisor_game.md): 简单
 - [1028. 从先序遍历还原二叉树](docs/no_1028_recover_a_tree_from_preorder_traversal.md): 困难
@@ -152,6 +153,9 @@
   - 二叉搜索树
     - [108. 将有序数组转换为二叉搜索树](docs/no_0108_convert_sorted_array_to_binary_search_tree.md)
     - [109. 有序链表转换二叉搜索树](docs/no_0109_convert_sorted_list_to_binary_search_tree.md)
+- 图
+  - 深度/广度优先遍历
+    - [841. 钥匙和房间](docs/no_0841_keys_and_rooms.md): 中等
 - 回文
   - [214. 最短回文串](docs/no_0214_shortest_palindrome.md): 困难
   - [647. 回文子串](docs/no_0647_palindromic_substrings.md)
