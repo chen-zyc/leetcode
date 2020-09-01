@@ -75,6 +75,7 @@
 - [146. LRU缓存机制](docs/no_0146_lru_cache.md): 中等
 - [167. 两数之和 II - 输入有序数组](docs/no_0167_two_sum_ii_input_array_is_sorted.md): 简单
 - [174. 地下城游戏](docs/no_0174_dungeon_game.md): 困难
+- [200. 岛屿数量](docs/no_0200_number_of_islands.md): 中等
 - [201. 数字范围按位与](docs/no_0201_bitwise_and_of_numbers_range.md): 中等
 - [203. 移除链表元素](docs/no_0203_remove_linked_list_elements.md): 简单
 - [207. 课程表](docs/no_0207_course_schedule.md): 中等
@@ -158,7 +159,10 @@
     - [109. 有序链表转换二叉搜索树](docs/no_0109_convert_sorted_list_to_binary_search_tree.md)
 - 图
   - 深度/广度优先遍历
+    - [200. 岛屿数量](docs/no_0200_number_of_islands.md): 中等
     - [841. 钥匙和房间](docs/no_0841_keys_and_rooms.md): 中等
+- 并查集
+  - [200. 岛屿数量](docs/no_0200_number_of_islands.md): 中等
 - 回文
   - [214. 最短回文串](docs/no_0214_shortest_palindrome.md): 困难
   - [647. 回文子串](docs/no_0647_palindromic_substrings.md)
