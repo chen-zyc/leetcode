@@ -77,6 +77,7 @@
 - [174. 地下城游戏](docs/no_0174_dungeon_game.md): 困难
 - [200. 岛屿数量](docs/no_0200_number_of_islands.md): 中等
 - [201. 数字范围按位与](docs/no_0201_bitwise_and_of_numbers_range.md): 中等
+- [202. 快乐数](docs/no_0202_happy_number.md): 简单
 - [203. 移除链表元素](docs/no_0203_remove_linked_list_elements.md): 简单
 - [207. 课程表](docs/no_0207_course_schedule.md): 中等
 - [209. 长度最小的子数组](docs/no_0209_minimum_size_subarray_sum.md): 中等
@@ -171,6 +172,8 @@
   - [剑指 Offer 20. 表示数值的字符串](docs/offer_020_biao_shi_shu_zhi_de_zi_fu_chuan_lcof.md): 中等
 - 脑筋急转弯
   - [459. 重复的子字符串](docs/no_0459_repeated_substring_pattern.md)
+- 快慢指针
+  - [202. 快乐数](docs/no_0202_happy_number.md): 简单
 
 
 ## 解题提示
