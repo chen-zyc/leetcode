@@ -79,6 +79,7 @@
 - [201. 数字范围按位与](docs/no_0201_bitwise_and_of_numbers_range.md): 中等
 - [202. 快乐数](docs/no_0202_happy_number.md): 简单
 - [203. 移除链表元素](docs/no_0203_remove_linked_list_elements.md): 简单
+- [204. 计数质数](docs/no_0204_count_primes.md): 简单
 - [207. 课程表](docs/no_0207_course_schedule.md): 中等
 - [209. 长度最小的子数组](docs/no_0209_minimum_size_subarray_sum.md): 中等
 - [214. 最短回文串](docs/no_0214_shortest_palindrome.md): 困难

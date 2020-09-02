@@ -66,6 +66,7 @@ mod no_0200_number_of_islands;
 mod no_0201_bitwise_and_of_numbers_range;
 mod no_0202_happy_number;
 mod no_0203_remove_linked_list_elements;
+mod no_0204_count_primes;
 mod no_0207_course_schedule;
 mod no_0209_minimum_size_subarray_sum;
 mod no_0214_shortest_palindrome;
