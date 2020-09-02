@@ -124,6 +124,7 @@
 - [面试题 17.13. 恢复空格](docs/interview_17_13_re_space_lcci.md): 中等
 - [剑指 Offer 09. 用两个栈实现队列](docs/offer_009_yong_liang_ge_zhan_shi_xian_dui_lie_lcof.md): 简单
 - [剑指 Offer 11. 旋转数组的最小数字](docs/offer_011_xuan_zhuan_shu_zu_de_zui_xiao_shu_zi_lcof.md): 简单
+- [剑指 Offer 20. 表示数值的字符串](docs/offer_020_biao_shi_shu_zhi_de_zi_fu_chuan_lcof.md): 中等
 - [LCP-13. 寻宝](docs/lcp_0013_xun_bao.md): 困难
 - [combination-sum-2](docs/combination_sum_2.md): ?
 - [combination-sum-3](docs/combination_sum_3.md): ?
@@ -166,6 +167,8 @@
 - 回文
   - [214. 最短回文串](docs/no_0214_shortest_palindrome.md): 困难
   - [647. 回文子串](docs/no_0647_palindromic_substrings.md)
+- 状态机
+  - [剑指 Offer 20. 表示数值的字符串](docs/offer_020_biao_shi_shu_zhi_de_zi_fu_chuan_lcof.md): 中等
 - 脑筋急转弯
   - [459. 重复的子字符串](docs/no_0459_repeated_substring_pattern.md)
 
