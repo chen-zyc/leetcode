@@ -42,6 +42,7 @@
 - [43. 字符串相乘](docs/no_0043_multiply_strings.md): 中等
 - [44. 通配符匹配](docs/no_0044_wildcard_matching.md): 困难
 - [46. 把数字翻译成字符串](docs/no_0046_ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof.md): 中等
+- [51. N 皇后](docs/no_0051_n_queens.md): 困难
 - [53. 最大子序和](docs/no_0053_maximum_subarray.md): 简单
 - [56. 合并区间](docs/merge-intervals.md): 中等
 - [57. 插入区间](docs/insert-interval.md): 困难
@@ -175,6 +176,10 @@
   - [459. 重复的子字符串](docs/no_0459_repeated_substring_pattern.md)
 - 快慢指针
   - [202. 快乐数](docs/no_0202_happy_number.md): 简单
+- 回溯
+  - [51. N 皇后](docs/no_0051_n_queens.md): 困难
+- 位运算
+  - [51. N 皇后](docs/no_0051_n_queens.md): 困难
 
 
 ## 解题提示
