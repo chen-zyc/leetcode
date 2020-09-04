@@ -85,6 +85,7 @@
 - [209. 长度最小的子数组](docs/no_0209_minimum_size_subarray_sum.md): 中等
 - [214. 最短回文串](docs/no_0214_shortest_palindrome.md): 困难
 - [215. 数组中的第K个最大元素](docs/no_0215_kth_largest_element_in_an_array.md): 中等
+- [257. 二叉树的所有路径](docs/no_0257_binary_tree_paths.md): 简单
 - [297. 二叉树的序列化与反序列化](docs/no_0297_serialize_and_deserialize_binary_tree.md): 困难
 - [309. 最佳买卖股票时机含冷冻期](docs/no_0309_best_time_to_buy_and_sell_stock_with_cooldown.md): 中等
 - [312. 戳气球](docs/no_0312_burst_balloons.md): 困难
