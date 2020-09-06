@@ -119,6 +119,8 @@ mod offer_009_yong_liang_ge_zhan_shi_xian_dui_lie_lcof;
 mod offer_011_xuan_zhuan_shu_zu_de_zui_xiao_shu_zi_lcof;
 mod offer_020_biao_shi_shu_zhi_de_zi_fu_chuan_lcof;
 
+mod weekly_contest;
+
 #[cfg(test)]
 mod tests {
     #[test]
