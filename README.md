@@ -46,6 +46,7 @@
 - [53. 最大子序和](docs/no_0053_maximum_subarray.md): 简单
 - [56. 合并区间](docs/merge-intervals.md): 中等
 - [57. 插入区间](docs/insert-interval.md): 困难
+- [60. 第k个排列](docs/no_0060_permutation_sequence.md): 中等
 - [63. 不同路径 II](docs/no_0063_unique_paths_ii.md): 中等
 - [64. 最小路径和](docs/no_0064_minimum_path_sum.md): 中等
 - [67. 二进制求和](docs/no_0067_add_binary.md): 简单
@@ -60,6 +61,7 @@
 - [99. 恢复二叉搜索树](docs/no_0099_recover_binary_search_tree.md): 困难
 - [100. 相同的树](docs/no_0100_same_tree.md): 简单
 - [104. 二叉树的最大深度](docs/no_0104_maximum_depth_of_binary_tree.md): 简单
+- [107. 二叉树的层次遍历 II](docs/no_0107_binary_tree_level_order_traversal_ii.md): 简单
 - [108. 将有序数组转换为二叉搜索树](docs/no_0108_convert_sorted_array_to_binary_search_tree.md): 简单
 - [109. 有序链表转换二叉搜索树](docs/no_0109_convert_sorted_list_to_binary_search_tree.md): 中等
 - [110. 平衡二叉树](docs/no_0110_balanced_binary_tree.md): 简单
