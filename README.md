@@ -97,6 +97,7 @@
 - [336. 回文对](docs/no_0336_palindrome_pairs.md): 困难
 - [337. 打家劫舍 III](docs/no_0337_house_robber_iii.md): 中等
 - [343. 整数拆分](docs/no_0343_integer_break.md): 中等
+- [347. 前 K 个高频元素](docs/no_0347_top_k_frequent_elements.md): 中等
 - [350. 两个数组的交集 II](docs/no_0350_intersection_of_two_arrays_ii.md): 简单
 - [378. 有序矩阵中第K小的元素](docs/no_0378_kth_smallest_element_in_a_sorted_matrix.md): 中等
 - [392. 判断子序列](docs/no_0392_is_subsequence.md): 简单
@@ -150,10 +151,15 @@
     - [33. 搜索旋转排序数组](docs/no_0033_search_in_rotated_sorted_array.md)
   - 拓扑排序
     - [207. 课程表](docs/no_0207_course_schedule.md)
+  - 快排
+    - [347. 前 K 个高频元素](docs/no_0347_top_k_frequent_elements.md): 中等
+  - 桶排
+    - [347. 前 K 个高频元素](docs/no_0347_top_k_frequent_elements.md): 中等
 - 栈
   - [22. 括号生成](docs/no_0022_generate_parentheses.md)
 - 堆
   - [23. 合并K个排序链表](docs/no_0023_merge_k_sorted_lists.md)
+  - [347. 前 K 个高频元素](docs/no_0347_top_k_frequent_elements.md): 中等
 - 动态规则
   - [53. 最大子序和](docs/no_0053_maximum_subarray.md)
   - [72. 编辑距离](docs/no_0072_edit_distance.md): 困难

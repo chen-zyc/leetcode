@@ -83,6 +83,7 @@ mod no_0332_reconstruct_itinerary;
 mod no_0336_palindrome_pairs;
 mod no_0337_house_robber_iii;
 mod no_0343_integer_break;
+mod no_0347_top_k_frequent_elements;
 mod no_0350_intersection_of_two_arrays_ii;
 mod no_0378_kth_smallest_element_in_a_sorted_matrix;
 mod no_0392_is_subsequence;
