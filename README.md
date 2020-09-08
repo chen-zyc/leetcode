@@ -53,6 +53,7 @@
 - [70. 爬楼梯](docs/no_0070_climbing-stairs.md): 简单
 - [72. 编辑距离](docs/no_0072_edit_distance.md): 困难
 - [76. 最小覆盖子串](docs/no_0076_minimum_window_substring.md): 困难
+- [77. 组合](docs/no_0077_combinations.md): 中等
 - [79. 单词搜索](docs/no_0079_word_search.md): 中等
 - [93. 复原IP地址](docs/no_0093_restore_ip_addresses.md): 中等
 - [95. 不同的二叉搜索树 II](docs/no_0095_unique_binary_search_trees_ii.md): 中等
@@ -189,6 +190,9 @@
   - [51. N 皇后](docs/no_0051_n_queens.md): 困难
 - 位运算
   - [51. N 皇后](docs/no_0051_n_queens.md): 困难
+  - [77. 组合](docs/no_0077_combinations.md): 中等
+- 组合
+  - [77. 组合](docs/no_0077_combinations.md): 中等
 
 
 ## 解题提示
