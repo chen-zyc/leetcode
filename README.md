@@ -39,6 +39,7 @@
 - [35. 搜索插入位置](docs/no_0035_search_insert_position.md): 简单
 - [39. 组合总和](docs/no_0039_combination_sum.md): 中等
 - [41. 缺失的第一个正数](docs/no_0041_first_missing_positive.md): 困难
+- [42. 接雨水](docs/no_0042_trapping_rain_water.md): 困难
 - [43. 字符串相乘](docs/no_0043_multiply_strings.md): 中等
 - [44. 通配符匹配](docs/no_0044_wildcard_matching.md): 困难
 - [46. 把数字翻译成字符串](docs/no_0046_ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof.md): 中等
@@ -158,6 +159,7 @@
     - [347. 前 K 个高频元素](docs/no_0347_top_k_frequent_elements.md): 中等
 - 栈
   - [22. 括号生成](docs/no_0022_generate_parentheses.md)
+  - [42. 接雨水](docs/no_0042_trapping_rain_water.md): 困难
 - 堆
   - [23. 合并K个排序链表](docs/no_0023_merge_k_sorted_lists.md)
   - [347. 前 K 个高频元素](docs/no_0347_top_k_frequent_elements.md): 中等
@@ -193,6 +195,8 @@
   - [77. 组合](docs/no_0077_combinations.md): 中等
 - 组合
   - [77. 组合](docs/no_0077_combinations.md): 中等
+- 双指针
+  - [42. 接雨水](docs/no_0042_trapping_rain_water.md): 困难
 
 
 ## 解题提示
