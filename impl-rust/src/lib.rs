@@ -34,7 +34,6 @@ mod no_0041_first_missing_positive;
 mod no_0042_trapping_rain_water;
 mod no_0043_multiply_strings;
 mod no_0044_wildcard_matching;
-mod no_0046_lcof;
 mod no_0051_n_queens;
 mod no_0053_maximum_subarray;
 mod no_0060_permutation_sequence;
@@ -123,6 +122,7 @@ mod interview_17_13_re_space_lcci;
 mod offer_009_yong_liang_ge_zhan_shi_xian_dui_lie_lcof;
 mod offer_011_xuan_zhuan_shu_zu_de_zui_xiao_shu_zi_lcof;
 mod offer_020_biao_shi_shu_zhi_de_zi_fu_chuan_lcof;
+mod offer_046_ba_shu_zi_fan_yi_cheng_zi_fu_chuan_lcof;
 
 mod weekly_contest;
 
