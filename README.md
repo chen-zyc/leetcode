@@ -90,6 +90,7 @@
 - [209. 长度最小的子数组](docs/no_0209_minimum_size_subarray_sum.md): 中等
 - [214. 最短回文串](docs/no_0214_shortest_palindrome.md): 困难
 - [215. 数组中的第K个最大元素](docs/no_0215_kth_largest_element_in_an_array.md): 中等
+- [216. 组合总和 III](docs/no_0216_combination_sum_iii.md): 中等
 - [257. 二叉树的所有路径](docs/no_0257_binary_tree_paths.md): 简单
 - [297. 二叉树的序列化与反序列化](docs/no_0297_serialize_and_deserialize_binary_tree.md): 困难
 - [309. 最佳买卖股票时机含冷冻期](docs/no_0309_best_time_to_buy_and_sell_stock_with_cooldown.md): 中等
@@ -197,6 +198,7 @@
 - 组合
   - [40. 组合总和 II](docs/no_0040_combination_sum_ii.md): 中等
   - [77. 组合](docs/no_0077_combinations.md): 中等
+  - [216. 组合总和 III](docs/no_0216_combination_sum_iii.md): 中等
 - 双指针
   - [42. 接雨水](docs/no_0042_trapping_rain_water.md): 困难
 
