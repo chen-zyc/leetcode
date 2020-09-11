@@ -34,6 +34,7 @@ mod no_0041_first_missing_positive;
 mod no_0042_trapping_rain_water;
 mod no_0043_multiply_strings;
 mod no_0044_wildcard_matching;
+mod no_0046_permutations;
 mod no_0051_n_queens;
 mod no_0053_maximum_subarray;
 mod no_0060_permutation_sequence;

@@ -43,6 +43,7 @@
 - [42. 接雨水](docs/no_0042_trapping_rain_water.md): 困难
 - [43. 字符串相乘](docs/no_0043_multiply_strings.md): 中等
 - [44. 通配符匹配](docs/no_0044_wildcard_matching.md): 困难
+- [46. 全排列](docs/no_0046_permutations.md): 中等
 - [51. N 皇后](docs/no_0051_n_queens.md): 困难
 - [53. 最大子序和](docs/no_0053_maximum_subarray.md): 简单
 - [56. 合并区间](docs/merge-intervals.md): 中等
@@ -195,10 +196,11 @@
 - 位运算
   - [51. N 皇后](docs/no_0051_n_queens.md): 困难
   - [77. 组合](docs/no_0077_combinations.md): 中等
-- 组合
+- 排列组合
   - [40. 组合总和 II](docs/no_0040_combination_sum_ii.md): 中等
   - [77. 组合](docs/no_0077_combinations.md): 中等
   - [216. 组合总和 III](docs/no_0216_combination_sum_iii.md): 中等
+  - [46. 全排列](docs/no_0046_permutations.md): 中等
 - 双指针
   - [42. 接雨水](docs/no_0042_trapping_rain_water.md): 困难
 
