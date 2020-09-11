@@ -43,7 +43,6 @@
 - [42. 接雨水](docs/no_0042_trapping_rain_water.md): 困难
 - [43. 字符串相乘](docs/no_0043_multiply_strings.md): 中等
 - [44. 通配符匹配](docs/no_0044_wildcard_matching.md): 困难
-- [46. 把数字翻译成字符串](docs/no_0046_ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof.md): 中等
 - [51. N 皇后](docs/no_0051_n_queens.md): 困难
 - [53. 最大子序和](docs/no_0053_maximum_subarray.md): 简单
 - [56. 合并区间](docs/merge-intervals.md): 中等
@@ -136,6 +135,7 @@
 - [剑指 Offer 09. 用两个栈实现队列](docs/offer_009_yong_liang_ge_zhan_shi_xian_dui_lie_lcof.md): 简单
 - [剑指 Offer 11. 旋转数组的最小数字](docs/offer_011_xuan_zhuan_shu_zu_de_zui_xiao_shu_zi_lcof.md): 简单
 - [剑指 Offer 20. 表示数值的字符串](docs/offer_020_biao_shi_shu_zhi_de_zi_fu_chuan_lcof.md): 中等
+- [剑指 Offer 46. 把数字翻译成字符串](docs/offer_046_ba_shu_zi_fan_yi_cheng_zi_fu_chuan_lcof.md): 中等
 - [LCP-13. 寻宝](docs/lcp_0013_xun_bao.md): 困难
 - [combination-sum-2](docs/combination_sum_2.md): ?
 - [combination-sum-3](docs/combination_sum_3.md): ?
