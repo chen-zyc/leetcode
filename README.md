@@ -58,6 +58,7 @@
 - [77. 组合](docs/no_0077_combinations.md): 中等
 - [79. 单词搜索](docs/no_0079_word_search.md): 中等
 - [93. 复原IP地址](docs/no_0093_restore_ip_addresses.md): 中等
+- [94. 二叉树的中序遍历](docs/no_0094_binary_tree_inorder_traversal.md): 中等
 - [95. 不同的二叉搜索树 II](docs/no_0095_unique_binary_search_trees_ii.md): 中等
 - [96. 不同的二叉搜索树](docs/no_0096_unique_binary_search_trees.md): 中等
 - [97. 交错字符串](docs/no_0097_interleaving_string.md): 困难
@@ -176,6 +177,10 @@
   - 二叉搜索树
     - [108. 将有序数组转换为二叉搜索树](docs/no_0108_convert_sorted_array_to_binary_search_tree.md)
     - [109. 有序链表转换二叉搜索树](docs/no_0109_convert_sorted_list_to_binary_search_tree.md)
+  - 树的遍历
+    - [94. 二叉树的中序遍历](docs/no_0094_binary_tree_inorder_traversal.md): 中等
+  - Morris 中序遍历
+    - [94. 二叉树的中序遍历](docs/no_0094_binary_tree_inorder_traversal.md): 中等
 - 图
   - 深度/广度优先遍历
     - [200. 岛屿数量](docs/no_0200_number_of_islands.md): 中等

@@ -47,6 +47,7 @@ mod no_0076_minimum_window_substring;
 mod no_0077_combinations;
 mod no_0079_word_search;
 mod no_0093_restore_ip_addresses;
+mod no_0094_binary_tree_inorder_traversal;
 mod no_0095_unique_binary_search_trees_ii;
 mod no_0096_unique_binary_search_trees;
 mod no_0097_interleaving_string;
