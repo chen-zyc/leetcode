@@ -37,6 +37,7 @@
 - [33. 搜索旋转排序数组](docs/no_0033_search_in_rotated_sorted_array.md): 中等
 - [34. 在排序数组中查找元素的第一个和最后一个位置](docs/no_0034_find_first_and_last_position_of_element_in_sorted_array.md): 中等
 - [35. 搜索插入位置](docs/no_0035_search_insert_position.md): 简单
+- [37. 解数独](docs/no_0037_sudoku_solver.md): 困难
 - [39. 组合总和](docs/no_0039_combination_sum.md): 中等
 - [40. 组合总和 II](docs/no_0040_combination_sum_ii.md): 中等
 - [41. 缺失的第一个正数](docs/no_0041_first_missing_positive.md): 困难
@@ -199,6 +200,7 @@
 - 回溯
   - [51. N 皇后](docs/no_0051_n_queens.md): 困难
 - 位运算
+  - [37. 解数独](docs/no_0037_sudoku_solver.md): 困难
   - [51. N 皇后](docs/no_0051_n_queens.md): 困难
   - [77. 组合](docs/no_0077_combinations.md): 中等
 - 排列组合
