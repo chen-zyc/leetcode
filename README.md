@@ -93,6 +93,7 @@
 - [214. 最短回文串](docs/no_0214_shortest_palindrome.md): 困难
 - [215. 数组中的第K个最大元素](docs/no_0215_kth_largest_element_in_an_array.md): 中等
 - [216. 组合总和 III](docs/no_0216_combination_sum_iii.md): 中等
+- [226. 翻转二叉树](docs/no_0226_invert_binary_tree.md): 简单
 - [257. 二叉树的所有路径](docs/no_0257_binary_tree_paths.md): 简单
 - [297. 二叉树的序列化与反序列化](docs/no_0297_serialize_and_deserialize_binary_tree.md): 困难
 - [309. 最佳买卖股票时机含冷冻期](docs/no_0309_best_time_to_buy_and_sell_stock_with_cooldown.md): 中等
@@ -182,6 +183,8 @@
     - [94. 二叉树的中序遍历](docs/no_0094_binary_tree_inorder_traversal.md): 中等
   - Morris 中序遍历
     - [94. 二叉树的中序遍历](docs/no_0094_binary_tree_inorder_traversal.md): 中等
+  - 二叉树
+    - [226. 翻转二叉树](docs/no_0226_invert_binary_tree.md): 简单
 - 图
   - 深度/广度优先遍历
     - [200. 岛屿数量](docs/no_0200_number_of_islands.md): 中等
