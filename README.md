@@ -120,6 +120,7 @@
 - [647. 回文子串](docs/no_0647_palindromic_substrings.md): 中等
 - [657. 机器人能否返回原点](docs/no_0657_robot_return_to_origin.md): 简单(极简)
 - [679. 24 点游戏](docs/no_0679_24_game.md): 困难
+- [685. 冗余连接 II](docs/no_0685_redundant_connection_ii.md): 困难
 - [696. 计数二进制子串](docs/no_0696_count_binary_substrings.md): 简单
 - [718. 最长重复子数组](docs/no_0718_maximum_length_of_repeated_subarray.md): 中等
 - [733. 图像渲染](docs/no_0733_flood_fill.md): 简单
@@ -191,6 +192,7 @@
     - [841. 钥匙和房间](docs/no_0841_keys_and_rooms.md): 中等
 - 并查集
   - [200. 岛屿数量](docs/no_0200_number_of_islands.md): 中等
+  - [685. 冗余连接 II](docs/no_0685_redundant_connection_ii.md): 困难
 - 回文
   - [214. 最短回文串](docs/no_0214_shortest_palindrome.md): 困难
   - [647. 回文子串](docs/no_0647_palindromic_substrings.md)
