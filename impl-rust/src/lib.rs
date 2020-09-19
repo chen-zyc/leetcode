@@ -95,6 +95,7 @@ mod no_0347_top_k_frequent_elements;
 mod no_0350_intersection_of_two_arrays_ii;
 mod no_0378_kth_smallest_element_in_a_sorted_matrix;
 mod no_0392_is_subsequence;
+mod no_0404_sum_of_left_leaves;
 mod no_0410_split_array_largest_sum;
 mod no_0415_add_strings;
 mod no_0459_repeated_substring_pattern;

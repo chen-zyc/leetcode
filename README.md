@@ -109,6 +109,7 @@
 - [350. 两个数组的交集 II](docs/no_0350_intersection_of_two_arrays_ii.md): 简单
 - [378. 有序矩阵中第K小的元素](docs/no_0378_kth_smallest_element_in_a_sorted_matrix.md): 中等
 - [392. 判断子序列](docs/no_0392_is_subsequence.md): 简单
+- [404. 左叶子之和](docs/no_0404_sum_of_left_leaves.md): 简单
 - [410. 分割数组的最大值](docs/no_0410_split_array_largest_sum.md): 困难
 - [415. 字符串相加](docs/no_0415_add_strings.md): 简单
 - [459. 重复的子字符串](docs/no_0459_repeated_substring_pattern.md): 简单(困难)
@@ -187,6 +188,7 @@
     - [94. 二叉树的中序遍历](docs/no_0094_binary_tree_inorder_traversal.md): 中等
   - 二叉树
     - [226. 翻转二叉树](docs/no_0226_invert_binary_tree.md): 简单
+    - [404. 左叶子之和](docs/no_0404_sum_of_left_leaves.md): 简单
 - 图
   - 深度/广度优先遍历
     - [200. 岛屿数量](docs/no_0200_number_of_islands.md): 中等
