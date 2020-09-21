@@ -116,6 +116,7 @@
 - [486. 预测赢家](docs/no_0486_predict_the_winner.md): 中等
 - [491. 递增子序列](docs/no_0491_increasing_subsequences.md): 中等(困难)
 - [529. 扫雷游戏](docs/no_0529_minesweeper.md): 中等
+- [538. 把二叉搜索树转换为累加树](docs/no_0538_convert_bst_to_greater_tree.md): 简单
 - [546. 移除盒子](docs/no_0546_remove_boxes.md): 困难
 - [557. 反转字符串中的单词 III](docs/no_0557_reverse_words_in_a_string_iii.md): 简单
 - [632. 最小区间](docs/no_0632_smallest_range_covering_elements_from_k_lists.md): 困难
@@ -182,10 +183,12 @@
   - 二叉搜索树
     - [108. 将有序数组转换为二叉搜索树](docs/no_0108_convert_sorted_array_to_binary_search_tree.md)
     - [109. 有序链表转换二叉搜索树](docs/no_0109_convert_sorted_list_to_binary_search_tree.md)
+    - [538. 把二叉搜索树转换为累加树](docs/no_0538_convert_bst_to_greater_tree.md): 简单
   - 树的遍历
     - [94. 二叉树的中序遍历](docs/no_0094_binary_tree_inorder_traversal.md): 中等
   - Morris 中序遍历
     - [94. 二叉树的中序遍历](docs/no_0094_binary_tree_inorder_traversal.md): 中等
+    - [538. 把二叉搜索树转换为累加树](docs/no_0538_convert_bst_to_greater_tree.md): 简单
   - 二叉树
     - [226. 翻转二叉树](docs/no_0226_invert_binary_tree.md): 简单
     - [404. 左叶子之和](docs/no_0404_sum_of_left_leaves.md): 简单
