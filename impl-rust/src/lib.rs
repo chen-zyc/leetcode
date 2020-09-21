@@ -49,6 +49,7 @@ mod no_0070_climbing_stairs;
 mod no_0072_edit_distance;
 mod no_0076_minimum_window_substring;
 mod no_0077_combinations;
+mod no_0078_subsets;
 mod no_0079_word_search;
 mod no_0093_restore_ip_addresses;
 mod no_0094_binary_tree_inorder_traversal;

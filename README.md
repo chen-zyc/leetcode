@@ -58,6 +58,7 @@
 - [72. 编辑距离](docs/no_0072_edit_distance.md): 困难
 - [76. 最小覆盖子串](docs/no_0076_minimum_window_substring.md): 困难
 - [77. 组合](docs/no_0077_combinations.md): 中等
+- [78. 子集](docs/no_0078_subsets.md): 中等
 - [79. 单词搜索](docs/no_0079_word_search.md): 中等
 - [93. 复原IP地址](docs/no_0093_restore_ip_addresses.md): 中等
 - [94. 二叉树的中序遍历](docs/no_0094_binary_tree_inorder_traversal.md): 中等
@@ -214,12 +215,14 @@
   - [37. 解数独](docs/no_0037_sudoku_solver.md): 困难
   - [51. N 皇后](docs/no_0051_n_queens.md): 困难
   - [77. 组合](docs/no_0077_combinations.md): 中等
+  - [78. 子集](docs/no_0078_subsets.md): 中等
 - 排列组合
   - [40. 组合总和 II](docs/no_0040_combination_sum_ii.md): 中等
   - [77. 组合](docs/no_0077_combinations.md): 中等
   - [216. 组合总和 III](docs/no_0216_combination_sum_iii.md): 中等
   - [46. 全排列](docs/no_0046_permutations.md): 中等
   - [47. 全排列 II](docs/no_0047_permutations_ii.md): 中等
+  - [78. 子集](docs/no_0078_subsets.md): 中等
 - 双指针
   - [42. 接雨水](docs/no_0042_trapping_rain_water.md): 困难
 
