@@ -131,6 +131,7 @@
 - [739. 每日温度](docs/no_0739_daily_temperatures.md): 中等
 - [785. 判断二分图](docs/no_0785_is_graph_bipartite.md): 中等
 - [841. 钥匙和房间](docs/no_0841_keys_and_rooms.md): 中等
+- [968. 监控二叉树](docs/no_0968_binary_tree_cameras.md): 困难
 - [1014. 最佳观光组合](docs/no_1014_best_sightseeing_pair.md): 中等
 - [1025. 除数博弈](docs/no_1025_divisor_game.md): 简单
 - [1028. 从先序遍历还原二叉树](docs/no_1028_recover_a_tree_from_preorder_traversal.md): 困难
