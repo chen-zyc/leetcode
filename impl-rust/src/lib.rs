@@ -108,6 +108,7 @@ mod no_0529_minesweeper;
 mod no_0538_convert_bst_to_greater_tree;
 mod no_0546_remove_boxes;
 mod no_0557_reverse_words_in_a_string_iii;
+mod no_0617_merge_two_binary_trees;
 mod no_0647_palindromic_substrings;
 mod no_0657_robot_return_to_origin;
 mod no_0679_24_game;

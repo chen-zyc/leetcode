@@ -120,6 +120,7 @@
 - [538. 把二叉搜索树转换为累加树](docs/no_0538_convert_bst_to_greater_tree.md): 简单
 - [546. 移除盒子](docs/no_0546_remove_boxes.md): 困难
 - [557. 反转字符串中的单词 III](docs/no_0557_reverse_words_in_a_string_iii.md): 简单
+- [617. 合并二叉树](docs/no_0617_merge_two_binary_trees.md): 简单
 - [632. 最小区间](docs/no_0632_smallest_range_covering_elements_from_k_lists.md): 困难
 - [647. 回文子串](docs/no_0647_palindromic_substrings.md): 中等
 - [657. 机器人能否返回原点](docs/no_0657_robot_return_to_origin.md): 简单(极简)
@@ -194,6 +195,8 @@
   - 二叉树
     - [226. 翻转二叉树](docs/no_0226_invert_binary_tree.md): 简单
     - [404. 左叶子之和](docs/no_0404_sum_of_left_leaves.md): 简单
+  - 深度/广度优先遍历
+    - [617. 合并二叉树](docs/no_0617_merge_two_binary_trees.md): 简单
 - 图
   - 深度/广度优先遍历
     - [200. 岛屿数量](docs/no_0200_number_of_islands.md): 中等
