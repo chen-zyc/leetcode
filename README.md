@@ -116,6 +116,7 @@
 - [459. 重复的子字符串](docs/no_0459_repeated_substring_pattern.md): 简单(困难)
 - [486. 预测赢家](docs/no_0486_predict_the_winner.md): 中等
 - [491. 递增子序列](docs/no_0491_increasing_subsequences.md): 中等(困难)
+- [501. 二叉搜索树中的众数](docs/no_0501_find_mode_in_binary_search_tree.md): 简单(中等)
 - [529. 扫雷游戏](docs/no_0529_minesweeper.md): 中等
 - [538. 把二叉搜索树转换为累加树](docs/no_0538_convert_bst_to_greater_tree.md): 简单
 - [546. 移除盒子](docs/no_0546_remove_boxes.md): 困难
@@ -191,6 +192,7 @@
     - [94. 二叉树的中序遍历](docs/no_0094_binary_tree_inorder_traversal.md): 中等
   - Morris 中序遍历
     - [94. 二叉树的中序遍历](docs/no_0094_binary_tree_inorder_traversal.md): 中等
+    - [501. 二叉搜索树中的众数](docs/no_0501_find_mode_in_binary_search_tree.md): 简单(中等)
     - [538. 把二叉搜索树转换为累加树](docs/no_0538_convert_bst_to_greater_tree.md): 简单
   - 二叉树
     - [226. 翻转二叉树](docs/no_0226_invert_binary_tree.md): 简单

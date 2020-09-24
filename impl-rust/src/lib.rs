@@ -104,6 +104,7 @@ mod no_0415_add_strings;
 mod no_0459_repeated_substring_pattern;
 mod no_0486_predict_the_winner;
 mod no_0491_increasing_subsequences;
+mod no_0501_find_mode_in_binary_search_tree;
 mod no_0529_minesweeper;
 mod no_0538_convert_bst_to_greater_tree;
 mod no_0546_remove_boxes;
