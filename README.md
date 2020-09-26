@@ -75,6 +75,7 @@
 - [110. 平衡二叉树](docs/no_0110_balanced_binary_tree.md): 简单
 - [111. 二叉树的最小深度](docs/no_0111_minimum_depth_of_binary_tree.md): 简单
 - [112. 路径总和](docs/no_0112_path_sum.md): 简单
+- [113. 路径总和 II](docs/no_0113_path_sum_ii.md): 中等
 - [114. 二叉树展开为链表](docs/no_0114_flatten_binary_tree_to_linked_list.md): 中等
 - [120. 三角形最小路径和](docs/no_0120_triangle.md): 中等
 - [124. 二叉树中的最大路径和](docs/no_0124_binary_tree_maximum_path_sum.md): 困难
@@ -200,6 +201,7 @@
     - [226. 翻转二叉树](docs/no_0226_invert_binary_tree.md): 简单
     - [404. 左叶子之和](docs/no_0404_sum_of_left_leaves.md): 简单
   - 深度/广度优先遍历
+    - [113. 路径总和 II](docs/no_0113_path_sum_ii.md): 中等
     - [617. 合并二叉树](docs/no_0617_merge_two_binary_trees.md): 简单
 - 图
   - 深度/广度优先遍历
