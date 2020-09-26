@@ -59,6 +59,7 @@ mod no_0097_interleaving_string;
 mod no_0099_recover_binary_search_tree;
 mod no_0100_same_tree;
 mod no_0104_maximum_depth_of_binary_tree;
+mod no_0106_construct_binary_tree_from_inorder_and_postorder_traversal;
 mod no_0107_binary_tree_level_order_traversal_ii;
 mod no_0108_convert_sorted_array_to_binary_search_tree;
 mod no_0109_convert_sorted_list_to_binary_search_tree;
