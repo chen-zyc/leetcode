@@ -98,6 +98,7 @@
 - [215. 数组中的第K个最大元素](docs/no_0215_kth_largest_element_in_an_array.md): 中等
 - [216. 组合总和 III](docs/no_0216_combination_sum_iii.md): 中等
 - [226. 翻转二叉树](docs/no_0226_invert_binary_tree.md): 简单
+- [235. 二叉搜索树的最近公共祖先](docs/no_0235_lowest_common_ancestor_of_a_binary_search_tree.md): 简单
 - [257. 二叉树的所有路径](docs/no_0257_binary_tree_paths.md): 简单
 - [297. 二叉树的序列化与反序列化](docs/no_0297_serialize_and_deserialize_binary_tree.md): 困难
 - [309. 最佳买卖股票时机含冷冻期](docs/no_0309_best_time_to_buy_and_sell_stock_with_cooldown.md): 中等
@@ -189,6 +190,7 @@
   - 二叉搜索树
     - [108. 将有序数组转换为二叉搜索树](docs/no_0108_convert_sorted_array_to_binary_search_tree.md)
     - [109. 有序链表转换二叉搜索树](docs/no_0109_convert_sorted_list_to_binary_search_tree.md)
+    - [235. 二叉搜索树的最近公共祖先](docs/no_0235_lowest_common_ancestor_of_a_binary_search_tree.md): 简单
     - [538. 把二叉搜索树转换为累加树](docs/no_0538_convert_bst_to_greater_tree.md): 简单
   - 树的遍历
     - [94. 二叉树的中序遍历](docs/no_0094_binary_tree_inorder_traversal.md): 中等
