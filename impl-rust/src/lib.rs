@@ -74,6 +74,7 @@ mod no_0125_valid_palindrome;
 mod no_0130_surrounded_regions;
 mod no_0136_single_number;
 mod no_0139_word_break;
+mod no_0145_binary_tree_postorder_traversal;
 mod no_0167_two_sum_ii_input_array_is_sorted;
 mod no_0174_dungeon_game;
 mod no_0200_number_of_islands;
