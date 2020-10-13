@@ -31,6 +31,7 @@
 - [21. 合并两个有序链表](docs/no_0021_merge_two_sorted_lists.md): 简单
 - [22. 括号生成](docs/no_0022_generate_parentheses.md): 中等
 - [23. 合并K个排序链表](docs/no_0023_merge_k_sorted_lists.md): 困难
+- [24. 两两交换链表中的节点](docs/no_0024_swap_nodes_in_pairs.md): 中等(简单)
 - [26. 删除排序数组中的重复项](docs/no_0026_remove_duplicates_from_sorted_array.md): 简单
 - [31. 下一个排列](docs/no_0031_next_permutation.md): 中等
 - [32. 最长有效括号](docs/no_0032_longest_valid_parentheses.md): 困难
@@ -182,6 +183,8 @@
 - 堆
   - [23. 合并K个排序链表](docs/no_0023_merge_k_sorted_lists.md)
   - [347. 前 K 个高频元素](docs/no_0347_top_k_frequent_elements.md): 中等
+- 链表
+  - [24. 两两交换链表中的节点](docs/no_0024_swap_nodes_in_pairs.md): 中等(简单)
 - 动态规则
   - [53. 最大子序和](docs/no_0053_maximum_subarray.md)
   - [72. 编辑距离](docs/no_0072_edit_distance.md): 困难

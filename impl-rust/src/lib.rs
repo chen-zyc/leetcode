@@ -24,6 +24,7 @@ mod no_0020_valid_parentheses;
 mod no_0021_merge_two_sorted_lists;
 mod no_0022_generate_parentheses;
 mod no_0023_merge_k_sorted_lists;
+mod no_0024_swap_nodes_in_pairs;
 mod no_0026_remove_duplicates_from_sorted_array;
 mod no_0031_next_permutation;
 mod no_0032_longest_valid_parentheses;
