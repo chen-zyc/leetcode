@@ -78,6 +78,7 @@
 - [112. 路径总和](docs/no_0112_path_sum.md): 简单
 - [113. 路径总和 II](docs/no_0113_path_sum_ii.md): 中等
 - [114. 二叉树展开为链表](docs/no_0114_flatten_binary_tree_to_linked_list.md): 中等
+- [116. 填充每个节点的下一个右侧节点指针](docs/no_0116_populating_next_right_pointers_in_each_node.md): 中等
 - [117. 填充每个节点的下一个右侧节点指针 II](docs/no_0117_populating_next_right_pointers_in_each_node_ii.md): 中等
 - [120. 三角形最小路径和](docs/no_0120_triangle.md): 中等
 - [124. 二叉树中的最大路径和](docs/no_0124_binary_tree_maximum_path_sum.md): 困难
@@ -206,6 +207,7 @@
     - [538. 把二叉搜索树转换为累加树](docs/no_0538_convert_bst_to_greater_tree.md): 简单
   - 二叉树
     - [106. 从中序与后序遍历序列构造二叉树](docs/no_0106_construct_binary_tree_from_inorder_and_postorder_traversal.md): 中等
+    - [116. 填充每个节点的下一个右侧节点指针](docs/no_0116_populating_next_right_pointers_in_each_node.md): 中等
     - [117. 填充每个节点的下一个右侧节点指针 II](docs/no_0117_populating_next_right_pointers_in_each_node_ii.md): 中等
     - [145. 二叉树的后序遍历](docs/no_0145_binary_tree_postorder_traversal.md): 中等
     - [226. 翻转二叉树](docs/no_0226_invert_binary_tree.md): 简单
