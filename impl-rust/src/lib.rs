@@ -124,6 +124,7 @@ mod no_0739_daily_temperatures;
 mod no_0785_is_graph_bipartite;
 mod no_0841_keys_and_rooms;
 mod no_0968_binary_tree_cameras;
+mod no_0977_squares_of_a_sorted_array;
 mod no_1014_best_sightseeing_pair;
 mod no_1025_divisor_game;
 mod no_1028_recover_a_tree_from_preorder_traversal;
