@@ -140,6 +140,7 @@
 - [739. 每日温度](docs/no_0739_daily_temperatures.md): 中等
 - [785. 判断二分图](docs/no_0785_is_graph_bipartite.md): 中等
 - [841. 钥匙和房间](docs/no_0841_keys_and_rooms.md): 中等
+- [844. 比较含退格的字符串](docs/no_0844_backspace_string_compare.md): 简单
 - [968. 监控二叉树](docs/no_0968_binary_tree_cameras.md): 困难
 - [977. 有序数组的平方](docs/no_0977_squares_of_a_sorted_array.md): 简单
 - [1014. 最佳观光组合](docs/no_1014_best_sightseeing_pair.md): 中等
@@ -248,6 +249,7 @@
   - [47. 全排列 II](docs/no_0047_permutations_ii.md): 中等
   - [78. 子集](docs/no_0078_subsets.md): 中等
 - 双指针
+  - [19. 删除链表的倒数第N个节点](docs/no_0019_remove_nth_node_from_end_of_list.md): 中等
   - [42. 接雨水](docs/no_0042_trapping_rain_water.md): 困难
   - [977. 有序数组的平方](docs/no_0977_squares_of_a_sorted_array.md): 简单
 
