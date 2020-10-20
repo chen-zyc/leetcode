@@ -87,6 +87,7 @@
 - [133. 克隆图](docs/no_0133_clone_graph.md): 中等
 - [136. 只出现一次的数字](docs/no_0136_single_number.md): 简单
 - [139. 单词拆分](docs/no_0139_word_break.md): 中等
+- [143. 重排链表](docs/no_0143_reorder_list.md): 中等
 - [145. 二叉树的后序遍历](docs/no_0145_binary_tree_postorder_traversal.md): 中等
 - [146. LRU缓存机制](docs/no_0146_lru_cache.md): 中等
 - [167. 两数之和 II - 输入有序数组](docs/no_0167_two_sum_ii_input_array_is_sorted.md): 简单
@@ -188,6 +189,7 @@
   - [347. 前 K 个高频元素](docs/no_0347_top_k_frequent_elements.md): 中等
 - 链表
   - [24. 两两交换链表中的节点](docs/no_0024_swap_nodes_in_pairs.md): 中等(简单)
+  - [143. 重排链表](docs/no_0143_reorder_list.md): 中等
 - 动态规则
   - [53. 最大子序和](docs/no_0053_maximum_subarray.md)
   - [72. 编辑距离](docs/no_0072_edit_distance.md): 困难
