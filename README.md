@@ -142,6 +142,7 @@
 - [785. 判断二分图](docs/no_0785_is_graph_bipartite.md): 中等
 - [841. 钥匙和房间](docs/no_0841_keys_and_rooms.md): 中等
 - [844. 比较含退格的字符串](docs/no_0844_backspace_string_compare.md): 简单
+- [925. 长按键入](docs/no_0925_long_pressed_name.md): 简单
 - [968. 监控二叉树](docs/no_0968_binary_tree_cameras.md): 困难
 - [977. 有序数组的平方](docs/no_0977_squares_of_a_sorted_array.md): 简单
 - [1014. 最佳观光组合](docs/no_1014_best_sightseeing_pair.md): 中等
