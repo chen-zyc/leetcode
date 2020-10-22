@@ -122,6 +122,7 @@ mod no_0696_count_binary_substrings;
 mod no_0718_maximum_length_of_repeated_subarray;
 mod no_0733_flood_fill;
 mod no_0739_daily_temperatures;
+mod no_0763_partition_labels;
 mod no_0785_is_graph_bipartite;
 mod no_0841_keys_and_rooms;
 mod no_0844_backspace_string_compare;

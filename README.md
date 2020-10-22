@@ -139,6 +139,7 @@
 - [718. 最长重复子数组](docs/no_0718_maximum_length_of_repeated_subarray.md): 中等
 - [733. 图像渲染](docs/no_0733_flood_fill.md): 简单
 - [739. 每日温度](docs/no_0739_daily_temperatures.md): 中等
+- [763. 划分字母区间](docs/no_0763_partition_labels.md): 中等
 - [785. 判断二分图](docs/no_0785_is_graph_bipartite.md): 中等
 - [841. 钥匙和房间](docs/no_0841_keys_and_rooms.md): 中等
 - [844. 比较含退格的字符串](docs/no_0844_backspace_string_compare.md): 简单
