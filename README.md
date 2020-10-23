@@ -103,6 +103,7 @@
 - [215. 数组中的第K个最大元素](docs/no_0215_kth_largest_element_in_an_array.md): 中等
 - [216. 组合总和 III](docs/no_0216_combination_sum_iii.md): 中等
 - [226. 翻转二叉树](docs/no_0226_invert_binary_tree.md): 简单
+- [234. 回文链表](docs/no_0234_palindrome_linked_list.md): 简单
 - [235. 二叉搜索树的最近公共祖先](docs/no_0235_lowest_common_ancestor_of_a_binary_search_tree.md): 简单
 - [257. 二叉树的所有路径](docs/no_0257_binary_tree_paths.md): 简单
 - [297. 二叉树的序列化与反序列化](docs/no_0297_serialize_and_deserialize_binary_tree.md): 困难
@@ -231,6 +232,7 @@
   - [685. 冗余连接 II](docs/no_0685_redundant_connection_ii.md): 困难
 - 回文
   - [214. 最短回文串](docs/no_0214_shortest_palindrome.md): 困难
+  - [234. 回文链表](docs/no_0234_palindrome_linked_list.md): 简单
   - [647. 回文子串](docs/no_0647_palindromic_substrings.md)
 - 状态机
   - [剑指 Offer 20. 表示数值的字符串](docs/offer_020_biao_shi_shu_zhi_de_zi_fu_chuan_lcof.md): 中等
