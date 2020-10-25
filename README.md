@@ -148,6 +148,7 @@
 - [968. 监控二叉树](docs/no_0968_binary_tree_cameras.md): 困难
 - [977. 有序数组的平方](docs/no_0977_squares_of_a_sorted_array.md): 简单
 - [1014. 最佳观光组合](docs/no_1014_best_sightseeing_pair.md): 中等
+- [1024. 视频拼接](docs/no_1024_video_stitching.md): 中等
 - [1025. 除数博弈](docs/no_1025_divisor_game.md): 简单
 - [1028. 从先序遍历还原二叉树](docs/no_1028_recover_a_tree_from_preorder_traversal.md): 困难
 - [1109. 航班预订统计](docs/no_1109_corporate_flight_bookings.md): 中等
@@ -197,6 +198,7 @@
   - [53. 最大子序和](docs/no_0053_maximum_subarray.md)
   - [72. 编辑距离](docs/no_0072_edit_distance.md): 困难
   - [486. 预测赢家](docs/no_0486_predict_the_winner.md): 中等
+  - [1024. 视频拼接](docs/no_1024_video_stitching.md): 中等
 - 树
   - 线段树
     - [53. 最大子序和](docs/no_0053_maximum_subarray.md)

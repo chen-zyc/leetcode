@@ -131,6 +131,7 @@ mod no_0925_long_pressed_name;
 mod no_0968_binary_tree_cameras;
 mod no_0977_squares_of_a_sorted_array;
 mod no_1014_best_sightseeing_pair;
+mod no_1024_video_stitching;
 mod no_1025_divisor_game;
 mod no_1028_recover_a_tree_from_preorder_traversal;
 mod no_1109_corporate_flight_bookings;
