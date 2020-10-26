@@ -154,6 +154,7 @@
 - [1028. 从先序遍历还原二叉树](docs/no_1028_recover_a_tree_from_preorder_traversal.md): 困难
 - [1109. 航班预订统计](docs/no_1109_corporate_flight_bookings.md): 中等
 - [1300. 转变数组后最接近目标值的数组和](docs/no_1300_sum_of_mutated_array_closest_to_target.md): 中等
+- [1365. 有多少小于当前数字的数字](docs/no_1365_how_many_numbers_are_smaller_than_the_current_number.md): 简单
 - [面试题 02.01. 移除重复节点](docs/interview_02_01_remove_duplicate_node_lcci.md): 简单
 - [面试题 08.03. 魔术索引](docs/interview_08_03_magic_index_lcci.md): 简单
 - [面试题 16.11. 跳水板](docs/interview_16_11_diving_board_lcci.md): 简单
