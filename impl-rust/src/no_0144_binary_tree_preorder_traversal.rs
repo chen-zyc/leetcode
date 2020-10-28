@@ -3,7 +3,7 @@ use std::cell::RefCell;
 use std::rc::Rc;
 struct Solution;
 impl Solution {
-    pub fn preorder_traversal1(root: Option<Rc<RefCell<TreeNode>>>) -> Vec<i32> {
+    pub fn preorder_traversal(root: Option<Rc<RefCell<TreeNode>>>) -> Vec<i32> {
         let mut ans = Vec::new();
         Self::dfs(&root, &mut ans);
         ans

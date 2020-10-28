@@ -137,6 +137,7 @@ mod no_1024_video_stitching;
 mod no_1025_divisor_game;
 mod no_1028_recover_a_tree_from_preorder_traversal;
 mod no_1109_corporate_flight_bookings;
+mod no_1207_unique_number_of_occurrences;
 mod no_1300_sum_of_mutated_array_closest_to_target;
 mod no_1365_how_many_numbers_are_smaller_than_the_current_number;
 
