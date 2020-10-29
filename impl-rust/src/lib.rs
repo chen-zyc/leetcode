@@ -72,6 +72,7 @@ mod no_0114_flatten_binary_tree_to_linked_list;
 mod no_0120_triangle;
 mod no_0124_binary_tree_maximum_path_sum;
 mod no_0125_valid_palindrome;
+mod no_0129_sum_root_to_leaf_numbers;
 mod no_0130_surrounded_regions;
 mod no_0136_single_number;
 mod no_0139_word_break;

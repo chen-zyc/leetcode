@@ -83,6 +83,7 @@
 - [120. 三角形最小路径和](docs/no_0120_triangle.md): 中等
 - [124. 二叉树中的最大路径和](docs/no_0124_binary_tree_maximum_path_sum.md): 困难
 - [125. 验证回文串](docs/no_0125_valid_palindrome.md): 简单
+- [129. 求根到叶子节点数字之和](docs/no_0129_sum_root_to_leaf_numbers.md): 中等
 - [130. 被围绕的区域](docs/no_0130_surrounded_regions.md): 中等
 - [133. 克隆图](docs/no_0133_clone_graph.md): 中等
 - [136. 只出现一次的数字](docs/no_0136_single_number.md): 简单
@@ -229,6 +230,7 @@
     - [404. 左叶子之和](docs/no_0404_sum_of_left_leaves.md): 简单
   - 深度/广度优先遍历
     - [113. 路径总和 II](docs/no_0113_path_sum_ii.md): 中等
+    - [129. 求根到叶子节点数字之和](docs/no_0129_sum_root_to_leaf_numbers.md): 中等
     - [145. 二叉树的后序遍历](docs/no_0145_binary_tree_postorder_traversal.md): 中等
     - [617. 合并二叉树](docs/no_0617_merge_two_binary_trees.md): 简单
 - 图
