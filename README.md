@@ -125,6 +125,7 @@
 - [410. 分割数组的最大值](docs/no_0410_split_array_largest_sum.md): 困难
 - [415. 字符串相加](docs/no_0415_add_strings.md): 简单
 - [459. 重复的子字符串](docs/no_0459_repeated_substring_pattern.md): 简单(困难)
+- [463. 岛屿的周长](docs/no_0463_island_perimeter.md): 简单
 - [486. 预测赢家](docs/no_0486_predict_the_winner.md): 中等
 - [491. 递增子序列](docs/no_0491_increasing_subsequences.md): 中等(困难)
 - [501. 二叉搜索树中的众数](docs/no_0501_find_mode_in_binary_search_tree.md): 简单(中等)
@@ -236,6 +237,7 @@
 - 图
   - 深度/广度优先遍历
     - [200. 岛屿数量](docs/no_0200_number_of_islands.md): 中等
+    - [463. 岛屿的周长](docs/no_0463_island_perimeter.md): 简单
     - [841. 钥匙和房间](docs/no_0841_keys_and_rooms.md): 中等
 - 并查集
   - [200. 岛屿数量](docs/no_0200_number_of_islands.md): 中等
