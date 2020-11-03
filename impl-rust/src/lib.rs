@@ -133,6 +133,7 @@ mod no_0841_keys_and_rooms;
 mod no_0844_backspace_string_compare;
 mod no_0845_longest_mountain_in_array;
 mod no_0925_long_pressed_name;
+mod no_0941_valid_mountain_array;
 mod no_0968_binary_tree_cameras;
 mod no_0977_squares_of_a_sorted_array;
 mod no_1014_best_sightseeing_pair;

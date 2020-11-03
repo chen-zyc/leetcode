@@ -150,6 +150,7 @@
 - [844. 比较含退格的字符串](docs/no_0844_backspace_string_compare.md): 简单
 - [845. 数组中的最长山脉](docs/no_0845_longest_mountain_in_array.md): 中等
 - [925. 长按键入](docs/no_0925_long_pressed_name.md): 简单
+- [941. 有效的山脉数组](docs/no_0941_valid_mountain_array.md): 简单
 - [968. 监控二叉树](docs/no_0968_binary_tree_cameras.md): 困难
 - [977. 有序数组的平方](docs/no_0977_squares_of_a_sorted_array.md): 简单
 - [1014. 最佳观光组合](docs/no_1014_best_sightseeing_pair.md): 中等
