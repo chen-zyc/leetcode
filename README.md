@@ -118,6 +118,7 @@
 - [337. 打家劫舍 III](docs/no_0337_house_robber_iii.md): 中等
 - [343. 整数拆分](docs/no_0343_integer_break.md): 中等
 - [347. 前 K 个高频元素](docs/no_0347_top_k_frequent_elements.md): 中等
+- [349. 两个数组的交集](docs/no_0349_intersection_of_two_arrays.md): 简单
 - [350. 两个数组的交集 II](docs/no_0350_intersection_of_two_arrays_ii.md): 简单
 - [378. 有序矩阵中第K小的元素](docs/no_0378_kth_smallest_element_in_a_sorted_matrix.md): 中等
 - [392. 判断子序列](docs/no_0392_is_subsequence.md): 简单
