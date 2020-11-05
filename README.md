@@ -50,7 +50,7 @@
 - [51. N 皇后](docs/no_0051_n_queens.md): 困难
 - [53. 最大子序和](docs/no_0053_maximum_subarray.md): 简单
 - [56. 合并区间](docs/merge-intervals.md): 中等
-- [57. 插入区间](docs/insert-interval.md): 困难
+- [57. 插入区间](docs/no_0057_insert_interval.md): 困难(简单)
 - [60. 第k个排列](docs/no_0060_permutation_sequence.md): 中等
 - [63. 不同路径 II](docs/no_0063_unique_paths_ii.md): 中等
 - [64. 最小路径和](docs/no_0064_minimum_path_sum.md): 中等

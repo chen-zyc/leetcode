@@ -42,6 +42,7 @@ mod no_0046_permutations;
 mod no_0047_permutations_ii;
 mod no_0051_n_queens;
 mod no_0053_maximum_subarray;
+mod no_0057_insert_interval;
 mod no_0060_permutation_sequence;
 mod no_0063_unique_paths_ii;
 mod no_0064_minimum_path_sum;
