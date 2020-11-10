@@ -40,6 +40,7 @@ mod no_0043_multiply_strings;
 mod no_0044_wildcard_matching;
 mod no_0046_permutations;
 mod no_0047_permutations_ii;
+mod no_0049_group_anagrams;
 mod no_0051_n_queens;
 mod no_0053_maximum_subarray;
 mod no_0057_insert_interval;

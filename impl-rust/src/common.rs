@@ -61,7 +61,13 @@ pub fn head_list_node(
     (None, None)
 }
 
-pub fn sort_2d_vec(v: &mut Vec<Vec<i32>>) {
+pub fn sort_2d_vec<T>(v: &mut Vec<Vec<T>>)
+where
+    T: Ord,
+{
+    for vec in v.iter_mut() {
+        vec.sort();
+    }
     v.sort_by(|a, b| match a.len().cmp(&b.len()) {
         Ordering::Less => Ordering::Less,
         Ordering::Greater => Ordering::Greater,

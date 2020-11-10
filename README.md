@@ -47,6 +47,7 @@
 - [44. 通配符匹配](docs/no_0044_wildcard_matching.md): 困难
 - [46. 全排列](docs/no_0046_permutations.md): 中等
 - [47. 全排列 II](docs/no_0047_permutations_ii.md): 中等
+- [49. 字母异位词分组](docs/no_0049_group_anagrams.md): 中等(简单)
 - [51. N 皇后](docs/no_0051_n_queens.md): 困难
 - [53. 最大子序和](docs/no_0053_maximum_subarray.md): 简单
 - [56. 合并区间](docs/merge-intervals.md): 中等
