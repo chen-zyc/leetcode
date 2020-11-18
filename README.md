@@ -88,6 +88,7 @@
 - [129. 求根到叶子节点数字之和](docs/no_0129_sum_root_to_leaf_numbers.md): 中等
 - [130. 被围绕的区域](docs/no_0130_surrounded_regions.md): 中等
 - [133. 克隆图](docs/no_0133_clone_graph.md): 中等
+- [134. 加油站](docs/no_0134_gas_station.md): 中等
 - [136. 只出现一次的数字](docs/no_0136_single_number.md): 简单
 - [139. 单词拆分](docs/no_0139_word_break.md): 中等
 - [143. 重排链表](docs/no_0143_reorder_list.md): 中等
