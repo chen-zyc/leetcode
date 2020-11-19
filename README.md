@@ -111,6 +111,7 @@
 - [234. 回文链表](docs/no_0234_palindrome_linked_list.md): 简单
 - [235. 二叉搜索树的最近公共祖先](docs/no_0235_lowest_common_ancestor_of_a_binary_search_tree.md): 简单
 - [257. 二叉树的所有路径](docs/no_0257_binary_tree_paths.md): 简单
+- [283. 移动零](docs/others.md): 简单
 - [297. 二叉树的序列化与反序列化](docs/no_0297_serialize_and_deserialize_binary_tree.md): 困难
 - [309. 最佳买卖股票时机含冷冻期](docs/no_0309_best_time_to_buy_and_sell_stock_with_cooldown.md): 中等
 - [312. 戳气球](docs/no_0312_burst_balloons.md): 困难
