@@ -95,6 +95,7 @@
 - [144. 二叉树的前序遍历](docs/no_0144_binary_tree_preorder_traversal.md): 中等
 - [145. 二叉树的后序遍历](docs/no_0145_binary_tree_postorder_traversal.md): 中等
 - [146. LRU缓存机制](docs/no_0146_lru_cache.md): 中等
+- [164. 最大间距](docs/no_0164_maximum_gap.md): 困难
 - [167. 两数之和 II - 输入有序数组](docs/no_0167_two_sum_ii_input_array_is_sorted.md): 简单
 - [174. 地下城游戏](docs/no_0174_dungeon_game.md): 困难
 - [200. 岛屿数量](docs/no_0200_number_of_islands.md): 中等
@@ -196,7 +197,10 @@
   - 快排
     - [347. 前 K 个高频元素](docs/no_0347_top_k_frequent_elements.md): 中等
   - 桶排
+    - [164. 最大间距](docs/no_0164_maximum_gap.md): 困难
     - [347. 前 K 个高频元素](docs/no_0347_top_k_frequent_elements.md): 中等
+  - 基数排序
+    - [164. 最大间距](docs/no_0164_maximum_gap.md): 困难
 - 栈
   - [22. 括号生成](docs/no_0022_generate_parentheses.md)
   - [42. 接雨水](docs/no_0042_trapping_rain_water.md): 困难
