@@ -115,6 +115,7 @@ mod no_0392_is_subsequence;
 mod no_0404_sum_of_left_leaves;
 mod no_0410_split_array_largest_sum;
 mod no_0415_add_strings;
+mod no_0455_assign_cookies;
 mod no_0459_repeated_substring_pattern;
 mod no_0463_island_perimeter;
 mod no_0486_predict_the_winner;
