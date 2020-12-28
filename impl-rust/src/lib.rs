@@ -44,6 +44,7 @@ mod no_0048_rotate_image;
 mod no_0049_group_anagrams;
 mod no_0051_n_queens;
 mod no_0053_maximum_subarray;
+mod no_0055_jump_game;
 mod no_0057_insert_interval;
 mod no_0060_permutation_sequence;
 mod no_0063_unique_paths_ii;

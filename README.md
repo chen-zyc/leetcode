@@ -51,6 +51,7 @@
 - [49. 字母异位词分组](docs/no_0049_group_anagrams.md): 中等(简单)
 - [51. N 皇后](docs/no_0051_n_queens.md): 困难
 - [53. 最大子序和](docs/no_0053_maximum_subarray.md): 简单
+- [55. 跳跃游戏](docs/no_0055_jump_game.md): 中等
 - [56. 合并区间](docs/merge-intervals.md): 中等
 - [57. 插入区间](docs/no_0057_insert_interval.md): 困难(简单)
 - [60. 第k个排列](docs/no_0060_permutation_sequence.md): 中等
