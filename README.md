@@ -55,6 +55,7 @@
 - [56. 合并区间](docs/merge-intervals.md): 中等
 - [57. 插入区间](docs/no_0057_insert_interval.md): 困难(简单)
 - [60. 第k个排列](docs/no_0060_permutation_sequence.md): 中等
+- [62. 不同路径](docs/no_0062_unique_paths.md): 中等
 - [63. 不同路径 II](docs/no_0063_unique_paths_ii.md): 中等
 - [64. 最小路径和](docs/no_0064_minimum_path_sum.md): 中等
 - [67. 二进制求和](docs/no_0067_add_binary.md): 简单

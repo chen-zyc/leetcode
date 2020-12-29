@@ -47,6 +47,7 @@ mod no_0053_maximum_subarray;
 mod no_0055_jump_game;
 mod no_0057_insert_interval;
 mod no_0060_permutation_sequence;
+mod no_0062_unique_paths;
 mod no_0063_unique_paths_ii;
 mod no_0064_minimum_path_sum;
 mod no_0067_add_binary;
