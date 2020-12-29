@@ -61,6 +61,7 @@
 - [67. 二进制求和](docs/no_0067_add_binary.md): 简单
 - [70. 爬楼梯](docs/no_0070_climbing-stairs.md): 简单
 - [72. 编辑距离](docs/no_0072_edit_distance.md): 困难
+- [75. 颜色分类](docs/no_0075_sort_colors.md): 中等
 - [76. 最小覆盖子串](docs/no_0076_minimum_window_substring.md): 困难
 - [77. 组合](docs/no_0077_combinations.md): 中等
 - [78. 子集](docs/no_0078_subsets.md): 中等
@@ -204,6 +205,8 @@
     - [347. 前 K 个高频元素](docs/no_0347_top_k_frequent_elements.md): 中等
   - 基数排序
     - [164. 最大间距](docs/no_0164_maximum_gap.md): 困难
+  - 其它
+    - [75. 颜色分类](docs/no_0075_sort_colors.md): 中等
 - 栈
   - [22. 括号生成](docs/no_0022_generate_parentheses.md)
   - [42. 接雨水](docs/no_0042_trapping_rain_water.md): 困难
