@@ -66,6 +66,7 @@
 - [77. 组合](docs/no_0077_combinations.md): 中等
 - [78. 子集](docs/no_0078_subsets.md): 中等
 - [79. 单词搜索](docs/no_0079_word_search.md): 中等
+- [84. 柱状图中最大的矩形](docs/problems0xx.md): 困难
 - [93. 复原IP地址](docs/no_0093_restore_ip_addresses.md): 中等
 - [94. 二叉树的中序遍历](docs/no_0094_binary_tree_inorder_traversal.md): 中等
 - [95. 不同的二叉搜索树 II](docs/no_0095_unique_binary_search_trees_ii.md): 中等
@@ -211,6 +212,7 @@
 - 栈
   - [22. 括号生成](docs/no_0022_generate_parentheses.md)
   - [42. 接雨水](docs/no_0042_trapping_rain_water.md): 困难
+  - [84. 柱状图中最大的矩形](docs/problems0xx.md): 困难
 - 堆
   - [23. 合并K个排序链表](docs/no_0023_merge_k_sorted_lists.md)
   - [347. 前 K 个高频元素](docs/no_0347_top_k_frequent_elements.md): 中等
