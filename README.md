@@ -118,6 +118,7 @@
 - [257. 二叉树的所有路径](docs/no_0257_binary_tree_paths.md): 简单
 - [283. 移动零](docs/others.md): 简单
 - [297. 二叉树的序列化与反序列化](docs/no_0297_serialize_and_deserialize_binary_tree.md): 困难
+- [303. 区域和检索 - 数组不可变](docs/problems3xx.md): 简单
 - [309. 最佳买卖股票时机含冷冻期](docs/no_0309_best_time_to_buy_and_sell_stock_with_cooldown.md): 中等
 - [312. 戳气球](docs/no_0312_burst_balloons.md): 困难
 - [315. 计算右侧小于当前元素的个数](docs/no_0315_count_of_smaller_numbers_after_self.md): 困难
@@ -291,6 +292,8 @@
   - [19. 删除链表的倒数第N个节点](docs/no_0019_remove_nth_node_from_end_of_list.md): 中等
   - [42. 接雨水](docs/no_0042_trapping_rain_water.md): 困难
   - [977. 有序数组的平方](docs/no_0977_squares_of_a_sorted_array.md): 简单
+- 前缀和
+  - [303. 区域和检索 - 数组不可变](docs/problems3xx.md): 简单
 
 
 ## 解题提示
