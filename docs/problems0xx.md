@@ -1,4 +1,5 @@
 - [84. 柱状图中最大的矩形](#84-柱状图中最大的矩形)
+- [85. 最大矩形](#85-最大矩形)
 
 ------------------------------
 
@@ -254,3 +255,200 @@ public class Solution {
 > 为什么可以不需要处理相同高度的情况？
 >
 > 如果两个下标 i 和 j 对应的高度是一样的，那么它们最后计算出来的面积应该是一样大的（左边界一样，右边界也一样）。所以计算 j 的时候计算对了就可以了。
+
+
+
+# 85. 最大矩形
+
+给定一个仅包含 0 和 1 、大小为 rows x cols 的二维二进制矩阵，找出只包含 1 的最大矩形，并返回其面积。
+
+示例 1：
+
+![](assets/0085_maximal-rectangle1.jpg)
+
+```
+输入：matrix = [["1","0","1","0","0"],["1","0","1","1","1"],["1","1","1","1","1"],["1","0","0","1","0"]]
+输出：6
+解释：最大矩形如上图所示。
+```
+
+示例 2：
+
+```
+输入：matrix = []
+输出：0
+```
+
+示例 3：
+
+```
+输入：matrix = [["0"]]
+输出：0
+```
+
+示例 4：
+
+```
+输入：matrix = [["1"]]
+输出：1
+```
+
+示例 5：
+
+```
+输入：matrix = [["0","0"]]
+输出：0
+```
+
+提示：
+
+- rows == matrix.length
+- cols == `matrix[0].length`
+- 0 <= row, cols <= 200
+- `matrix[i][j]` 为 '0' 或 '1'
+
+链接：https://leetcode-cn.com/problems/maximal-rectangle
+
+**官方题解**
+
+![](assets/0085_maximal-rectangle2.png)
+
+```go
+func maximalRectangle(matrix [][]byte) (ans int) {
+    if len(matrix) == 0 {
+        return
+    }
+    m, n := len(matrix), len(matrix[0])
+    // 每个点连续 1 的个数。
+    left := make([][]int, m)
+    for i, row := range matrix {
+        left[i] = make([]int, n)
+        for j, v := range row {
+            if v == '0' {
+                continue
+            }
+            if j == 0 {
+                left[i][j] = 1
+            } else {
+                left[i][j] = left[i][j-1] + 1
+            }
+        }
+    }
+    for i, row := range matrix {
+        for j, v := range row {
+            if v == '0' {
+                continue
+            }
+            // 以 [i][j] 为右下角时矩阵的面积。
+            width := left[i][j]
+            area := width
+            for k := i - 1; k >= 0; k-- {
+                width = min(width, left[k][j])
+                area = max(area, (i-k+1)*width)
+            }
+            ans = max(ans, area)
+        }
+    }
+    return
+}
+
+func min(a, b int) int {
+    if a < b {
+        return a
+    }
+    return b
+}
+
+func max(a, b int) int {
+    if a > b {
+        return a
+    }
+    return b
+}
+```
+
+复杂度分析
+
+- 时间复杂度：$O(m^2n)$，其中 m 和 n 分别是矩阵的行数和列数。计算 left 矩阵需要 $O(mn)$ 的时间。随后对于矩阵的每个点，需要 $O(m)$ 的时间枚举高度。故总的时间复杂度为 $O(mn) + O(mn) \cdot O(m) = O(m^2n)$。
+- 空间复杂度：$O(mn)$，其中 m 和 n 分别是矩阵的行数和列数。我们分配了一个与给定矩阵等大的数组，用于存储每个元素的左边连续 1 的数量。
+
+方法二：单调栈
+
+思路与算法
+
+在方法一中，我们讨论了将输入拆分成一系列的柱状图。为了计算矩形的最大面积，我们只需要计算每个柱状图中的最大面积，并找到全局最大值。
+
+我们可以使用[「84. 柱状图中最大的矩形的官方题解」](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/solution/zhu-zhuang-tu-zhong-zui-da-de-ju-xing-by-leetcode-/)中的单调栈的做法，将其应用在我们生成的柱状图中。
+
+```go
+func maximalRectangle(matrix [][]byte) (ans int) {
+    if len(matrix) == 0 {
+        return
+    }
+    m, n := len(matrix), len(matrix[0])
+    // 每个点连续 1 的数量。
+    left := make([][]int, m)
+    for i, row := range matrix {
+        left[i] = make([]int, n)
+        for j, v := range row {
+            if v == '0' {
+                continue
+            }
+            if j == 0 {
+                left[i][j] = 1
+            } else {
+                left[i][j] = left[i][j-1] + 1
+            }
+        }
+    }
+    // 像是倒了的柱状图，第 j 列是 x 轴。
+    for j := 0; j < n; j++ { // 对于每一列，使用基于柱状图的方法
+        up := make([]int, m)
+        down := make([]int, m)
+        stk := []int{}
+        for i, l := range left {
+            for len(stk) > 0 && left[stk[len(stk)-1]][j] >= l[j] {
+                stk = stk[:len(stk)-1]
+            }
+            up[i] = -1
+            if len(stk) > 0 {
+                up[i] = stk[len(stk)-1]
+            }
+            stk = append(stk, i)
+        }
+        stk = nil
+        for i := m - 1; i >= 0; i-- {
+            for len(stk) > 0 && left[stk[len(stk)-1]][j] >= left[i][j] {
+                stk = stk[:len(stk)-1]
+            }
+            down[i] = m
+            if len(stk) > 0 {
+                down[i] = stk[len(stk)-1]
+            }
+            stk = append(stk, i)
+        }
+        for i, l := range left {
+            height := down[i] - up[i] - 1
+            area := height * l[j]
+            ans = max(ans, area)
+        }
+    }
+    return
+}
+
+func max(a, b int) int {
+    if a > b {
+        return a
+    }
+    return b
+}
+```
+
+读者可以自行比对上面的代码与此前第 84 题的代码的相似之处。
+
+复杂度分析
+
+- 时间复杂度：$O(mn)$，其中 m 和 n 分别是矩阵的行数和列数。计算 left 矩阵需要 $O(mn)$ 的时间；对每一列应用柱状图算法需要 $O(m)$ 的时间，一共需要 $O(mn)$ 的时间。
+- 空间复杂度：$O(mn)$，其中 m 和 n 分别是矩阵的行数和列数。我们分配了一个与给定矩阵等大的数组，用于存储每个元素的左边连续 1 的数量。
+
+链接：https://leetcode-cn.com/problems/maximal-rectangle/solution/zui-da-ju-xing-by-leetcode-solution-bjlu/

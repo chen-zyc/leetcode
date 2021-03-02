@@ -1,5 +1,7 @@
 struct Solution;
 impl Solution {
+    // 84. 柱状图中最大的矩形
+    // https://leetcode-cn.com/problems/largest-rectangle-in-histogram/
     pub fn largest_rectangle_area(heights: Vec<i32>) -> i32 {
         // let (mut p1, mut p2) = (0, heights.len());
         // let mut largest = 0;
@@ -88,6 +90,62 @@ impl Solution {
 
         largest
     }
+
+    // 85. 最大矩形
+    // https://leetcode-cn.com/problems/maximal-rectangle/
+    pub fn maximal_rectangle(matrix: Vec<Vec<char>>) -> i32 {
+        if matrix.is_empty() {
+            return 0;
+        }
+
+        let (m, n) = (matrix.len(), matrix[0].len());
+
+        // 每个点之前连续 1 的个数
+        // +2 是在前后添加哨兵。
+        let mut left = vec![vec![0; n]; m + 2];
+        for (i, row) in matrix.iter().enumerate() {
+            for (j, cell) in row.iter().enumerate() {
+                if *cell == '1' {
+                    if j == 0 {
+                        left[i + 1][j] = 1;
+                    } else {
+                        left[i + 1][j] = left[i + 1][j - 1] + 1;
+                    }
+                }
+            }
+        }
+
+        let mut stack = Vec::new();
+        let mut largest_area = 0;
+        // 使用单调栈求最大矩形。
+        // j 列表示 x 轴
+        for j in 0..n {
+            stack.clear();
+            // 哨兵的位置
+            stack.push(m + 1);
+            // println!(
+            //     "left[{}] = {:?}",
+            //     j,
+            //     left.iter()
+            //         .map(|row| row[j].clone())
+            //         .collect::<Vec<usize>>()
+            // );
+            for height in (0..m + 2).rev() {
+                while left[height][j] < left[*stack.last().unwrap()][j] {
+                    // 计算 prev 所在位置的面积。
+                    let prev = stack.pop().unwrap();
+                    // println!("pop stack: {}", prev);
+                    // height 要比之前的小，因为 stack 里的下标是递减的。
+                    let area = (stack.last().unwrap() - height - 1) * left[prev][j];
+                    largest_area = largest_area.max(area);
+                }
+                stack.push(height);
+                // println!("stack: {:?}", stack);
+            }
+        }
+
+        largest_area as i32
+    }
 }
 
 #[cfg(test)]
@@ -99,5 +157,27 @@ mod tests {
         assert_eq!(Solution::largest_rectangle_area(vec![2, 1, 5, 6, 2, 3]), 10);
         assert_eq!(Solution::largest_rectangle_area(vec![2, 4]), 4);
         assert_eq!(Solution::largest_rectangle_area(vec![1]), 1);
+    }
+
+    #[test]
+    fn test_maximal_rectangle() {
+        let matrix = vec![
+            vec!['1', '0', '1', '0', '0'],
+            vec!['1', '0', '1', '1', '1'],
+            vec!['1', '1', '1', '1', '1'],
+            vec!['1', '0', '0', '1', '0'],
+        ];
+        assert_eq!(Solution::maximal_rectangle(matrix), 6);
+
+        assert_eq!(Solution::maximal_rectangle(vec![]), 0);
+
+        let matrix = vec![vec!['0']];
+        assert_eq!(Solution::maximal_rectangle(matrix), 0);
+
+        let matrix = vec![vec!['1']];
+        assert_eq!(Solution::maximal_rectangle(matrix), 1);
+
+        let matrix = vec![vec!['0', '0']];
+        assert_eq!(Solution::maximal_rectangle(matrix), 0);
     }
 }
