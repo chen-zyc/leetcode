@@ -99,3 +99,35 @@ mod problem304 {
         }
     }
 }
+
+struct Solution;
+impl Solution {
+    // 338. 比特位计数
+    // https://leetcode-cn.com/problems/counting-bits/
+    pub fn count_bits(num: i32) -> Vec<i32> {
+        let mut bits = vec![0; num as usize + 1];
+
+        for i in 1..=num {
+            // 如果 i 是偶数，最后一位是 0，那么 [i] == [i >> 1]
+            // 如果 i 是奇数，最后一位是 1，那么 [i] == [i >> 1] + 1
+            // i & 1 要加扩号，不然会先算 + 再算 &。
+            bits[i as usize] = bits[i as usize >> 1] + (i & 1);
+        }
+
+        bits
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_count_bits() {
+        let ans = Solution::count_bits(2);
+        assert_eq!(ans, vec![0, 1, 1]);
+
+        let ans = Solution::count_bits(5);
+        assert_eq!(ans, vec![0, 1, 1, 2, 1, 2]);
+    }
+}

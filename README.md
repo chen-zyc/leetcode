@@ -128,6 +128,7 @@
 - [332. 重新安排行程](docs/no_0332_reconstruct_itinerary.md): 中等
 - [336. 回文对](docs/no_0336_palindrome_pairs.md): 困难
 - [337. 打家劫舍 III](docs/no_0337_house_robber_iii.md): 中等
+- [338. 比特位计数](docs/problems3xx.md): 中等
 - [343. 整数拆分](docs/no_0343_integer_break.md): 中等
 - [347. 前 K 个高频元素](docs/no_0347_top_k_frequent_elements.md): 中等
 - [349. 两个数组的交集](docs/no_0349_intersection_of_two_arrays.md): 简单
@@ -227,6 +228,7 @@
 - 动态规则
   - [53. 最大子序和](docs/no_0053_maximum_subarray.md)
   - [72. 编辑距离](docs/no_0072_edit_distance.md): 困难
+  - [338. 比特位计数](docs/problems3xx.md): 中等
   - [486. 预测赢家](docs/no_0486_predict_the_winner.md): 中等
   - [1024. 视频拼接](docs/no_1024_video_stitching.md): 中等
 - 树
@@ -283,6 +285,7 @@
   - [51. N 皇后](docs/no_0051_n_queens.md): 困难
   - [77. 组合](docs/no_0077_combinations.md): 中等
   - [78. 子集](docs/no_0078_subsets.md): 中等
+  - [338. 比特位计数](docs/problems3xx.md): 中等
   - [1178. 猜字谜](docs/problems11xx.md): 困难
 - 排列组合
   - [40. 组合总和 II](docs/no_0040_combination_sum_ii.md): 中等
