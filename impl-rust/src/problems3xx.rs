@@ -102,6 +102,63 @@ mod problem304 {
 
 struct Solution;
 impl Solution {
+    // 300. 最长递增子序列
+    // https://leetcode-cn.com/problems/longest-increasing-subsequence/
+    pub fn length_of_lis(nums: Vec<i32>) -> i32 {
+        // 方法1：动态规划。(64ms, 2.2MB)
+        // if nums.is_empty() {
+        //     return 0;
+        // }
+        // // dp[i] 表示子序列最后一位是 nums[i] 时的长度。
+        // // 默认是1，因为总是包含一位(nums[i] 自身)。
+        // let mut dp = vec![1; nums.len()];
+        // let mut max_len = 1;
+        // for i in 1..nums.len() {
+        //     // 在 i 之前找一个比 nums[i] 小的数，则可以把 num 插入到该数后面。
+        //     for j in 0..i {
+        //         if nums[j] < nums[i] {
+        //             dp[i] = dp[i].max(dp[j] + 1);
+        //         }
+        //     }
+        //     max_len = max_len.max(dp[i]);
+        // }
+        //
+        // max_len
+        // 方法2：贪心 + 二分(0ms, 2.2MB)
+        if nums.is_empty() {
+            return 0;
+        }
+
+        // d[i] 表示子序列长度为 i 时，子序列中最后那个数中的最小的那个(长度为 i 的子序列可能有多个)。
+        let mut d = vec![0; nums.len() + 1];
+        let mut len = 1;
+        // 长度为 1 时，先假设是 nums[0]，后面会再更新。
+        d[len] = nums[0];
+        for i in 1..nums.len() {
+            if nums[i] > d[len] {
+                // 有点大，加入到末尾。
+                d[len + 1] = nums[i];
+                len += 1;
+                continue;
+            }
+            // 有点小了，从 d 中找到一个比 nums[i] 小的最大的数更新下。
+            // 二分查找，l 为实，r 为虚。
+            let (mut l, mut r, mut pos) = (1, len, 0);
+            while l <= r {
+                let mid = l + (r - l) / 2; // 偏右
+                if d[mid] >= nums[i] {
+                    r = mid - 1;
+                } else {
+                    pos = mid;
+                    l = mid + 1;
+                }
+            }
+            d[pos + 1] = nums[i]; // d[pos+1] 是比 nums[i] 大于或等于的。
+        }
+
+        len as i32
+    }
+
     // 338. 比特位计数
     // https://leetcode-cn.com/problems/counting-bits/
     pub fn count_bits(num: i32) -> Vec<i32> {
@@ -129,5 +186,12 @@ mod tests {
 
         let ans = Solution::count_bits(5);
         assert_eq!(ans, vec![0, 1, 1, 2, 1, 2]);
+    }
+
+    #[test]
+    fn test_length_of_lis() {
+        assert_eq!(Solution::length_of_lis(vec![10, 9, 2, 5, 3, 7, 101, 18]), 4);
+        assert_eq!(Solution::length_of_lis(vec![0, 1, 0, 3, 2, 3]), 4);
+        assert_eq!(Solution::length_of_lis(vec![7, 7, 7, 7, 7, 7, 7]), 1);
     }
 }

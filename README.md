@@ -119,6 +119,7 @@
 - [257. 二叉树的所有路径](docs/no_0257_binary_tree_paths.md): 简单
 - [283. 移动零](docs/others.md): 简单
 - [297. 二叉树的序列化与反序列化](docs/no_0297_serialize_and_deserialize_binary_tree.md): 困难
+- [300. 最长递增子序列](docs/problems3xx.md): 中等
 - [303. 区域和检索 - 数组不可变](docs/problems3xx.md): 简单
 - [304. 二维区域和检索 - 矩阵不可变](docs/problems3xx.md): 中等
 - [309. 最佳买卖股票时机含冷冻期](docs/no_0309_best_time_to_buy_and_sell_stock_with_cooldown.md): 中等
@@ -228,6 +229,7 @@
 - 动态规则
   - [53. 最大子序和](docs/no_0053_maximum_subarray.md)
   - [72. 编辑距离](docs/no_0072_edit_distance.md): 困难
+  - [300. 最长递增子序列](docs/problems3xx.md): 中等
   - [338. 比特位计数](docs/problems3xx.md): 中等
   - [486. 预测赢家](docs/no_0486_predict_the_winner.md): 中等
   - [1024. 视频拼接](docs/no_1024_video_stitching.md): 中等
