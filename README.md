@@ -73,6 +73,7 @@
 - [95. 不同的二叉搜索树 II](docs/no_0095_unique_binary_search_trees_ii.md): 中等
 - [96. 不同的二叉搜索树](docs/no_0096_unique_binary_search_trees.md): 中等
 - [97. 交错字符串](docs/no_0097_interleaving_string.md): 困难
+- [98. 验证二叉搜索树](docs/problems0xx.md): 中等
 - [99. 恢复二叉搜索树](docs/no_0099_recover_binary_search_tree.md): 困难
 - [100. 相同的树](docs/no_0100_same_tree.md): 简单
 - [104. 二叉树的最大深度](docs/no_0104_maximum_depth_of_binary_tree.md): 简单
@@ -239,6 +240,7 @@
   - 线段树
     - [53. 最大子序和](docs/no_0053_maximum_subarray.md)
   - 二叉搜索树
+    - [98. 验证二叉搜索树](docs/problems0xx.md): 中等
     - [108. 将有序数组转换为二叉搜索树](docs/no_0108_convert_sorted_array_to_binary_search_tree.md)
     - [109. 有序链表转换二叉搜索树](docs/no_0109_convert_sorted_list_to_binary_search_tree.md)
     - [235. 二叉搜索树的最近公共祖先](docs/no_0235_lowest_common_ancestor_of_a_binary_search_tree.md): 简单

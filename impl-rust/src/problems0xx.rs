@@ -1,3 +1,9 @@
+use crate::common::TreeNode;
+use std::cell::RefCell;
+use std::rc::Rc;
+
+use crate::common::tree_node;
+
 struct Solution;
 impl Solution {
     // 84. 柱状图中最大的矩形
@@ -146,6 +152,32 @@ impl Solution {
 
         largest_area as i32
     }
+
+    // 98. 验证二叉搜索树
+    // https://leetcode-cn.com/problems/validate-binary-search-tree/
+    pub fn is_valid_bst(root: Option<Rc<RefCell<TreeNode>>>) -> bool {
+        Solution::is_valid_bst_helper(root, None, None)
+    }
+
+    // 使用 Option 而不是直接使用 i32，是怕 root.val 万一就是 i32::MIN 或者 i32::MAX 呢？
+    // 也可以使用 i64 来代替 i32。
+    fn is_valid_bst_helper(
+        root: Option<Rc<RefCell<TreeNode>>>,
+        lower: Option<i32>,
+        upper: Option<i32>,
+    ) -> bool {
+        match root {
+            None => true,
+            Some(n) => {
+                let node = n.borrow();
+                // 下面这种写法参考的 https://leetcode-cn.com/problems/validate-binary-search-tree/solution/a-better-way-by-jancd/。
+                lower.map_or(true, |l| node.val > l)
+                    && upper.map_or(true, |u| node.val < u)
+                    && Solution::is_valid_bst_helper(node.left.clone(), lower, Some(node.val))
+                    && Solution::is_valid_bst_helper(node.right.clone(), Some(node.val), upper)
+            }
+        }
+    }
 }
 
 #[cfg(test)]
@@ -179,5 +211,30 @@ mod tests {
 
         let matrix = vec![vec!['0', '0']];
         assert_eq!(Solution::maximal_rectangle(matrix), 0);
+    }
+
+    #[test]
+    fn test_is_valid_bst() {
+        let root = tree_node(TreeNode {
+            val: 2,
+            left: tree_node(TreeNode::new(1)),
+            right: tree_node(TreeNode::new(3)),
+        });
+        assert_eq!(Solution::is_valid_bst(root), true);
+
+        let root = tree_node(TreeNode {
+            val: 5,
+            left: tree_node(TreeNode::new(1)),
+            right: tree_node(TreeNode {
+                val: 4,
+                left: tree_node(TreeNode::new(3)),
+                right: tree_node(TreeNode::new(6)),
+            }),
+        });
+        assert_eq!(Solution::is_valid_bst(root), false);
+
+        // 最大值。
+        let root = tree_node(TreeNode::new(2147483647));
+        assert_eq!(Solution::is_valid_bst(root), true);
     }
 }
