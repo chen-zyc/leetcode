@@ -173,6 +173,32 @@ impl Solution {
 
         bits
     }
+
+    // 354. 俄罗斯套娃信封问题
+    // https://leetcode-cn.com/problems/russian-doll-envelopes/
+    pub fn max_envelopes(mut envelopes: Vec<Vec<i32>>) -> i32 {
+        // w 按升序，h 按降序。
+        envelopes.sort_unstable_by(|a, b| match a[0].cmp(&b[0]) {
+            std::cmp::Ordering::Equal => b[1].cmp(&a[1]), // [1] 按降序
+            other => other,
+        });
+
+        // f[i] 表示长度为 i 的子序列中最后一个数里最小的那个
+        let mut f = Vec::new();
+        for envelope in envelopes {
+            match f.binary_search(&envelope[1]) {
+                Err(idx) => {
+                    if idx < f.len() {
+                        f[idx] = envelope[1];
+                    } else {
+                        f.push(envelope[1]);
+                    }
+                }
+                Ok(_) => {}
+            }
+        }
+        f.len() as i32
+    }
 }
 
 #[cfg(test)]
@@ -193,5 +219,11 @@ mod tests {
         assert_eq!(Solution::length_of_lis(vec![10, 9, 2, 5, 3, 7, 101, 18]), 4);
         assert_eq!(Solution::length_of_lis(vec![0, 1, 0, 3, 2, 3]), 4);
         assert_eq!(Solution::length_of_lis(vec![7, 7, 7, 7, 7, 7, 7]), 1);
+    }
+
+    #[test]
+    fn test_max_envelopes() {
+        let envelopes = vec![vec![5, 4], vec![6, 4], vec![6, 7], vec![2, 3]];
+        assert_eq!(Solution::max_envelopes(envelopes), 3);
     }
 }

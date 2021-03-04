@@ -134,6 +134,7 @@
 - [347. 前 K 个高频元素](docs/no_0347_top_k_frequent_elements.md): 中等
 - [349. 两个数组的交集](docs/no_0349_intersection_of_two_arrays.md): 简单
 - [350. 两个数组的交集 II](docs/no_0350_intersection_of_two_arrays_ii.md): 简单
+- [354. 俄罗斯套娃信封问题](docs/problems3xx.md): 困难
 - [378. 有序矩阵中第K小的元素](docs/no_0378_kth_smallest_element_in_a_sorted_matrix.md): 中等
 - [392. 判断子序列](docs/no_0392_is_subsequence.md): 简单
 - [404. 左叶子之和](docs/no_0404_sum_of_left_leaves.md): 简单
@@ -231,6 +232,7 @@
   - [72. 编辑距离](docs/no_0072_edit_distance.md): 困难
   - [300. 最长递增子序列](docs/problems3xx.md): 中等
   - [338. 比特位计数](docs/problems3xx.md): 中等
+  - [354. 俄罗斯套娃信封问题](docs/problems3xx.md): 困难
   - [486. 预测赢家](docs/no_0486_predict_the_winner.md): 中等
   - [1024. 视频拼接](docs/no_1024_video_stitching.md): 中等
 - 树

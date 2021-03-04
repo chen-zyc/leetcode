@@ -2,6 +2,7 @@
 - [303. 区域和检索 - 数组不可变](#303-区域和检索---数组不可变)
 - [304. 二维区域和检索 - 矩阵不可变](#304-二维区域和检索---矩阵不可变)
 - [338. 比特位计数](#338-比特位计数)
+- [354. 俄罗斯套娃信封问题](#354-俄罗斯套娃信封问题)
 
 ------------------------------
 
@@ -68,7 +69,7 @@ $$
 \text{LIS}_{\textit{length}}= \max(\textit{dp}[i]), \text{其中} \, 0\leq i < n
 $$
 
-![](assets/300_longest-increasing-subsequence1.gif)
+![](assets/0300_longest-increasing-subsequence1.gif)
 
 ```java
 class Solution {
@@ -571,3 +572,140 @@ vector<int> countBits(int num) {
 ```
 
 链接：https://leetcode-cn.com/problems/counting-bits/solution/hen-qing-xi-de-si-lu-by-duadua/
+
+
+
+# 354. 俄罗斯套娃信封问题
+
+给定一些标记了宽度和高度的信封，宽度和高度以整数对形式 (w, h) 出现。当另一个信封的宽度和高度都比这个信封大的时候，这个信封就可以放进另一个信封里，如同俄罗斯套娃一样。
+
+请计算最多能有多少个信封能组成一组“俄罗斯套娃”信封（即可以把一个信封放到另一个信封里面）。
+
+说明: 不允许旋转信封。
+
+示例:
+
+```
+输入: envelopes = [[5,4],[6,4],[6,7],[2,3]]
+输出: 3 
+解释: 最多信封的个数为 3, 组合为: [2,3] => [5,4] => [6,7]。
+```
+
+链接：https://leetcode-cn.com/problems/russian-doll-envelopes
+
+
+**官方题解**
+
+![](assets/0354_russian-doll-envelopes1.png)
+
+> 难点就在于对 h 进行降序。
+
+方法一：动态规划
+
+思路与算法
+
+设 $f[i]$ 表示 $h$ 的前 $i$ 个元素可以组成的最长严格递增子序列的长度，并且我们必须选择第 $i$ 个元素 $h_i$​。在进行状态转移时，我们可以考虑倒数第二个选择的元素 $h_j$​，必须满足 $h_j < h_i$​ 且 $j < i$，因此可以写出状态转移方程：
+
+$$
+f[i] = \max_{j<i ~\wedge~ h_j<h_i } \{ f[j] \} + 1
+$$
+
+如果不存在比 $h_i$​ 小的元素 $h_j$​，那么 $f[i]$ 的值为 $1$，即只选择了唯一的第 $i$ 个元素。
+
+在计算完所有的 $f$ 值之后，其中的最大值即为最长严格递增子序列的长度。
+
+代码
+
+由于方法一的时间复杂度较高，一些语言对应的代码可能会超出时间限制。
+
+```go
+func maxEnvelopes(envelopes [][]int) int {
+    n := len(envelopes)
+    if n == 0 {
+        return 0
+    }
+
+    sort.Slice(envelopes, func(i, j int) bool {
+        a, b := envelopes[i], envelopes[j]
+        return a[0] < b[0] || a[0] == b[0] && a[1] > b[1]
+    })
+
+    f := make([]int, n)
+    for i := range f {
+        f[i] = 1
+    }
+    for i := 1; i < n; i++ {
+        for j := 0; j < i; j++ {
+            if envelopes[j][1] < envelopes[i][1] {
+                f[i] = max(f[i], f[j]+1)
+            }
+        }
+    }
+    return max(f...)
+}
+
+func max(a ...int) int {
+    res := a[0]
+    for _, v := range a[1:] {
+        if v > res {
+            res = v
+        }
+    }
+    return res
+}
+```
+
+
+复杂度分析
+
+- 时间复杂度：$O(n^2)$，其中 $n$ 是数组 $\textit{envelopes}$ 的长度，排序需要的时间复杂度为 $O(n \log n)$，动态规划需要的时间复杂度为 $O(n^2)$，前者在渐近意义下小于后者，可以忽略。
+- 空间复杂度：$O(n)$，即为数组 $f$ 需要的空间。
+
+--------------------
+
+方法二：基于二分查找的动态规划
+
+思路与算法
+
+设 $f[j]$ 表示 $h$ 的前 $i$ 个元素可以组成的长度为 $j$ 的最长严格递增子序列的末尾元素的最小值，如果不存在长度为 $j$ 的最长严格递增子序列，对应的 $f$ 值无定义。在定义范围内，可以看出 $f$ 值是严格单调递增的，因为越长的子序列的末尾元素显然越大。
+
+在进行状态转移时，我们考虑当前的元素 $h_i$​：
+
+- 如果 $h_i$​ 大于 $f$ 中的最大值，那么 $h_i$​ 就可以接在 $f$ 中的最大值之后，形成一个长度更长的严格递增子序列；
+- 否则我们找出 $f$ 中比 $h_i$​ 严格小的最大的元素 $f[j_0]$，即 $f[j_0] < h_i \leq f[j_0+1]$，那么 $h_i$​ 可以接在 $f[j_0]$ 之后，形成一个长度为 $j_0+1$ 的严格递增子序列，因此需要对 $f[j_0+1]$ 进行更新：
+
+    $$
+    f[j_0+1] = h_i
+    $$
+
+    我们可以在 $f$ 上进行二分查找，找出满足要求的 $j_0$​。
+
+在遍历所有的 $h_i$​ 之后，$f$ 中最后一个有定义的元素的下标增加 $1$（下标从 $0$ 开始）即为最长严格递增子序列的长度。
+
+```go
+func maxEnvelopes(envelopes [][]int) int {
+    sort.Slice(envelopes, func(i, j int) bool {
+        a, b := envelopes[i], envelopes[j]
+        return a[0] < b[0] || a[0] == b[0] && a[1] > b[1]
+    })
+
+    f := []int{}
+    for _, e := range envelopes {
+        h := e[1]
+        if i := sort.SearchInts(f, h); i < len(f) {
+            f[i] = h
+        } else {
+            f = append(f, h)
+        }
+    }
+    return len(f)
+}
+```
+
+
+复杂度分析
+
+- 时间复杂度：$O(n \log n)$，其中 $n$ 是数组 $\textit{envelopes}$ 的长度，排序需要的时间复杂度为 $O(n \log n)$，动态规划需要的时间复杂度同样为 $O(n \log n)$。
+- 空间复杂度：$O(n)$，即为数组 $f$ 需要的空间。
+
+链接：https://leetcode-cn.com/problems/russian-doll-envelopes/solution/e-luo-si-tao-wa-xin-feng-wen-ti-by-leetc-wj68/
