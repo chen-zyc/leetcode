@@ -116,6 +116,7 @@
 - [215. 数组中的第K个最大元素](docs/no_0215_kth_largest_element_in_an_array.md): 中等
 - [216. 组合总和 III](docs/no_0216_combination_sum_iii.md): 中等
 - [226. 翻转二叉树](docs/no_0226_invert_binary_tree.md): 简单
+- [232. 用栈实现队列](docs/problems2xx.md): 简单
 - [234. 回文链表](docs/no_0234_palindrome_linked_list.md): 简单
 - [235. 二叉搜索树的最近公共祖先](docs/no_0235_lowest_common_ancestor_of_a_binary_search_tree.md): 简单
 - [257. 二叉树的所有路径](docs/no_0257_binary_tree_paths.md): 简单
@@ -223,6 +224,7 @@
   - [42. 接雨水](docs/no_0042_trapping_rain_water.md): 困难
   - [84. 柱状图中最大的矩形](docs/problems0xx.md): 困难
   - [85. 最大矩形](docs/problems0xx.md): 困难
+  - [232. 用栈实现队列](docs/problems2xx.md): 简单
 - 堆
   - [23. 合并K个排序链表](docs/no_0023_merge_k_sorted_lists.md)
   - [347. 前 K 个高频元素](docs/no_0347_top_k_frequent_elements.md): 中等
