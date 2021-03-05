@@ -6,6 +6,50 @@ use crate::common::tree_node;
 
 struct Solution;
 impl Solution {
+    // 50. Pow(x, n)
+    // https://leetcode-cn.com/problems/powx-n/
+    pub fn my_pow(x: f64, n: i32) -> f64 {
+        if n < 0 {
+            1.0 / Solution::my_pow_helper2(x, -(n as i64))
+        } else {
+            Solution::my_pow_helper2(x, n as i64)
+        }
+    }
+
+    fn my_pow_helper1(x: f64, n: i32) -> f64 {
+        // 方法1：快速幂 + 递归
+        if n == 0 {
+            return 1.0;
+        }
+        let y = Solution::my_pow_helper1(x, n / 2);
+        if n & 1 == 0 {
+            // 偶数
+            y * y
+        } else {
+            // 奇数
+            y * y * x
+        }
+    }
+
+    // n 为什么是 i64?
+    // 如果 n 是负数，而且很大，那么当执行 -n 时可能会溢出。
+    fn my_pow_helper2(mut x: f64, mut n: i64) -> f64 {
+        // 方法2：快速幂 + 迭代
+        let mut ans = 1.0;
+        // 拆分成二进制
+        while n > 0 {
+            if n & 1 == 1 {
+                // 当前二进制为 1，把 x 累积到答案中。
+                ans *= x;
+            }
+            // 累积
+            x *= x;
+            n = n >> 1;
+        }
+
+        ans
+    }
+
     // 84. 柱状图中最大的矩形
     // https://leetcode-cn.com/problems/largest-rectangle-in-histogram/
     pub fn largest_rectangle_area(heights: Vec<i32>) -> i32 {
@@ -236,5 +280,13 @@ mod tests {
         // 最大值。
         let root = tree_node(TreeNode::new(2147483647));
         assert_eq!(Solution::is_valid_bst(root), true);
+    }
+
+    #[test]
+    fn test_my_pow() {
+        assert!((Solution::my_pow(2.0, 10) - 1024.0).abs() < 1e-10);
+        assert!((Solution::my_pow(2.1, 3) - 9.261).abs() < 1e-10);
+        assert!((Solution::my_pow(2.0, -2) - 0.25).abs() < 1e-10);
+        assert!((Solution::my_pow(2.0, -2147483648) - 0.0).abs() < 1e-10);
     }
 }

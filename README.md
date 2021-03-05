@@ -49,6 +49,7 @@
 - [47. 全排列 II](docs/no_0047_permutations_ii.md): 中等
 - [48. 旋转图像](docs/no_0048_rotate_image.md): 中等
 - [49. 字母异位词分组](docs/no_0049_group_anagrams.md): 中等(简单)
+- [50. Pow(x, n)](docs/problems0xx.md): 中等
 - [51. N 皇后](docs/no_0051_n_queens.md): 困难
 - [53. 最大子序和](docs/no_0053_maximum_subarray.md): 简单
 - [55. 跳跃游戏](docs/no_0055_jump_game.md): 中等
@@ -288,6 +289,7 @@
   - [51. N 皇后](docs/no_0051_n_queens.md): 困难
 - 位运算
   - [37. 解数独](docs/no_0037_sudoku_solver.md): 困难
+  - [50. Pow(x, n)](docs/problems0xx.md): 中等
   - [51. N 皇后](docs/no_0051_n_queens.md): 困难
   - [77. 组合](docs/no_0077_combinations.md): 中等
   - [78. 子集](docs/no_0078_subsets.md): 中等
