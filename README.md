@@ -149,6 +149,7 @@
 - [486. 预测赢家](docs/no_0486_predict_the_winner.md): 中等
 - [491. 递增子序列](docs/no_0491_increasing_subsequences.md): 中等(困难)
 - [501. 二叉搜索树中的众数](docs/no_0501_find_mode_in_binary_search_tree.md): 简单(中等)
+- [503. 下一个更大元素 II](docs/problems5xx.md): 中等
 - [529. 扫雷游戏](docs/no_0529_minesweeper.md): 中等
 - [538. 把二叉搜索树转换为累加树](docs/no_0538_convert_bst_to_greater_tree.md): 简单
 - [546. 移除盒子](docs/no_0546_remove_boxes.md): 困难
@@ -225,6 +226,7 @@
   - [84. 柱状图中最大的矩形](docs/problems0xx.md): 困难
   - [85. 最大矩形](docs/problems0xx.md): 困难
   - [232. 用栈实现队列](docs/problems2xx.md): 简单
+  - [503. 下一个更大元素 II](docs/problems5xx.md): 中等
 - 堆
   - [23. 合并K个排序链表](docs/no_0023_merge_k_sorted_lists.md)
   - [347. 前 K 个高频元素](docs/no_0347_top_k_frequent_elements.md): 中等

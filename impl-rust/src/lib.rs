@@ -158,6 +158,7 @@ mod problems0xx;
 mod problems11xx;
 mod problems2xx;
 mod problems3xx;
+mod problems5xx;
 mod problems8xx;
 
 mod interview_02_01_remove_duplicate_node_lcci;
