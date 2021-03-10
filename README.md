@@ -115,6 +115,7 @@
 - [214. 最短回文串](docs/no_0214_shortest_palindrome.md): 困难
 - [215. 数组中的第K个最大元素](docs/no_0215_kth_largest_element_in_an_array.md): 中等
 - [216. 组合总和 III](docs/no_0216_combination_sum_iii.md): 中等
+- [224. 基本计算器](docs/problems2xx.md): 困难
 - [226. 翻转二叉树](docs/no_0226_invert_binary_tree.md): 简单
 - [232. 用栈实现队列](docs/problems2xx.md): 简单
 - [234. 回文链表](docs/no_0234_palindrome_linked_list.md): 简单
@@ -225,6 +226,7 @@
   - [42. 接雨水](docs/no_0042_trapping_rain_water.md): 困难
   - [84. 柱状图中最大的矩形](docs/problems0xx.md): 困难
   - [85. 最大矩形](docs/problems0xx.md): 困难
+  - [224. 基本计算器](docs/problems2xx.md): 困难
   - [232. 用栈实现队列](docs/problems2xx.md): 简单
   - [503. 下一个更大元素 II](docs/problems5xx.md): 中等
 - 堆
