@@ -156,6 +156,7 @@ mod no_1365_how_many_numbers_are_smaller_than_the_current_number;
 mod others;
 mod problems0xx;
 mod problems11xx;
+mod problems1xx;
 mod problems2xx;
 mod problems3xx;
 mod problems5xx;

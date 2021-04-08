@@ -102,6 +102,7 @@
 - [144. 二叉树的前序遍历](docs/no_0144_binary_tree_preorder_traversal.md): 中等
 - [145. 二叉树的后序遍历](docs/no_0145_binary_tree_postorder_traversal.md): 中等
 - [146. LRU缓存机制](docs/no_0146_lru_cache.md): 中等
+- [153. 寻找旋转排序数组中的最小值](docs/problems1xx.md): 中等
 - [164. 最大间距](docs/no_0164_maximum_gap.md): 困难
 - [167. 两数之和 II - 输入有序数组](docs/no_0167_two_sum_ii_input_array_is_sorted.md): 简单
 - [174. 地下城游戏](docs/no_0174_dungeon_game.md): 困难
@@ -208,8 +209,9 @@
 ## 索引
 
 - 排序
-  - 二分排序
+  - 二分
     - [33. 搜索旋转排序数组](docs/no_0033_search_in_rotated_sorted_array.md)
+    - [153. 寻找旋转排序数组中的最小值](docs/problems1xx.md): 中等
   - 拓扑排序
     - [207. 课程表](docs/no_0207_course_schedule.md)
   - 快排
