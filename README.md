@@ -149,6 +149,7 @@
 - [455. 分发饼干](docs/no_0455_assign_cookies.md): 简单
 - [459. 重复的子字符串](docs/no_0459_repeated_substring_pattern.md): 简单(困难)
 - [463. 岛屿的周长](docs/no_0463_island_perimeter.md): 简单
+- [476. 数字的补数](docs/problems4xx.md): 简单
 - [486. 预测赢家](docs/no_0486_predict_the_winner.md): 中等
 - [491. 递增子序列](docs/no_0491_increasing_subsequences.md): 中等(困难)
 - [501. 二叉搜索树中的众数](docs/no_0501_find_mode_in_binary_search_tree.md): 简单(中等)
@@ -304,6 +305,7 @@
   - [77. 组合](docs/no_0077_combinations.md): 中等
   - [78. 子集](docs/no_0078_subsets.md): 中等
   - [338. 比特位计数](docs/problems3xx.md): 中等
+  - [476. 数字的补数](docs/problems4xx.md): 简单
   - [1178. 猜字谜](docs/problems11xx.md): 困难
 - 排列组合
   - [40. 组合总和 II](docs/no_0040_combination_sum_ii.md): 中等
