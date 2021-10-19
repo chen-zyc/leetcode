@@ -114,6 +114,7 @@
 - [204. 计数质数](docs/no_0204_count_primes.md): 简单
 - [207. 课程表](docs/no_0207_course_schedule.md): 中等
 - [209. 长度最小的子数组](docs/no_0209_minimum_size_subarray_sum.md): 中等
+- [211. 添加与搜索单词 - 数据结构设计](docs/problems2xx.md): 中等
 - [214. 最短回文串](docs/no_0214_shortest_palindrome.md): 困难
 - [215. 数组中的第K个最大元素](docs/no_0215_kth_largest_element_in_an_array.md): 中等
 - [216. 组合总和 III](docs/no_0216_combination_sum_iii.md): 中等
@@ -249,6 +250,8 @@
   - [486. 预测赢家](docs/no_0486_predict_the_winner.md): 中等
   - [1024. 视频拼接](docs/no_1024_video_stitching.md): 中等
 - 树
+  - 字典树
+    - [211. 添加与搜索单词 - 数据结构设计](docs/problems2xx.md): 中等
   - 线段树
     - [53. 最大子序和](docs/no_0053_maximum_subarray.md)
   - 二叉搜索树
