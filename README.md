@@ -147,6 +147,7 @@
 - [404. 左叶子之和](docs/no_0404_sum_of_left_leaves.md): 简单
 - [410. 分割数组的最大值](docs/no_0410_split_array_largest_sum.md): 困难
 - [415. 字符串相加](docs/no_0415_add_strings.md): 简单
+- [453. 最小操作次数使数组元素相等](docs/problems4xx.md): 简单
 - [455. 分发饼干](docs/no_0455_assign_cookies.md): 简单
 - [459. 重复的子字符串](docs/no_0459_repeated_substring_pattern.md): 简单(困难)
 - [463. 岛屿的周长](docs/no_0463_island_perimeter.md): 简单
@@ -296,6 +297,7 @@
 - 状态机
   - [剑指 Offer 20. 表示数值的字符串](docs/offer_020_biao_shi_shu_zhi_de_zi_fu_chuan_lcof.md): 中等
 - 脑筋急转弯
+  - [453. 最小操作次数使数组元素相等](docs/problems4xx.md): 简单
   - [459. 重复的子字符串](docs/no_0459_repeated_substring_pattern.md)
 - 快慢指针
   - [202. 快乐数](docs/no_0202_happy_number.md): 简单
