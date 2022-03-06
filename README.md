@@ -78,6 +78,7 @@
 - [98. 验证二叉搜索树](docs/problems0xx.md): 中等
 - [99. 恢复二叉搜索树](docs/no_0099_recover_binary_search_tree.md): 困难
 - [100. 相同的树](docs/no_0100_same_tree.md): 简单
+- [101. 对称二叉树](docs/problems1xx.md): 简单
 - [104. 二叉树的最大深度](docs/no_0104_maximum_depth_of_binary_tree.md): 简单
 - [106. 从中序与后序遍历序列构造二叉树](docs/no_0106_construct_binary_tree_from_inorder_and_postorder_traversal.md): 中等
 - [107. 二叉树的层次遍历 II](docs/no_0107_binary_tree_level_order_traversal_ii.md): 简单
@@ -271,6 +272,7 @@
     - [501. 二叉搜索树中的众数](docs/no_0501_find_mode_in_binary_search_tree.md): 简单(中等)
     - [538. 把二叉搜索树转换为累加树](docs/no_0538_convert_bst_to_greater_tree.md): 简单
   - 二叉树
+    - [101. 对称二叉树](docs/problems1xx.md): 简单
     - [106. 从中序与后序遍历序列构造二叉树](docs/no_0106_construct_binary_tree_from_inorder_and_postorder_traversal.md): 中等
     - [116. 填充每个节点的下一个右侧节点指针](docs/no_0116_populating_next_right_pointers_in_each_node.md): 中等
     - [117. 填充每个节点的下一个右侧节点指针 II](docs/no_0117_populating_next_right_pointers_in_each_node_ii.md): 中等
