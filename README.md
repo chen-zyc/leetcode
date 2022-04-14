@@ -92,6 +92,7 @@
 - [116. 填充每个节点的下一个右侧节点指针](docs/no_0116_populating_next_right_pointers_in_each_node.md): 中等
 - [117. 填充每个节点的下一个右侧节点指针 II](docs/no_0117_populating_next_right_pointers_in_each_node_ii.md): 中等
 - [120. 三角形最小路径和](docs/no_0120_triangle.md): 中等
+- [121. 买卖股票的最佳时机](docs/problems1xx.md): 简单
 - [124. 二叉树中的最大路径和](docs/no_0124_binary_tree_maximum_path_sum.md): 困难
 - [125. 验证回文串](docs/no_0125_valid_palindrome.md): 简单
 - [129. 求根到叶子节点数字之和](docs/no_0129_sum_root_to_leaf_numbers.md): 中等

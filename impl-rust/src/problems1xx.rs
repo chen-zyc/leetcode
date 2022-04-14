@@ -53,6 +53,32 @@ impl Solution {
         }
     }
 
+    /// 121. 买卖股票的最佳时机
+    pub fn max_profit(prices: Vec<i32>) -> i32 {
+        let (_, max) = prices
+            .into_iter()
+            // .0 表示 n 之前的最小值。
+            // .1 表示在 n 卖出时能获得的最大利润。
+            .fold((i32::MAX, 0), |(min, max), n| (min.min(n), max.max(n - min)));
+        max
+    }
+    pub fn max_profit_1(prices: Vec<i32>) -> i32 {
+        if prices.len() < 2 {
+            return 0;
+        }
+        let mut it = prices.into_iter();
+        // 这里可以先把 min 设置成最大值，这样就不用先获取一次值了。
+        let mut min = it.next().unwrap();
+        let mut max = 0;
+
+        for v in it {
+            // 当在 min 买入，在 v 卖出时，能获得的最大利润。
+            max = max.max(v - min);
+            min = min.min(v);
+        }
+        max
+    }
+
     /// 153. 寻找旋转排序数组中的最小值
     /// https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/
     pub fn find_min(nums: Vec<i32>) -> i32 {
@@ -133,5 +159,11 @@ mod tests {
     fn test_find_min_2() {
         assert_eq!(Solution::find_min_2(vec![1, 3, 5]), 1);
         assert_eq!(Solution::find_min_2(vec![2, 2, 2, 0, 1]), 0);
+    }
+
+    #[test]
+    fn test_max_profit() {
+        assert_eq!(Solution::max_profit(vec![7, 1, 5, 3, 6, 4]), 5);
+        assert_eq!(Solution::max_profit(vec![7, 6, 4, 3, 1]), 0);
     }
 }
