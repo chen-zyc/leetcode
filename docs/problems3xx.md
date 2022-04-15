@@ -3,6 +3,7 @@
 - [304. 二维区域和检索 - 矩阵不可变](#304-二维区域和检索---矩阵不可变)
 - [338. 比特位计数](#338-比特位计数)
 - [354. 俄罗斯套娃信封问题](#354-俄罗斯套娃信封问题)
+- [385. 迷你语法分析器](#385-迷你语法分析器)
 
 ------------------------------
 
@@ -709,3 +710,134 @@ func maxEnvelopes(envelopes [][]int) int {
 - 空间复杂度：$O(n)$，即为数组 $f$ 需要的空间。
 
 链接：https://leetcode-cn.com/problems/russian-doll-envelopes/solution/e-luo-si-tao-wa-xin-feng-wen-ti-by-leetc-wj68/
+
+
+# 385. 迷你语法分析器
+
+给定一个字符串 s 表示一个整数嵌套列表，实现一个解析它的语法分析器并返回解析的结果 NestedInteger 。
+
+列表中的每个元素只可能是整数或整数嵌套列表
+
+示例 1：
+
+```
+输入：s = "324",
+输出：324
+解释：你应该返回一个 NestedInteger 对象，其中只包含整数值 324。
+```
+
+示例 2：
+
+```
+输入：s = "[123,[456,[789]]]",
+输出：[123,[456,[789]]]
+解释：返回一个 NestedInteger 对象包含一个有两个元素的嵌套列表：
+1. 一个 integer 包含值 123
+2. 一个包含两个元素的嵌套列表：
+    i.  一个 integer 包含值 456
+    ii. 一个包含一个元素的嵌套列表
+         a. 一个 integer 包含值 789
+```
+
+提示：
+
+- $1 <= s.length <= 5 * 10^4$
+- s 由数字、方括号 "[]"、负号 '-' 、逗号 ','组成
+- 用例保证 s 是可解析的 NestedInteger
+- 输入中的所有值的范围是 $[-10^6, 10^6]$
+
+链接：https://leetcode-cn.com/problems/mini-parser
+
+> 第一次：可以直接用递归来做，如果递归没有通过，可以用栈来模拟递归。
+> Rust 写的感觉有点啰嗦。
+
+**官方题解**
+
+一：深度优先搜索
+
+根据题意，一个 NestedInteger 实例只能包含下列两部分之一：1）一个整数；2）一个列表，列表中的每个元素都是一个 NestedInteger 实例。据此，NestedInteger 是通过递归定义的，因此也可以用递归的方式来解析。
+
+从左至右遍历 s，
+
+如果第一位是 `[` 字符，则表示待解析的是一个列表，从 `[` 后面的字符开始又是一个新的 NestedInteger 实例，我们仍调用解析函数来解析列表的元素，调用结束后如果遇到的是 `,` 字符，表示列表仍有其他元素，需要继续调用。如果是 `]` 字符，表示这个列表已经解析完毕，可以返回 NestedInteger 实例。
+否则，则表示待解析的 NestedInteger 只包含一个整数。我们可以从左至右解析这个整数，并注意是否是负数，直到遍历完或者遇到非数字字符（`]` 或 `,`），并返回 NestedInteger 实例。
+
+```go
+func deserialize(s string) *NestedInteger {
+    index := 0
+    var dfs func() *NestedInteger
+    dfs = func() *NestedInteger {
+        ni := &NestedInteger{}
+        if s[index] == '[' {
+            index++
+            for s[index] != ']' {
+                ni.Add(*dfs())
+                if s[index] == ',' {
+                    index++
+                }
+            }
+            index++
+            return ni
+        }
+
+        negative := s[index] == '-'
+        if negative {
+            index++
+        }
+        num := 0
+        for ; index < len(s) && unicode.IsDigit(rune(s[index])); index++ {
+            num = num*10 + int(s[index]-'0')
+        }
+        if negative {
+            num = -num
+        }
+        ni.SetInteger(num)
+        return ni
+    }
+    return dfs()
+}
+```
+
+二：栈
+
+上述递归的思路也可以用栈来模拟。从左至右遍历 s，如果遇到 `[`，则表示是一个新的 NestedInteger 实例，需要将其入栈。如果遇到 `]` 或 `,`，则表示是一个数字或者 NestedInteger 实例的结束，需要将其添加入栈顶的 NestedInteger 实例。最后需返回栈顶的实例。
+
+```go
+func deserialize(s string) *NestedInteger {
+    if s[0] != '[' {
+        num, _ := strconv.Atoi(s)
+        ni := &NestedInteger{}
+        ni.SetInteger(num)
+        return ni
+    }
+    stack, num, negative := []*NestedInteger{}, 0, false
+    for i, ch := range s {
+        if ch == '-' {
+            negative = true
+        } else if unicode.IsDigit(ch) {
+            num = num*10 + int(ch-'0')
+        } else if ch == '[' {
+            stack = append(stack, &NestedInteger{})
+        } else if ch == ',' || ch == ']' {
+            if unicode.IsDigit(rune(s[i-1])) {
+                if negative {
+                    num = -num
+                }
+                ni := NestedInteger{}
+                ni.SetInteger(num)
+                stack[len(stack)-1].Add(ni)
+            }
+            num, negative = 0, false
+            if ch == ']' && len(stack) > 1 {
+                stack[len(stack)-2].Add(*stack[len(stack)-1])
+                stack = stack[:len(stack)-1]
+            }
+        }
+    }
+    return stack[len(stack)-1]
+}
+```
+
+这两种方式的时间和空间复杂度都是 $O(n)$.
+
+链接：https://leetcode-cn.com/problems/mini-parser/solution/mi-ni-yu-fa-fen-xi-qi-by-leetcode-soluti-l2ma/

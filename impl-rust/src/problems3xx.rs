@@ -1,3 +1,5 @@
+use crate::common::NestedInteger;
+
 // 303. 区域和检索 - 数组不可变
 // https://leetcode-cn.com/problems/range-sum-query-immutable/
 mod problem303 {
@@ -199,6 +201,60 @@ impl Solution {
         }
         f.len() as i32
     }
+
+    /// 385. 迷你语法分析器
+    pub fn deserialize(s: String) -> NestedInteger {
+        let (res, _) = Self::deserialize_nested_integer(s.as_bytes());
+        res.unwrap() // 题目保证是一个有效的 NestedInteger
+    }
+    fn deserialize_nested_integer(mut input: &[u8]) -> (Option<NestedInteger>, &[u8]) {
+        if input.is_empty() {
+            return (None, input);
+        }
+        match input[0] {
+            b'[' => {
+                let mut res = vec![];
+                input = &input[1..];
+                // 直到遇到 ']' 才停止。
+                while input[0] != b']' {
+                    let (ni, mut others) = Self::deserialize_nested_integer(input);
+                    if let Some(i) = ni {
+                        res.push(i);
+                    }
+                    // 去掉逗号。如果不是逗号，那一定是 ']'，因为这是一个有效的 NestedInteger。
+                    if others[0] == b',' {
+                        others = &others[1..];
+                    }
+                    input = others
+                }
+                (Some(NestedInteger::List(res)), &input[1..]) // 最后要把 ']' 去掉。
+            }
+            b'-' | b'0'..=b'9' => {
+                // 读取一个整数
+                let mut num = 0;
+                let mut sign = 1;
+                let mut idx = 0_usize;
+                for (i, c) in input.iter().enumerate() {
+                    if i == 0 && *c == b'-' {
+                        sign = -1;
+                        idx = i+1;
+                        continue;
+                    }
+                    if *c >= b'0' && *c <= b'9' {
+                        num = num * 10 + (*c - b'0') as i32;
+                        idx = i+1;
+                        continue;
+                    }
+                    idx = i; // 当前字符需要保留
+                    break;
+                }
+                input = &input[idx..];
+                num *= sign;
+                (Some(NestedInteger::Int(num)), input)
+            }
+            _ => (None, input),
+        }
+    }
 }
 
 #[cfg(test)]
@@ -225,5 +281,27 @@ mod tests {
     fn test_max_envelopes() {
         let envelopes = vec![vec![5, 4], vec![6, 4], vec![6, 7], vec![2, 3]];
         assert_eq!(Solution::max_envelopes(envelopes), 3);
+    }
+
+    #[test]
+    fn test_deserialize() {
+        assert_eq!(
+            Solution::deserialize("324".to_string()),
+            NestedInteger::Int(324)
+        );
+        assert_eq!(
+            Solution::deserialize("-3".to_string()),
+            NestedInteger::Int(-3)
+        );
+        assert_eq!(
+            Solution::deserialize("[123,[456,[789]]]".to_string()),
+            NestedInteger::List(vec![
+                NestedInteger::Int(123),
+                NestedInteger::List(vec![
+                    NestedInteger::Int(456),
+                    NestedInteger::List(vec![NestedInteger::Int(789)])
+                ])
+            ])
+        );
     }
 }

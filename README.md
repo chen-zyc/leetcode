@@ -147,6 +147,7 @@
 - [350. 两个数组的交集 II](docs/no_0350_intersection_of_two_arrays_ii.md): 简单
 - [354. 俄罗斯套娃信封问题](docs/problems3xx.md): 困难
 - [378. 有序矩阵中第K小的元素](docs/no_0378_kth_smallest_element_in_a_sorted_matrix.md): 中等
+- [385. 迷你语法分析器](docs/problems3xx.md): 中等
 - [392. 判断子序列](docs/no_0392_is_subsequence.md): 简单
 - [404. 左叶子之和](docs/no_0404_sum_of_left_leaves.md): 简单
 - [410. 分割数组的最大值](docs/no_0410_split_array_largest_sum.md): 困难
@@ -240,7 +241,10 @@
   - [85. 最大矩形](docs/problems0xx.md): 困难
   - [224. 基本计算器](docs/problems2xx.md): 困难
   - [232. 用栈实现队列](docs/problems2xx.md): 简单
+  - [385. 迷你语法分析器](docs/problems3xx.md): 中等
   - [503. 下一个更大元素 II](docs/problems5xx.md): 中等
+- 递归
+  - [385. 迷你语法分析器](docs/problems3xx.md): 中等
 - 堆
   - [23. 合并K个排序链表](docs/no_0023_merge_k_sorted_lists.md)
   - [347. 前 K 个高频元素](docs/no_0347_top_k_frequent_elements.md): 中等
