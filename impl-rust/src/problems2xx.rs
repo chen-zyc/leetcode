@@ -1,5 +1,37 @@
+use crate::common::ListNode;
+
 struct Solution;
 impl Solution {
+    /// 206. 反转链表
+    pub fn reverse_list(mut head: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
+        // 这个是从别人的答案中看到的，很小巧。
+
+        // 反转之后的链表的第一个节点。
+        let mut reserved = None;
+        while let Some(mut node) = head {
+            // head 指向下一个节点
+            head = node.next;
+            // 把 node 放到 reserved 后面
+            node.next = reserved;
+            reserved = Some(node);
+        }
+        reserved
+    }
+    pub fn reverse_list_1(mut head: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
+        let mut dummy = ListNode::new(0);
+        let mut ptr = &mut dummy;
+        while let Some(mut node) = head {
+            // 把 node 后面的节点赋值给 head，下一个循环用。
+            let next = node.next.take();
+            head = next;
+            // 把 ptr 后面的节点赋值给 node.next。
+            node.next = ptr.next.take();
+            // 把 node 节点放到 ptr 的前面
+            ptr.next = Some(node);
+        }
+        dummy.next
+    }
+
     // 224. 基本计算器
     // https://leetcode-cn.com/problems/basic-calculator/
     pub fn calculate(s: String) -> i32 {
@@ -53,6 +85,19 @@ mod tests {
         assert_eq!(Solution::calculate("1 + 1".to_owned()), 2);
         assert_eq!(Solution::calculate(" 2-1 + 2 ".to_owned()), 3);
         assert_eq!(Solution::calculate("(1+(4+5+2)-3)+(6+8)".to_owned()), 23);
+    }
+
+    #[test]
+    fn test_reverse_list() {
+        let head = ListNode::new_from_arr(&[1, 2, 3, 4, 5]);
+        let expected = ListNode::new_from_arr(&[5, 4, 3, 2, 1]);
+        assert_eq!(Solution::reverse_list(head), expected);
+
+        let head = ListNode::new_from_arr(&[1, 2]);
+        let expected = ListNode::new_from_arr(&[2, 1]);
+        assert_eq!(Solution::reverse_list(head), expected);
+
+        assert_eq!(Solution::reverse_list(None), None);
     }
 }
 
