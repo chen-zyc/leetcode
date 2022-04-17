@@ -94,6 +94,7 @@
 - [117. 填充每个节点的下一个右侧节点指针 II](docs/no_0117_populating_next_right_pointers_in_each_node_ii.md): 中等
 - [120. 三角形最小路径和](docs/no_0120_triangle.md): 中等
 - [121. 买卖股票的最佳时机](docs/problems1xx.md): 简单
+- [122. 买卖股票的最佳时机 II](docs/problems1xx.md): 中等
 - [124. 二叉树中的最大路径和](docs/no_0124_binary_tree_maximum_path_sum.md): 困难
 - [125. 验证回文串](docs/no_0125_valid_palindrome.md): 简单
 - [129. 求根到叶子节点数字之和](docs/no_0129_sum_root_to_leaf_numbers.md): 中等
@@ -257,11 +258,14 @@
 - 动态规则
   - [53. 最大子序和](docs/no_0053_maximum_subarray.md)
   - [72. 编辑距离](docs/no_0072_edit_distance.md): 困难
+  - [122. 买卖股票的最佳时机 II](docs/problems1xx.md): 中等
   - [300. 最长递增子序列](docs/problems3xx.md): 中等
   - [338. 比特位计数](docs/problems3xx.md): 中等
   - [354. 俄罗斯套娃信封问题](docs/problems3xx.md): 困难
   - [486. 预测赢家](docs/no_0486_predict_the_winner.md): 中等
   - [1024. 视频拼接](docs/no_1024_video_stitching.md): 中等
+- 贪心算法
+  - [122. 买卖股票的最佳时机 II](docs/problems1xx.md): 中等
 - 树
   - 字典树
     - [211. 添加与搜索单词 - 数据结构设计](docs/problems2xx.md): 中等

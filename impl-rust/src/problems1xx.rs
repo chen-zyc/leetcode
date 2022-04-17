@@ -59,7 +59,9 @@ impl Solution {
             .into_iter()
             // .0 表示 n 之前的最小值。
             // .1 表示在 n 卖出时能获得的最大利润。
-            .fold((i32::MAX, 0), |(min, max), n| (min.min(n), max.max(n - min)));
+            .fold((i32::MAX, 0), |(min, max), n| {
+                (min.min(n), max.max(n - min))
+            });
         max
     }
     pub fn max_profit_1(prices: Vec<i32>) -> i32 {
@@ -77,6 +79,28 @@ impl Solution {
             min = min.min(v);
         }
         max
+    }
+
+    /// 122. 买卖股票的最佳时机 II
+    pub fn max_profit_2(prices: Vec<i32>) -> i32 {
+        // 题解中还有贪心算法，我这里是为了练习动态规划。
+
+        // [0] 表示在第 i 天不持有股票时，最大利润。
+        // [1] 表示在第 i 天持有股票时，最大利润。
+        let mut profit = [0, -prices[0]]; // prices.len >= 1
+        let mut tmp;
+        for price in prices {
+            // 如果这一天不持有股票：如果昨天也没有持有股票，今天的利润就是昨天的利润；如果昨天持有股票，今天的利润就是把昨天的股票卖出的价格加上昨天的利润。
+            // 注意：昨天的利润已经把买股票时的价钱减去了，所以这里不需要再减去。
+            // profit[0].max(profit[1]+price);
+            // 如果这一天持有股票：如果昨天没有股票，今天就得买入股票；如果昨天持有股票，今天就不需要动。
+            // profit[1].max(profit[0] - price);
+            tmp = profit[0];
+            profit[0] = tmp.max(profit[1] + price);
+            profit[1] = profit[1].max(tmp - price);
+        }
+        // 清仓总比不清仓要赚的多。
+        profit[0]
     }
 
     /// 153. 寻找旋转排序数组中的最小值
@@ -165,5 +189,12 @@ mod tests {
     fn test_max_profit() {
         assert_eq!(Solution::max_profit(vec![7, 1, 5, 3, 6, 4]), 5);
         assert_eq!(Solution::max_profit(vec![7, 6, 4, 3, 1]), 0);
+    }
+
+    #[test]
+    fn test_max_profit_2() {
+        assert_eq!(Solution::max_profit_2(vec![7, 1, 5, 3, 6, 4]), 7);
+        assert_eq!(Solution::max_profit_2(vec![1, 2, 3, 4, 5]), 4);
+        assert_eq!(Solution::max_profit_2(vec![7, 6, 4, 3, 1]), 0);
     }
 }
