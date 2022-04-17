@@ -178,6 +178,7 @@
 - [739. 每日温度](docs/no_0739_daily_temperatures.md): 中等
 - [763. 划分字母区间](docs/no_0763_partition_labels.md): 中等
 - [785. 判断二分图](docs/no_0785_is_graph_bipartite.md): 中等
+- [819. 最常见的单词](docs/problems8xx.md): 简单
 - [841. 钥匙和房间](docs/no_0841_keys_and_rooms.md): 中等
 - [844. 比较含退格的字符串](docs/no_0844_backspace_string_compare.md): 简单
 - [845. 数组中的最长山脉](docs/no_0845_longest_mountain_in_array.md): 中等
