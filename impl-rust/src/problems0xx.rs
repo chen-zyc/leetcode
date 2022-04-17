@@ -2,8 +2,6 @@ use crate::common::TreeNode;
 use std::cell::RefCell;
 use std::rc::Rc;
 
-use crate::common::tree_node;
-
 struct Solution;
 impl Solution {
     // 50. Pow(x, n)
@@ -44,7 +42,7 @@ impl Solution {
             }
             // 累积
             x *= x;
-            n = n >> 1;
+            n >>= 1;
         }
 
         ans
@@ -121,9 +119,7 @@ impl Solution {
         // 在前后加哨兵。
         let heights: Vec<_> = (0..1).chain(heights.into_iter().chain(0..1)).collect();
         let mut largest = 0;
-        let mut stack = vec![];
-        // 前面的哨兵。
-        stack.push(0);
+        let mut stack = vec![0]; // 前面的哨兵。
 
         for (i, &height) in heights.iter().enumerate() {
             while height < heights[*stack.last().unwrap()] {
@@ -197,6 +193,91 @@ impl Solution {
         largest_area as i32
     }
 
+    /// 88. 合并两个有序数组
+    pub fn merge(nums1: &mut Vec<i32>, m: i32, nums2: &mut Vec<i32>, n: i32) {
+        // 题解中的方法。先把最大的那个安排好，而不是先安排最小的那个。
+
+        let (mut i, mut j, mut idx) = (m-1, n-1, nums1.len());
+        while i >= 0 && j >= 0 {
+            // 让 idx 始终保持在后一个位置，这样是为了避免出现 <0 的情况。
+            idx -= 1;
+            if nums1[i as usize] > nums2[j as usize] {
+                nums1[idx] = nums1[i as usize];
+                i -= 1;
+            } else {
+                nums1[idx] = nums2[j as usize];
+                j -= 1;
+            }
+        }
+        // 处理剩下的部分。
+        // 如果 i >= 0，就不需要处理了，因为 nums1[..=i] 是有序的，且在 nums1 的前面。
+        if j >= 0 {
+            nums1[..=j as usize].copy_from_slice(&nums2[..=j as usize]);
+        }
+    }
+    pub fn merge_1(nums1: &mut Vec<i32>, m: i32, nums2: &mut Vec<i32>, n: i32) {
+        let (m, n) = (m as usize, n as usize);
+        // 先把 nums1 里的 m 个元素移到后面去。
+        nums1.rotate_left(m);
+
+        // idx1 的偏移量是 n，因为前面有 n 个 0.
+        // idx 是要存放的位置。
+        let (mut idx1, mut idx2, mut idx) = (0_usize, 0_usize, 0_usize);
+        while idx1 < m && idx2 < n {
+            if nums1[idx1 + n] <= nums2[idx2] {
+                nums1[idx] = nums1[idx1 + n];
+                idx += 1;
+                idx1 += 1;
+            } else {
+                nums1[idx] = nums2[idx2];
+                idx += 1;
+                idx2 += 1;
+            }
+        }
+        // 把剩下的整理一下
+        while idx1 < m {
+            nums1[idx] = nums1[idx1 + n];
+            idx += 1;
+            idx1 += 1;
+        }
+        while idx2 < n {
+            nums1[idx] = nums2[idx2];
+            idx += 1;
+            idx2 += 1;
+        }
+    }
+    pub fn merge_failed(nums1: &mut Vec<i32>, m: i32, nums2: &mut Vec<i32>, n: i32) {
+        let (m, n) = (m as usize, n as usize);
+        // 当前要比较的两个数组的下标。
+        let (mut idx1, mut idx2) = (0_usize, 0_usize);
+        // 下标都在合理范围内才比较。
+        while idx1 < m && idx2 < n {
+            match nums1[idx1].cmp(&nums2[idx2]) {
+                // 第一个元素比较小，它的位置是正确的，不用交换，只移动下标。
+                std::cmp::Ordering::Less => {
+                    idx1 += 1;
+                }
+                // 第二个元素比较小，把它移到 nums1 里，把 nums1 里的那个移动到 nums2 里。
+                // WRONG: 移到 nums2 里之后，nums2 就不是有序的了！！！
+                std::cmp::Ordering::Greater => {
+                    std::mem::swap(&mut nums1[idx1], &mut nums2[idx2]);
+                    idx1 += 1; // idx2 就不用移动了。
+                }
+                // 两者相等的话就当作是第一个比较小吧。
+                std::cmp::Ordering::Equal => {
+                    idx1 += 1;
+                }
+            }
+        }
+        // 如果 nums1 里还剩下元素，不需要管，因为它们都是有序的。
+        // 如果 nums2 里还剩下元素，需要移到 nums1 里。
+        while idx2 < n {
+            nums1[idx1] = nums2[idx2];
+            idx1 += 1;
+            idx2 += 1;
+        }
+    }
+
     // 98. 验证二叉搜索树
     // https://leetcode-cn.com/problems/validate-binary-search-tree/
     pub fn is_valid_bst(root: Option<Rc<RefCell<TreeNode>>>) -> bool {
@@ -227,6 +308,7 @@ impl Solution {
 #[cfg(test)]
 mod tests {
     use super::*;
+    use crate::common::tree_node;
 
     #[test]
     fn test_largest_rectangle_area() {
@@ -264,7 +346,7 @@ mod tests {
             left: tree_node(TreeNode::new(1)),
             right: tree_node(TreeNode::new(3)),
         });
-        assert_eq!(Solution::is_valid_bst(root), true);
+        assert!(Solution::is_valid_bst(root));
 
         let root = tree_node(TreeNode {
             val: 5,
@@ -275,11 +357,11 @@ mod tests {
                 right: tree_node(TreeNode::new(6)),
             }),
         });
-        assert_eq!(Solution::is_valid_bst(root), false);
+        assert!(!Solution::is_valid_bst(root));
 
         // 最大值。
         let root = tree_node(TreeNode::new(2147483647));
-        assert_eq!(Solution::is_valid_bst(root), true);
+        assert!(Solution::is_valid_bst(root));
     }
 
     #[test]
@@ -288,5 +370,29 @@ mod tests {
         assert!((Solution::my_pow(2.1, 3) - 9.261).abs() < 1e-10);
         assert!((Solution::my_pow(2.0, -2) - 0.25).abs() < 1e-10);
         assert!((Solution::my_pow(2.0, -2147483648) - 0.0).abs() < 1e-10);
+    }
+
+    #[test]
+    fn test_merge() {
+        let mut nums1 = vec![1, 2, 3, 0, 0, 0];
+        let mut nums2 = vec![2, 5, 6];
+        Solution::merge(&mut nums1, 3, &mut nums2, 3);
+        assert_eq!(nums1, vec![1, 2, 2, 3, 5, 6]);
+
+        let mut nums1 = vec![1];
+        let mut nums2 = vec![];
+        Solution::merge(&mut nums1, 1, &mut nums2, 0);
+        assert_eq!(nums1, vec![1]);
+
+        let mut nums1 = vec![0];
+        let mut nums2 = vec![1];
+        Solution::merge(&mut nums1, 0, &mut nums2, 1);
+        assert_eq!(nums1, vec![1]);
+
+        // 第一次出错的用例
+        let mut nums1 = vec![4, 5, 6, 0, 0, 0];
+        let mut nums2 = vec![1, 2, 3];
+        Solution::merge(&mut nums1, 3, &mut nums2, 3);
+        assert_eq!(nums1, vec![1, 2, 3, 4, 5, 6]);
     }
 }

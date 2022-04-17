@@ -70,6 +70,7 @@
 - [79. 单词搜索](docs/no_0079_word_search.md): 中等
 - [84. 柱状图中最大的矩形](docs/problems0xx.md): 困难
 - [85. 最大矩形](docs/problems0xx.md): 困难
+- [88. 合并两个有序数组](docs/problems0xx.md): 简单
 - [93. 复原IP地址](docs/no_0093_restore_ip_addresses.md): 中等
 - [94. 二叉树的中序遍历](docs/no_0094_binary_tree_inorder_traversal.md): 中等
 - [95. 不同的二叉搜索树 II](docs/no_0095_unique_binary_search_trees_ii.md): 中等
@@ -308,6 +309,7 @@
 - 状态机
   - [剑指 Offer 20. 表示数值的字符串](docs/offer_020_biao_shi_shu_zhi_de_zi_fu_chuan_lcof.md): 中等
 - 脑筋急转弯
+  - [88. 合并两个有序数组](docs/problems0xx.md): 简单
   - [453. 最小操作次数使数组元素相等](docs/problems4xx.md): 简单
   - [459. 重复的子字符串](docs/no_0459_repeated_substring_pattern.md)
 - 快慢指针
